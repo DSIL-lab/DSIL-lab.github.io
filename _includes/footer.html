@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <div class="footer-lab">
+        <span class="footer-univ">{{ site.lab_univ }}</span>
+        {% if site.lab_name %}
+          <span class="footer-sep">|</span>
+          <span class="footer-labname">{{ site.lab_name }}</span>
+        {% endif %}
+      </div>
+
+      {% if site.address %}
+        <div class="footer-address">{{ site.address }}</div>
+      {% endif %}
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-copy">
+        &copy; {{ site.time | date: "%Y" }} {{ site.lab_name | default: site.title }}
+      </div>
+    </div>
+  </div>
+</footer>

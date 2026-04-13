@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <main class="container">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    <script>
+      window.__SITE_BASEURL__ = "{{ site.baseurl }}";
+    </script>
+    <script src="{{ "/assets/js/nav.js" | relative_url }}"></script>
+  </body>
+</html>

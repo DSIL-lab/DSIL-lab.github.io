@@ -1,0 +1,81 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: DSIL
+lab_univ: KAIST
+lab_name: Device-to-System Integration Lab
+
+university: Korea Advanced Institute of Science and Technology
+department: The School of Electrical Engineering
+address: Room 2302, Building E3-3 (Device Innovation Facility), Korea Advanced Institute of Science and Technology (KAIST), 291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea
+
+# For home page: description and contact info
+description: >- # this means to ignore newlines until "baseurl:"
+  Our lab focuses on 3D IC integration and chiplet packaging technologies for next-generation AI hardware. Our research spans semiconductor devices and BEOL-compatible processes, extending to advanced packaging and system-level optimization. We pursue DTCO/STCO-driven design methodologies that tightly link devices, interconnects, circuits, and architectures. The lab aims to build scalable and energy-efficient AI hardware through monolithic 3D integration and heterogeneous packaging. Students will gain hands-on experience in the fabrication of devices and interconnects, radio-frequency fundamentals, digital system architectures, packaging technologies, and AI-hardware-oriented system design.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+
+excerpt_separator: "<!--more-->"
+
+# Collections
+collections:
+  members:
+    output: false
+  research:
+    output: true
+    permalink: /research/:slug/
+  ko_research:
+    output: true
+    permalink: /ko/research/:slug/
+  publications:
+    output: false
+  news:
+    output: true
+    permalink: /news/:slug/
+  ko_news:
+    output: true
+    permalink: /ko/news/:slug/
+  facilities:
+    output: false
+  contact:
+    output: true
+    permalink: /contact/positions/:slug/
+
+include:
+  - _members
+  - _research
+  - _ko_research
+  - _publications
+  - _news
+  - _ko_news
+
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: article
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: article
+  - scope:
+      path: ""
+      type: "ko_research"
+    values:
+      layout: article
+  - scope:
+      path: ""
+      type: "ko_news"
+    values:
+      layout: article

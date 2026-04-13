@@ -1,0 +1,107 @@
+<nav class="site-nav">
+  {% assign is_ko = false %}
+  {% if page.url contains '/ko/' %}
+    {% assign is_ko = true %}
+  {% endif %}
+  {% assign locale_prefix = '' %}
+  {% if is_ko %}
+    {% assign locale_prefix = '/ko' %}
+  {% endif %}
+  {% assign current_url = page.url | replace_first: '/ko', '' %}
+  {% assign en_url = current_url %}
+  {% assign ko_url = '/ko/' %}
+  {% if current_url != '/' %}
+    {% assign ko_url = '/ko' | append: current_url %}
+  {% endif %}
+
+  <!-- Thin accent strip -->
+  <div class="nav-strip">
+    <div class="nav-strip-inner">
+      <span class="nav-strip-text">{{ site.university }}</span>
+
+      <!-- Language toggle -->
+      <div class="lang-toggle" id="lang-toggle">
+        <a class="lang-btn {% unless is_ko %}is-active{% endunless %}" href="{{ en_url | relative_url }}" data-lang="en">ENG</a>
+        <a class="lang-btn {% if is_ko %}is-active{% endif %}" href="{{ ko_url | relative_url }}"
+          data-lang="ko">KOR</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main header bar -->
+  <div class="nav-main">
+    <div class="nav-main-inner">
+      <a class="nav-brand" href="{{ locale_prefix | append: '/' | relative_url }}">
+        <img src="{{ "/assets/img/logo/kaist_logo.png" | relative_url }}" alt="KAIST logo" class="nav-logo-img nav-logo-school" />
+        <span class="nav-logo-divider" aria-hidden="true">|</span>
+        <img src="{{ "/assets/img/logo/lab-logo.png" | relative_url }}" alt="{{ site.title }} logo" class="nav-logo-img nav-logo-lab" />
+      </a>
+
+      <div class="nav-right">
+
+        <div class="nav-links" id="nav-links">
+          <div class="nav-links-1st">
+            <a class="nav-link {% if current_url == "/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/' | relative_url }}">Home</a>
+            <div class="nav-item-with-submenu">
+              <a class="nav-link {% if current_url == "/people/" or current_url contains "/people/gallery/" or current_url contains "/people/pi/" or current_url contains "/people/alumni/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/people/' | relative_url
+                }}">People</a>
+              <div class="nav-submenu" role="menu">
+                <a class="nav-link {% if current_url contains "/people/pi/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/people/pi/' | relative_url }}">PI</a>
+                <a class="nav-link {% if current_url == "/people/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/people/' | relative_url }}">Members</a>
+                <a class="nav-link {% if current_url contains "/people/gallery/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/people/gallery/' | relative_url }}">Gallery</a>
+                <a class="nav-link {% if current_url contains "/people/alumni/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/people/alumni/' | relative_url }}">Alumni</a>
+              </div>
+            </div>
+            <a class="nav-link {% if current_url == "/research/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/research/' |
+              relative_url }}">Research</a>
+            <div class="nav-item-with-submenu nav-item-submenu-right">
+              <a class="nav-link {% if current_url == "/publications/" or current_url contains "/publications/journal-articles/" or current_url contains "/publications/conference-proceedings/" or current_url contains "/publications/patents/" or current_url contains "/publications/presentations-talks/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/' | relative_url }}">Publications</a>
+              <div class="nav-submenu" role="menu">
+                <a class="nav-link {% if current_url contains "/publications/journal-articles/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/journal-articles/' | relative_url }}">Journal Articles</a>
+                <a class="nav-link {% if current_url contains "/publications/conference-proceedings/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/conference-proceedings/' | relative_url }}">Conference Proceedings</a>
+                <a class="nav-link {% if current_url contains "/publications/patents/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/patents/' | relative_url }}">Patents</a>
+                <a class="nav-link {% if current_url contains "/publications/presentations-talks/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/presentations-talks/' | relative_url }}">Presentations &amp; Talks</a>
+                <a class="nav-link nav-link-indented {% if current_url contains "/publications/presentations-talks/invited-talks/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/presentations-talks/invited-talks/' | relative_url }}">Invited Talks</a>
+                <a class="nav-link nav-link-indented {% if current_url contains "/publications/presentations-talks/international-conferences/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/presentations-talks/international-conferences/' | relative_url }}">International Conferences</a>
+                <a class="nav-link nav-link-indented {% if current_url contains "/publications/presentations-talks/domestic-conferences/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/publications/presentations-talks/domestic-conferences/' | relative_url }}">Domestic Conferences</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-links-2nd">
+            <a class="nav-link {% if current_url == "/news/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/news/' | relative_url
+              }}">News</a>
+            <!-- Hidden for now: later we plan to connect GitHub releases/assets so users can download required programs and files. -->
+            <a class="nav-link {% if current_url == "/facilities/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/facilities/' |
+              relative_url }}">Facilities</a>
+            <a class="nav-link {% if current_url == "/contact/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/contact/' |
+              relative_url }}">Contact</a>
+          </div>
+
+          <!-- More: only visible on medium width -->
+          <div class="nav-more">
+            <a class="nav-link nav-more-btn" type="button" aria-haspopup="true">
+              More ▾
+            </a>
+            <div class="nav-more-menu" role="menu">
+              <a class="nav-link {% if current_url == "/news/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/news/' | relative_url
+                }}">News</a>
+              <!-- Hidden for now: later we plan to connect GitHub releases/assets so users can download required programs and files. -->
+              <a class="nav-link {% if current_url == "/facilities/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/facilities/' |
+                relative_url }}">Facilities</a>
+              <a class="nav-link {% if current_url == "/contact/" %}is-active{% endif %}" href="{{ locale_prefix | append: '/contact/' |
+                relative_url }}">Contact</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hamburger button (mobile only) -->
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" onclick="toggleNav()">
+          ☰
+        </button>
+
+      </div>
+    </div>
+  </div>
+</nav>

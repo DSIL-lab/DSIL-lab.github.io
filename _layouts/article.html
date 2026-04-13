@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article class="article-page">
+  {% assign article_image = page.image | to_s | strip | replace: '\\', '/' %}
+  {% assign article_back_url = '/news/' %}
+  {% assign article_back_label = 'Back to News' %}
+
+  {% if page.back_url %}
+    {% assign article_back_url = page.back_url %}
+  {% endif %}
+  {% if page.back_label %}
+    {% assign article_back_label = page.back_label %}
+  {% endif %}
+
+  {% if page.collection == 'research' %}
+    {% assign article_back_url = '/research/' %}
+    {% assign article_back_label = 'Back to Research' %}
+  {% endif %}
+
+  <header class="article-header">
+    <h1 class="article-title">{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="article-date">{{ page.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+  </header>
+
+  {% if article_image != '' %}
+    <figure class="article-image-wrap">
+      <img class="article-image" src="{{ article_image | relative_url }}" alt="{{ page.title }}">
+    </figure>
+  {% endif %}
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  <p class="article-back-wrap">
+    <a class="article-back-link" href="{{ article_back_url | relative_url }}">◀ {{ article_back_label }}</a>
+  </p>
+</article>

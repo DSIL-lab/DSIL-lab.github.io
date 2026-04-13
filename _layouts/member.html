@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="member-profile">
+
+  <div class="member-header">
+    {% if page.photo %}
+      <img
+        src="{{ page.photo | relative_url }}"
+        alt="{{ page.name }}"
+        class="member-photo"
+      >
+    {% endif %}
+
+    <div class="member-basic">
+      <h1 class="member-name">{{ page.name }}</h1>
+      {% if page.role %}
+        <p class="member-role">{{ page.role }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.education %}
+    <section class="member-section">
+      <h2>Education</h2>
+      <ul>
+        {% for e in page.education %}
+          <li>{{ e }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  {% if page.research %}
+    <section class="member-section">
+      <h2>Research</h2>
+      {% for r in page.research %}
+        <div class="research-area">
+          <strong>{{ r.area }}</strong>
+          <ul>
+            {% for t in r.topics %}
+              <li>{{ t }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% if page.email %}
+    <section class="member-section">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+      </p>
+    </section>
+  {% endif %}
+
+</article>
