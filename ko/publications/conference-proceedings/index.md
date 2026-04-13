@@ -10,7 +10,9 @@ permalink: /ko/publications/conference-proceedings/
   <div>Lab member names in <strong>bold</strong></div>
 </div>
 
-{% assign items_all = site.publications | where_exp: "p", "p.type == 'conference' or p.type == 'conference-proceeding' or p.type contains 'conference-proceeding'" %}
+{% assign items_a = site.publications | where: "type", "conference" %}
+{% assign items_b = site.publications | where_exp: "p", "p.type contains 'conference-proceeding'" %}
+{% assign items_all = items_a | concat: items_b %}
 {% assign years = items_all | map: "year" | uniq | sort | reverse %}
 
 <section class="pub-section">

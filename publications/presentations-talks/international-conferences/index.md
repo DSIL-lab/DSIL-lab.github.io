@@ -4,7 +4,7 @@ title: International Conferences
 permalink: /publications/presentations-talks/international-conferences/
 ---
 
-{% assign items_all = site.publications | where_exp: "p", "p.type == 'international-conf' or p.type contains 'international-conf'" %}
+{% assign items_all = site.publications | where_exp: "p", "p.type contains 'international-conf'" %}
 {% assign years = items_all | map: "year" | uniq | sort | reverse %}
 
 <section class="pub-section">

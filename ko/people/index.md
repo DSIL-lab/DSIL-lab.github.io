@@ -4,7 +4,9 @@ title: People
 permalink: /ko/people/
 ---
 
-{% assign members_sorted = site.members | where_exp: "m", "m.group == 'pi' or m.group == 'students'" | sort: "order" %}
+{% assign members_pi = site.members | where: "group", "pi" %}
+{% assign members_students = site.members | where: "group", "students" %}
+{% assign members_sorted = members_pi | concat: members_students | sort: "order" %}
 
 <div class="people-wrap">
 

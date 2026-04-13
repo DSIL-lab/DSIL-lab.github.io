@@ -4,7 +4,7 @@ title: Presentations & Talks
 permalink: /publications/presentations-talks/
 ---
 
-{% assign talks_all = site.publications | where_exp: "p", "p.type == 'invited_talk' or p.type == 'invited-talk' or p.type contains 'invited-talk' or p.type contains 'invited_talk'" %}
+{% assign talks_all = site.publications | where_exp: "p", "p.type contains 'invited'" %}
 {% assign talk_years = talks_all | map: "year" | uniq | sort | reverse %}
 
 <section class="pub-section">

@@ -12,9 +12,11 @@ permalink: /publications/
 
 {% assign pubs = site.publications %}
 
-{% assign journals = pubs | where_exp: "p", "p.type == 'journal' or p.type contains 'journal'" %}
-{% assign conferences = pubs | where_exp: "p", "p.type == 'conference' or p.type == 'conference-proceeding' or p.type contains 'conference-proceeding'" %}
-{% assign talks = pubs | where_exp: "p", "p.type == 'invited_talk' or p.type == 'invited-talk' or p.type contains 'invited-talk' or p.type contains 'invited_talk'" %}
+{% assign journals = pubs | where_exp: "p", "p.type contains 'journal'" %}
+{% assign conferences_a = pubs | where: "type", "conference" %}
+{% assign conferences_b = pubs | where_exp: "p", "p.type contains 'conference-proceeding'" %}
+{% assign conferences = conferences_a | concat: conferences_b %}
+{% assign talks = pubs | where_exp: "p", "p.type contains 'invited'" %}
 
 <section class="pub-section">
   <h2 class="pub-section-title">Journal Articles</h2>

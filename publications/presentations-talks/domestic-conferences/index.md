@@ -4,7 +4,7 @@ title: Domestic Conferences
 permalink: /publications/presentations-talks/domestic-conferences/
 ---
 
-{% assign items_all = site.publications | where_exp: "p", "p.type == 'domestic-conf' or p.type contains 'domestic-conf'" %}
+{% assign items_all = site.publications | where_exp: "p", "p.type contains 'domestic-conf'" %}
 {% assign years = items_all | map: "year" | uniq | sort | reverse %}
 
 <section class="pub-section">

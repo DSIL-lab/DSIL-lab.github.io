@@ -4,7 +4,13 @@ title: Gallery
 permalink: /ko/people/gallery/
 ---
 
-{% assign gallery_files = site.static_files | where_exp: "f", "f.path contains '/assets/img/gallery/'" | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.gif'" | sort: "modified_time" | reverse %}
+{% assign gallery_base = site.static_files | where_exp: "f", "f.path contains '/assets/img/gallery/'" %}
+{% assign gallery_jpg = gallery_base | where: "extname", ".jpg" %}
+{% assign gallery_jpeg = gallery_base | where: "extname", ".jpeg" %}
+{% assign gallery_png = gallery_base | where: "extname", ".png" %}
+{% assign gallery_webp = gallery_base | where: "extname", ".webp" %}
+{% assign gallery_gif = gallery_base | where: "extname", ".gif" %}
+{% assign gallery_files = gallery_jpg | concat: gallery_jpeg | concat: gallery_png | concat: gallery_webp | concat: gallery_gif | sort: "modified_time" | reverse %}
 
 {% if gallery_files.size > 0 %}
 <div class="gallery-grid">

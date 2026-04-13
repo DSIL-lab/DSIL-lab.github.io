@@ -10,7 +10,7 @@ permalink: /ko/publications/journal-articles/
   <div>Lab member names in <strong>bold</strong></div>
 </div>
 
-{% assign items_all = site.publications | where_exp: "p", "p.type == 'journal' or p.type contains 'journal'" %}
+{% assign items_all = site.publications | where_exp: "p", "p.type contains 'journal'" %}
 {% assign years = items_all | map: "year" | uniq | sort | reverse %}
 
 <section class="pub-section">
