@@ -9,6 +9,6 @@ title_url: "https://www.sciencedirect.com/science/article/abs/pii/S1385894723028
 authors: "Young-Shin Kim, Hoimin Kim, Taewoong Yoon, Min-Jae Kim, Jiyun Lee, Hansol Lee, Dongki Lee, Young Jae Song, <strong>Jimin Kwon</strong>, Sae Byeok Jo, Jeong Ho Cho, Seung Goo Lee, Boseok Kang*"
 
 status: published
-venue: "Chemical Engineering Journal"
+venue: "<em>Chemical Engineering Journal</em>"
 venue_detail: "470, 2023"
 ---

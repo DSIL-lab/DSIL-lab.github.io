@@ -9,5 +9,5 @@ title_url: "https://ieeexplore.ieee.org/abstract/document/10873508"
 authors: "Shuhan Liu, Robert M. Radway, Xinxin Wang, <strong>Jimin Kwon</strong>, Caroline Trippel, Philip Livis, Subhasish Mitra, H.-S. Philip Wong"
 
 status: published
-venue: "2024 70th IEEE International Electron Devices Meeting (IEDM)"
+venue: "<em>2024 70th IEEE International Electron Devices Meeting (IEDM)</em>"
 ---

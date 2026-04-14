@@ -9,5 +9,5 @@ title_url: "https://www.mrs.org/docs/default-source/meetings-events/mrs-conferen
 authors: "<strong>Jimin Kwon</strong>, <strong>Haksoon Jung</strong>, Dongseob Ji, Sungjune Jung, Yong-Young Noh*"
 
 status: published
-venue: "2020 Device Research Conference (DRC)"
+venue: "<em>2020 Device Research Conference (DRC)</em>"
 ---

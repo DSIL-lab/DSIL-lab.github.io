@@ -9,5 +9,5 @@ title_url: "https://ieeexplore.ieee.org/abstract/document/9855811"
 authors: "Sumaiya Wahid, Alwin Daus, <strong>Jimin Kwon</strong>, Shengjun Qin, Jung-Soo Ko, Krishna C Saraswat, H-S Philip Wong, Eric Pop*"
 
 status: published
-venue: "2022 Device Research Conference (DRC)"
+venue: "<em>2022 Device Research Conference (DRC)</em>"
 ---

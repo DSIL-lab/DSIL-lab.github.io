@@ -6,9 +6,9 @@ year: 2025
 title: "3D active-matrix multimodal sensors arrays for independent detection of pressure and temperature"
 title_url: "https://www.science.org/doi/10.1126/sciadv.ads4516"
 
-authors: "Youngmin Jo, Youngoh Lee, <strong>Jimin Kwon</strong>, Seongju Kim, Gyungin Ryu, Soyoung Yun, Sanghoon Baek*, Hyunhyub Ko*, Sungjune Jung*"
+authors: "<strong>Youngmin Jo</strong>, Youngoh Lee, <strong>Jimin Kwon</strong>, <strong>Seongju Kim</strong>, Gyungin Ryu, Soyoung Yun, Sanghoon Baek*, Hyunhyub Ko*, Sungjune Jung*"
 
 status: published
-venue: "Science Advances"
+venue: "<em>Science Advances</em>"
 venue_detail: "11 (3), 2025"
 ---
