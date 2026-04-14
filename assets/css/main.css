@@ -1287,7 +1287,7 @@ body {
   margin: 0;
   font-size: 1.05rem;
   line-height: 1.35;
-  color: var(--nav-accent);
+  color: var(--text);
 }
 
 .home-news-title a {
@@ -1361,7 +1361,7 @@ body {
 
 .home-join-card-title {
   margin: 0;
-  color: var(--nav-accent);
+  color: var(--text);
   font-size: 1rem;
   line-height: 1.35;
 }
