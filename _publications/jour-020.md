@@ -3,7 +3,7 @@ pub-id: 20
 type: journal
 year: 2020
 
-title: "A flexible 3D organic preamplifier for a lactate sensor"
+title: "A Flexible 3D Organic Preamplifier for a Lactate Sensor"
 title_url: "https://onlinelibrary.wiley.com/doi/full/10.1002/mabi.202000144"
 
 authors: "Sanghoon Baek<sup>†</sup>, <strong>Jimin Kwon</strong><sup>†</sup>, Taisei Mano, Shizuo Tokito, Sungjune Jung*"

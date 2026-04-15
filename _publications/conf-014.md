@@ -3,7 +3,7 @@ pub-id: 14
 type: conference
 year: 2025
 
-title: "Monolithic 3D integration of III-V HEMTs on glass using ultra-thin dielectric bonding layer: A high-frequency and low-loss active glass platform for sub-THz applications"
+title: "Monolithic 3D Integration of III-V HEMTs on Glass Using Ultra-Thin Dielectric Bonding Layer: a High-Frequency and Low-Loss Active Glass Platform for Sub-THz Applications"
 title_url: "https://ieeexplore.ieee.org/document/11353813"
 
 authors: "Jaeyong Jeong<sup>†</sup>, <strong>Yurim Choi</strong><sup>†</sup>, <strong>Seongju Kim</strong>, <strong>Hyeongjun Kim</strong>, <strong>Jimin Kwon*</strong>, Sanghyeon Kim*"

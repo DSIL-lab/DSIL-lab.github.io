@@ -6,7 +6,7 @@ type:
     - international-conf
 year: 2019
 
-title: "Technology development for direct-printed dual-gate organic TFT circuit fabrication with 3-D integration"
+title: "Technology Development for Direct-Printed Dual-Gate Organic TFT Circuit Fabrication with 3-D Integration"
 title_url: "https://ieeexplore.ieee.org/document/9073763"
 
 authors: "<strong>Jimin Kwon</strong>, Woojo Kim, <strong>Yongwoo Lee</strong>, Sungjune Jung*"

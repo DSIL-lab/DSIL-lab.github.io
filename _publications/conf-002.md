@@ -3,7 +3,7 @@ pub-id: 2
 type: conference
 year: 2019
 
-title: "Flexible printed top-contact organic thin-film transistors"
+title: "Flexible Printed Top-Contact Organic Thin-Film Transistors"
 title_url: "https://ieeexplore.ieee.org/document/9073708"
 
 authors: "<strong>Yongwoo Lee</strong>, <strong>Jimin Kwon</strong>, Woojo Kim, Sungjune Jung*"

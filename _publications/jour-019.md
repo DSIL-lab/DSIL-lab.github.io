@@ -3,7 +3,7 @@ pub-id: 19
 type: journal
 year: 2020
 
-title: "Phase-separated, printed organic thin-film transistor-based nonvolatile memory with enhanced data retention"
+title: "Phase-Separated, Printed Organic Thin-Film Transistor-Based Nonvolatile Memory with Enhanced Data Retention"
 title_url: "https://onlinelibrary.wiley.com/doi/full/10.1002/admt.202000228"
 
 authors: "Woojo Kim<sup>†</sup>, <strong>Jimin Kwon</strong><sup>†</sup>,*, <strong>Yongwoo Lee</strong>, Sanghoon Baek, Sungjune Jung*"

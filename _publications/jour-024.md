@@ -3,7 +3,7 @@ pub-id: 24
 type: journal
 year: 2021
 
-title: "Flexible and printed organic nonvolatile memory transistor with bilayer polymer dielectrics"
+title: "Flexible and Printed Organic Nonvolatile Memory Transistor with Bilayer Polymer Dielectrics"
 title_url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/admt.202100141"
 
 authors: "Woojo Kim, <strong>Jimin Kwon</strong>, Yasunori Takeda, Tomohito Sekine, Shizuo Tokito, Sungjune Jung*"

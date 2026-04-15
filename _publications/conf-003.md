@@ -3,7 +3,7 @@ pub-id: 3
 type: conference
 year: 2019
 
-title: "A phase-separated polymer blocking layer for enhancing data retention in flexible printed nonvolatile organic memories"
+title: "A Phase-Separated Polymer Blocking Layer for Enhancing Data Retention in Flexible Printed Nonvolatile Organic Memories"
 title_url: "https://ieeexplore.ieee.org/document/9073760"
 
 authors: "Woojo Kim, <strong>Jimin Kwon</strong>, <strong>Yongwoo Lee</strong>, Sungjune Jung*"

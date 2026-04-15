@@ -3,7 +3,7 @@ pub-id: 44
 type: journal
 year: 2025
 
-title: "Addressing transconductance-bandwidth trade-off by three-dimensional electrolyte-surrounded organic electrochemical transistors"
+title: "Addressing Transconductance-Bandwidth Trade-Off by Three-Dimensional Electrolyte-Surrounded Organic Electrochemical Transistors"
 title_url: "https://www.science.org/doi/10.1126/sciadv.ady0279"
 
 authors: "<strong>Yongwoo Lee</strong><sup>†</sup>, Seong Jun Park<sup>†</sup>, <strong>Jimin Kwon*</strong>, Kang-Il Song*, Sungjune Jung*"

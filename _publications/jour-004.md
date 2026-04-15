@@ -3,7 +3,7 @@ pub-id: 4
 type: journal
 year: 2016
 
-title: "Three-dimensional, inkjet-printed organic transistors and integrated circuits with 100% yield, high uniformity, and long-term stability"
+title: "Three-Dimensional, Inkjet-Printed Organic Transistors and Integrated Circuits with 100% Yield, High Uniformity, and Long-Term Stability"
 title_url: "https://pubs.acs.org/doi/full/10.1021/acsnano.6b06041"
 
 authors: "<strong>Jimin Kwon</strong>, Yasunori Takeda, Kenjiro Fukuda, Kilwon Cho, Shizuo Tokito*, Sungjune Jung*"

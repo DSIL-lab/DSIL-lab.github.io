@@ -1,0 +1,522 @@
+[050] Monolithic 3D-integrated all-solid ion-gated carbon nanotube transistors with tunable ionic conductance for multi-timescale reservoir computing 
+
+Haksoon Jung, ..., Jimin Kwon*
+
+Under Review
+
+
+[049] Oxygen-tunnel-engineered indium tin oxide vertical channel transistors enabling high-performance embedded memory for monolithic 3D integration
+
+Hyeonho Gu, Haksoon Jung, ..., Jimin Kwon*
+
+Under Review
+
+
+[048] Wafer-scale non-ferroelectric κ-phase 2D In₂Se₃ transistors
+
+Jaeyun Lee†, Yongwoo Lee†, Haksoon Jung, Taoyu Zou, Mingyu Kim, Hyeonho Gu, Hyeonjin Lee, Tae Hyeon Park, David ChangMo Yang, Chang Woo Myung, Ao Liu*, Jimin Kwon*, Yong-Young Noh*
+
+Nature Communications (Accepted)
+
+
+[047] Statistically resolving thickness-dependent electrical characteristics in multilayer MoS₂ transistors
+
+Sanghyun Lee, Seongju Kim, Sumin Hong, Minho Park, Sanghoon Baek, Seonguk Yang, Chang-Soo Lee, Sang-Hoon Bae, Joonki Suh, Yongwoo Lee*, Haksoon Jung*, Jimin Kwon*
+
+Advanced Functional Materials (Early access)
+
+
+[046] Advances and future challenges in monolithic 3D integrated logic, power, and optoelectronics technologies for tightly interconnected intelligent systems 
+
+Haksoon Jung†, Joonghoon Choi†, Seunghun Baek, Bong Gyu Shin, Young Jae Song*, Hanggyo Jung, JoHyeon Kim, Jongwook Jeon*, Gyumin Kim, Heechun Park*, Yeonjoo Lee, Jinkyoung Yoo*, Jae-Hyun Lee, Hyungwoo Kim, Kibum Kang*, Jaeyong Jeong, Sang Hyeon Kim*, Joohan Bae, Chang Soo Kim, Won Kwang Yang, Sungjoo Lee, Jiwook Kwon*, Byung-Sung Kim, Jae-Hoon Han*, Hyung-Jun Kim, Hoon Hahn Yoon*, Jimin Kwon*, Young Joon Hong*
+
+ACS Nano 20 (8), 2026
+
+
+[045] Indium tin oxide vertical channel transistors for scaled 4F2 2T0C gain cell memory with etched sidewall cleaning
+
+Hyeonho Gu†, Haksoon Jung†, Minho Park, Hyeonjin Lee, Ae Rim Choi, Il-Kwon Oh, Yanfeng Zhao, Byungjo Kim, Jungsik Kim, Byung Chul Jang, Yongwoo Lee,  Jimin Kwon*
+
+IEEE Electron Device Letters 47 (4), 2026
+
+
+[044] Addressing transconductance-bandwidth trade-off by three-dimensional electrolyte-surrounded organic electrochemical transistors
+
+Yongwoo Lee†, Seong Jun Park†, Jimin Kwon*, Kang-Il Song*, Sungjune Jung*
+
+Science Advances 11 (39), 2025
+
+
+[043] Back-end-of-line-compatible passivation of sulfur vacancies in MoS₂ transistors using electron-withdrawing benzenethiol
+
+Haksoon Jung†, Mingyu  Kim†, Yongwoo Lee, Gi Beom Sim, Hyeonho Gu, Sumin Hong, Sanghyun Lee, Jaehyun, Donghyeop Lee, Taoyu Zou, Kibum Kang, Chang Woo Myung, Yong-Young Noh*, Jimin Kwon*
+
+ACS Nano 19 (6), 2025
+
+
+[042] 3D active-matrix multimodal sensors arrays for independent detection of pressure and temperature
+
+Youngmin Jo, Youngoh Lee, Jimin Kwon, Seongju Kim, Gyungin Ryu, Soyoung Yun, Sanghoon Baek*, Hyunhyub Ko*, Sungjune Jung*
+
+Science Advances 11 (3), 2025
+
+
+[041] Design and integration of organic printed thin-film transistor-based soft biosensors for wearable applications
+
+Sanghoon Baek*, Youngmin Jo, Yongwoo Lee, Jimin Kwon*, Sungjune Jung*
+
+ACS Applied Electronic Materials 6 (11), 2024
+
+
+[040] Ambient printing of native oxides for ultrathin transparent flexible circuit boards
+
+Minsik Kong†, Man Hou Vong†, Mingyu Kwak, Ighyun Lim, Younghyun Lee, Seong-hun Lee, Insang You, Omar Awartani, Jimin Kwon, Tae Joo Shin, Unyong Jeong*, Michael D Dickey*
+
+Science 385 (6710), 2024
+
+
+[039] Dual-gate carbon nanotube thin-film transistors with printed channel and passivation interlayer on plastic foil 
+
+Yongwoo Lee†, Haksoon Jung†, Youngmin Jo, Sanghoon Baek, Hyunjin Park, Seong Jun Park, Sungjune Jung, Yong-Young Noh*, Jimin Kwon*
+
+IEEE Electron Device Letters 45 (10), 2024
+
+
+[038] Stabilizing Schottky junction in conjugated polymer diodes enables long-term reliable radio-frequency energy harvesting on plastic
+
+Yongwoo Lee, Boseok Kang, Sungjune Jung*, Jimin Kwon*
+
+npj Flexible Electronics 8 (41), 2024
+
+
+[037] High mobility amorphous polymer‐based 3D stacked pseudo logic circuits through precision printing
+
+Woojo Kim, Gyungin Ryu, Youhyun Nam, Hyeonmin Choi, Meng Wang, Jimin Kwon, Christian B Nielsen*, Keehoon Kang*, Sungjune Jung*
+
+Advanced Functional Materials 34 (32), 2024
+
+
+[036] High energy density in artificial heterostructures through relaxation time modulation
+
+Sangmoon Han†, Justin S. Kim†, Eugene Park†, Yuan Meng, Zhihao Xu, Alexandre C Foucher, Gwan Yeong Jung, Ilpyo Roh, Sangho Lee, Sun Ok Kim, Ji-Yun Moon, Seung-Il Kim, Sanggeun Bae, Xinyuan Zhang, Bo-In Park, Seunghwan Seo, Yimeng Li, Heechang Shin, Kate Reidy, Anh Tuan Hoang, Suresh Sundaram, Phuong Vuong, Chansoo Kim, Junyi Zhao, Jinyeon Hwang, Chuan Wang, Hyungil Choi, Dong-Hwan Kim, Jimin Kwon, Jin-Hong Park, Abdallah Ougazzaden, Jae-Hyun Lee, Jong-Hyun Ahn, Jeehwan Kim, Rohan Mishra, Hyung-Seok Kim, Frances M Ross*, Sang-Hoon Bae*
+
+Science 384 (6639), 2024
+
+
+[035] Flexible field-effect transistors with high-quality and uniform single-layer graphene for high mobility
+
+Hyunjin Park*, Jimin Kwon, Jihyung Seo, Kiho Kim, Yun Ho Kim, Sungjune Jung*
+
+Semiconductor Science and Technology 39 (4), 2024
+
+
+[034] Effect of back-gate dielectric on indium tin oxide (ITO) transistor performance and stability
+
+Alwin Daus, Lauren Hoang, Carlo Gilardi, Sumaiya Wahid, Jimin Kwon, Shengjun Qin, Jung-Soo Ko, Mahnaz Islam, Aravindh Kumar, Kathryn M Neilson, Krishna C Saraswat, Subhasish Mitra, H-S Philip Wong, Eric Pop*
+
+IEEE Transactions on Electron Devices 70 (11), 2023
+
+
+[033] Latent and controllable doping of stimuli-activated molecular dopants for flexible and printable organic thermoelectric generators
+
+Young-Shin Kim, Hoimin Kim, Taewoong Yoon, Min-Jae Kim, Jiyun Lee, Hansol Lee, Dongki Lee, Young Jae Song, Jimin Kwon, Sae Byeok Jo, Jeong Ho Cho, Seung Goo Lee, Boseok Kang*
+
+Chemical Engineering Journal 470, 2023
+
+
+[032] Effect of top-gate dielectric deposition on the performance of indium tin oxide transistors
+
+Sumaiya Wahid, Alwin Daus, Jimin Kwon, Shengjun Qin, Jung-Soo Ko, H-S Philip Wong, Eric Pop*
+
+IEEE Electron Device Letters 44 (6), 2023
+
+
+[031] Dual-gate thin film transistor lactate sensors operating in the subthreshold regime
+
+Sanghoon Baek, Hiroyuki Matsui, Taisei Mano, Ju An Park, Youngmin Jo, Yongwoo Lee, Shizuo Tokito, Jimin Kwon*, Sungjune Jung*
+
+Biosensors and Bioelectronics 222, 2023
+
+
+[030] Large transconductance of electrochemical transistors based on fluorinated donor–acceptor conjugated polymers
+
+Seongmin Heo†, Jimin Kwon†, Mingi Sung, Seunglok Lee, Yongjoon Cho, Haksoon Jung, Insang You, Changduk Yang*, Junghoon Lee*, Yong-Young Noh*
+
+ACS Applied Materials & Interfaces 15 (1), 2023
+
+
+[029] 3D integration of flexible and printed electronics: integrated circuits, memories, and sensors
+
+Woojo Kim, Jimin Kwon*, Sungjune Jung*
+
+Journal of Flexible and Printed Electronics 24 (2), 2023
+
+
+[028] High performance carbon nanotubes thin film transistors by selective ferric chloride doping
+
+Noh-Hwal Park, Eun Sol Shin, Gi-Seong Ryu, Jimin Kwon, Dongseob Ji, Hyunjin Park, Yun Ho Kim, Yong-Young Noh*
+
+Journal of Information Display 24 (2), 2022
+
+
+[027] Spatiotemporal measurement of arterial pulse waves enabled by wearable active-matrix pressure sensor arrays
+
+Sanghoon Baek†, Youngoh Lee†, JinHyeok Baek, Jimin Kwon, Seongju Kim, Seungjae Lee, Karl-Philipp Strunk, Sebastian Stehlin, Christian Melzer, Sung-Min Park*, Hyunhyub Ko*, Sungjune Jung*
+
+ACS Nano 16 (1), 2022
+
+
+[026] Layout-to-bitmap conversion and design rules for inkjet-printed large-scale integrated circuits
+
+Jimin Kwon*, Sanghoon Baek, Yongwoo Lee, Shizuo Tokito, Sungjune Jung*
+
+Langmuir 37 (36), 2021
+
+
+[025] Dual-pulse photoactivated atomic force microscopy
+
+Byullee Park, Seunghyun Lee, Jimin Kwon, Woojo Kim, Sungjune Jung*, Chulhong Kim*
+
+Scientific Reports 11, 2021
+
+
+[024] Flexible and printed organic nonvolatile memory transistor with bilayer polymer dielectrics
+
+Woojo Kim, Jimin Kwon, Yasunori Takeda, Tomohito Sekine, Shizuo Tokito, Sungjune Jung*
+
+Advanced Materials Technologies 6 (7), 2021
+
+
+[023] Programmable a-InGaZnO gate array with laser-induced forward transfer
+
+Youngmin Jo, Jimin Kwon, Jan-Laurens van der Steen, Auke Jisk Kronemeijer, Sungjune Jung*
+
+Flexible and Printed Electronics 6 (1), 2021
+
+
+[022] Stand‐alone intrinsically stretchable electronic device platform powered by stretchable rechargeable battery
+
+Woo‐Jin Song, Minsik Kong, Sunghwan Cho, Sangyeop Lee, Jimin Kwon, Hye Bin Son, Jun Hyuk Song, Dong‐Gue Lee, Gyujin Song, Sang‐Young Lee, Sungjune Jung, Soojin Park, Unyong Jeong*
+
+Advanced Functional Materials 30 (50), 2020
+
+
+[021] Artificial multimodal receptors based on ion relaxation dynamics
+
+Insang You, David G. Mackanic, Naoji Matsuhisa, Jiheong Kang, Jimin Kwon, Levent Beker, Jaewan Mun, Wonjeong Suh, Tae Yeong Kim, Jeffrey B.-H. Tok, Zhenan Bao*, Unyong Jeong* 
+
+Science 370 (6519), 2020
+
+
+[020] A flexible 3D organic preamplifier for a lactate sensor
+
+Sanghoon Baek†, Jimin Kwon†, Taisei Mano, Shizuo Tokito, Sungjune Jung* 
+
+Macromolecular Bioscience 20 (11), 2020
+
+
+[019] Phase‐separated, printed organic thin‐film transistor‐based nonvolatile memory with enhanced data retention
+
+Woojo Kim†, Jimin Kwon†,*, Yongwoo Lee, Sanghoon Baek, Sungjune Jung* 
+
+Advanced Materials Technologies 5 (7), 2020 - selected as an inside-back cover
+
+
+[018] Reliable inkjet contact metallization on printed polymer semiconductors for fabricating staggered TFTs
+
+Yongwoo Lee†, Jimin Kwon†,*, Sungyeop Jung, Woojo Kim, Sanghoon Baek, Sungjune Jung*
+
+Applied Physics Letters 11 (34), 2020
+
+
+[017] Flexible pressure-sensitive contact transistors operating in subthreshold regime
+
+Sanghoon Baek, Geun Yeol Bae, Jimin Kwon, Kilwon Cho, Sungjune Jung*
+
+ACS Applied Materials & Interfaces 11 (34), 2019
+
+
+[016] Compact modelling and SPICE simulation for three-dimensional, inkjet-printed organic transistors, inverters and ring oscillators
+
+Sungyeop Jung*, Jimin Kwon, Shizuo Tokito, Gilles Horowitz, Yvan Bonnassieux, Sungjune Jung*
+
+Journal of Physics D: Applied Physics 52 (44), 2019
+
+
+[015] Static and dynamic response comparison of printed, single- and dual-gate 3-D complementary organic TFT inverters
+
+Jimin Kwon*, Hiroyuki Matsui, Woojo Kim, Shizuo Tokito*, Sungjune Jung*
+
+IEEE Electron Device Letters 40 (8), 2019
+
+
+[014] Bistaggered contact geometry for symmetric dual-gate organic TFTs
+
+Jimin Kwon†, Sungyeop Jung†,*, Yun-Hi Kim*, Sungjune Jung*
+
+IEEE Transactions on Electron Devices 66 (7), 2019
+
+
+[013] Parylene copolymer gate dielectrics for organic field-effect transistors
+
+Hyunjin Park, Jimin Kwon, Hyungju Ahn, Sungjune Jung*
+
+Journal of Materials Chemistry C 7 (21), 2019
+
+
+[012] Three-dimensional monolithic integration in flexible printed organic transistors
+
+Jimin Kwon, Yasunori Takeda, Rei Shiwaku, Shizuo Tokito*, Kilwon Cho*, Sungjune Jung*
+
+Nature Communications 10 (1), 2019
+
+
+[011] Fabrication of ultrathin low-voltage-driven printed organic circuits with anodized gate islands
+
+Jimin Kwon†, Yongwoo Lee†, Youngmin Jo, Sungjune Jung*
+
+Organic Electronics 62, 2018
+
+
+[010] Parylene-based double-layer gate dielectrics for organic field-effect transistors
+
+Hyunjin Park, Hyungju Ahn, Jimin Kwon, Seongju Kim, Sungjune Jung*
+
+ACS Applied Materials & Interfaces 10 (44), 2018
+
+
+[009] Pressure/temperature sensing bimodal electronic skin with stimulus discriminability and linear sensitivity
+
+Geun Yeol Bae, Joong Tark Han, Giwon Lee, Siyoung Lee, Sung Won Kim, Sangsik Park, Jimin Kwon, Sungjune Jung, Kilwon Cho*
+
+Advanced Materials 30 (43), 2018
+
+
+[008] Control of concentration of non-hydrogen-bonded hydroxyl groups in polymer dielectrics for organic field-effect transistors with operational stability
+
+Hyunjin Park†, Jimin Kwon†, Boseok Kang, Woojo Kim, Yun-Hi Kim, Kilwon Cho, Sungjune Jung*
+
+ACS Applied Materials & Interfaces 10 (28), 2018
+
+
+[007] Printed 5-V organic operational amplifiers for various signal processing
+
+Hiroyuki Matsui, Kazuma Hayasaka, Yasunori Takeda, Rei Shiwaku, Jimin Kwon, Shizuo Tokito*
+
+Scientific Reports 8, 2018
+
+
+[006] Freeform micropatterning of living cells into cell culture medium using direct inkjet printing
+
+Ju An Park, Sejung Yoon, Jimin Kwon, Hesung Now, Young Kwon Kim, Woo-Jong Kim, Joo-Yeon Yoo, Sungjune Jung*
+
+Scientific Reports 7, 2018
+
+
+[005] Low-temperature, solution-processed, 3-D complementary organic FETs on flexible substrate
+
+Sujeong Kyung, Jimin Kwon, Yun-Hi Kim, Sungjune Jung*
+
+IEEE Transactions on Electron Devices 64 (5), 2017
+
+
+[004] Three-dimensional, inkjet-printed organic transistors and integrated circuits with 100% yield, high uniformity, and long-term stability
+
+Jimin Kwon, Yasunori Takeda, Kenjiro Fukuda, Kilwon Cho, Shizuo Tokito*, Sungjune Jung* 
+
+ACS Nano 10 (11), 2016 - selected as a front cover and highlighted by Science news
+
+
+[003] Vertically stacked complementary organic field‐effect transistors and logic circuits fabricated by inkjet printing
+
+Jimin Kwon, Yasunori Takeda, Kenjiro Fukuda, Kilwon Cho, Shizuo Tokito*, Sungjune Jung*
+
+Advanced Electronic Materials 2 (7), 2016 - selected as a front cover
+
+
+[002] Double-shot inkjet printing for high-conductivity polymer electrode
+
+Sejeong Yoon, Sunyoung Sohn, Jimin Kwon, Ju An Park, Sungjune Jung* 
+
+Thin Solid Films 607, 2016
+
+
+[001] Solution‐processed vertically stacked complementary organic circuits with inkjet‐printed routing
+
+Jimin Kwon, Sujeong Kyung, Sejung Yoon, Jae‐Joon Kim*, Sungjune Jung*
+
+Advanced Science 3 (5), 2016 - selected as an inside-front cover
+
+*Corresponding authors
+
+†The authors equally contributed
+
+Lab member names in bold
+
+International Conference Proceedings
+
+
+[018] Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems 
+
+Heesoo Yang† (Presenter), Hyeongjun Kim†, Yurim Choi, Seungmin Lee, Dongyun Kam, Haksoon Jung,
+
+Yongwoo Lee, Seongju Kim, Jimin Kwon*
+
+2026 IEEE Symposium on VLSI Technology and Circuits (VLSI) - Accepted
+
+
+[017] Microchannel-Embedded 3D-Printed Ceramic Substrates for Liquid-Cooled Power Module Packaging 
+
+Haksoon Jung (Presenter), Seongju Kim, Jimin Kwon*
+
+2026 76th IEEE Electronic Components and Technology Conference (ECTC) - Accepted
+
+
+[016] 3D-Printed Coaxial-Fed Patch Antenna-Embedded Substrates for 5G Antenna-In-Package Applications 
+
+Kyungsun Kim (Presenter), Nahyeon Kim, Yongwoo Lee, Haksoon Jung*, Jimin Kwon*
+
+2026 76th IEEE Electronic Components and Technology Conference (ECTC) - Accepted
+
+
+[015] Active BSCDN benchmark framework with backside-compatible CNFET logic technology
+
+Yehyun Shin†, Ikkyum Kim†, Minho Park† (Presenter), Junghyun Yoon, Seunghun Baek, Seongmin Eum, Heesoo Yang, Yurim Choi, Jaeyong Jeong, Sanghyeon Kim, Haksoon Jung, Seongju Kim*, Heechun Park*, Jimin Kwon*
+
+2025 71th IEEE International Electron Devices Meeting (IEDM)
+
+
+[014] Monolithic 3D integration of III-V HEMTs on glass using ultra-thin dielectric bonding layer: A high-frequency and low-loss active glass platform for sub-THz applications
+
+Jaeyong Jeong†, Yurim Choi†, Seongju Kim, Hyeongjun Kim, Jimin Kwon*, Sanghyeon Kim*
+
+2025 71th IEEE International Electron Devices Meeting (IEDM)
+
+
+[013] Thermal evaluation and comparison of CAA and GAA indium tin oxide vertical channel transistors
+
+Young Suh Song†, Jimin Kang†, Hyeonho Gu†, Haotian Su, Yuan-Mau Lee, Shan X. Wang, Jimin Kwon*, H.-S. Philip Wong*, Eric Pop*
+
+2025 71th IEEE International Electron Devices Meeting (IEDM)
+
+
+[012] Quasi-coaxial through-hole integrated additively manufactured antenna-in-package lid substrates 
+
+Nahyeon Kim (Presenter), Haksoon Jung*, Yurim Choi, Hyeongjun Kim, Seongju Kim, Yongwoo Lee, Yunsik Park, Seungyeon Koh, Hyeok Kim, Jimin Kwon*
+
+2025 75th IEEE Electronic Components and Technology Conference (ECTC)
+
+
+[011] 3D printed fanout interposer substrates with curved through-holes for rapid prototyping of advanced packaging
+
+Haksoon Jung (Presenter), Nahyeon Kim, Yurim Choi, Seongju Kim, Hyunjin Park, Yunsik Park, Seungjun Chung, Jiheong Kang, Jimin Kwon*
+
+2025 75th IEEE Electronic Components and Technology Conference (ECTC)
+
+
+[010] Future of memory: massive, diverse, tightly integrated with compute – from device to software
+
+Shuhan Liu, Robert M. Radway, Xinxin Wang, Jimin Kwon, Caroline Trippel, Philip Livis, Subhasish Mitra, H.-S. Philip Wong
+
+2024 70th IEEE International Electron Devices Meeting (IEDM)
+
+
+[009] Micro-3D-printed packaging substrates with embedded through holes for organic inteposers
+
+Nahyeon Kim (Presenter), Haksoon Jung, Yongwoo Lee, Sungmin Eum, Yechan Han, Hyunjin Park, Yunsik Park, Jimin Kwon*
+
+2024 74th IEEE Electronic Components and Technology Conference (ECTC)
+
+
+[008] Bias stress stability of ITO transistors and its dependence on dielectric properties
+
+Lauren Hoang, Alwin Daus, Sumaiya Wahid, Jimin Kwon, Jung-Soo Ko, Shengjun Qin, Mahnaz Islam, Krishna C Saraswat, H-S Philip Wong, Eric Pop*
+
+2022 Device Research Conference (DRC)
+
+
+[007] First demonstration of top-gated ITO transistors: effect of channel passivation
+
+Sumaiya Wahid, Alwin Daus, Jimin Kwon, Shengjun Qin, Jung-Soo Ko, Krishna C Saraswat, H-S Philip Wong, Eric Pop*
+
+2022 Device Research Conference (DRC)
+
+
+[006] 8-layer 3D vertical Ru/AlOxNy/TiN RRAM with mega-Ω level LRS for low power and ultrahigh-density memory
+
+Shengjun Qin, Maryann Tung, Emma Belliveau, Shuhan Liu, Jimin Kwon, Wei-Chen Chen, Zizhen Jiang, S Simon Wong, H-S Philip Wong*
+
+2022 IEEE Symposium on VLSI Technology and Circuits (VLSI)
+
+
+[005] The future of hardware technologies for computing: N3XT 3D MOSAIC, illusion scaleup, co-design
+
+RM Radway, K Sethi, W-C Chen, Jimin Kwon, S Liu, TF Wu, E Beigne, MM Shulaker, H-SP Wong, S Mitra*
+
+2021 IEEE International Electron Devices Meeting (IEDM)
+
+
+[004] Printed 2-V dual-gate CNFETs with an enhanced depletion behavior
+
+Jimin Kwon, Haksoon Jung, Dongseob Ji, Sungjune Jung, Yong-Young Noh*
+
+2020 Device Research Conference (DRC)
+
+
+[003] A phase-separated polymer blocking layer for enhancing data retention in flexible printed nonvolatile organic memories
+
+Woojo Kim, Jimin Kwon, Yongwoo Lee, Sungjune Jung*
+
+2019 IEEE International Flexible Electronics Technology Conference (IFETC)
+
+
+[002] Flexible printed top-contact organic thin-film transistors
+
+ Yongwoo Lee, Jimin Kwon, Woojo Kim, Sungjune Jung*
+
+2019 IEEE International Flexible Electronics Technology Conference (IFETC)
+
+
+[001] Technology development for direct-printed dual-gate organic TFT circuit fabrication with 3-D integration
+
+Jimin Kwon, Woojo Kim, Yongwoo Lee, Sungjune Jung*
+
+2019 IEEE International Flexible Electronics Technology Conference (IFETC)
+
+
+Invited Talks
+
+
+(Tutorial) Advanced packaging and new opportunities for additive manufacturing
+
+Jimin Kwon
+
+International Conference On Consumer Electronics Asia (ICCE-Asia / 4 Nov, 2024)
+
+
+(Invited Talk) Additively manufactured packaging substrates for fan-out interposers
+
+Jimin Kwon
+
+International SoC Design Conference (ISOCC / 8 Aug, 2024)
+
+
+(Invited Talk) Heterogeneous integration technology development: monolithic 3D integration and advanced packaging
+
+Jimin Kwon
+
+Asia-Pacific Workshop on Advanced Semiconductor Devices (AWAD / 8 Jul, 2024)
+
+
+(Invited Talk) Direct-printing more components onto large-area and 3D electronics
+
+Jimin Kwon
+
+The 21th International Symposium on the Physics of Semiconductors and Applications (ISPSA / 5 Jun, 2024)
+
+
+(Invited Talk) 단일3차원집적, 이종집적을 위한 반도체소자·패키지 제작
+
+Jimin Kwon
+
+한국세라믹학회 추계학술대회 (2024 Fall Meeting of Korean Ceramic Society / 20 Oct, 2023)

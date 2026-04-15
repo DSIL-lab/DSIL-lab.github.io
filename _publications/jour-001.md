@@ -3,7 +3,7 @@ pub-id: 1
 type: journal
 year: 2016
 
-title: "Solution‐processed vertically stacked complementary organic circuits with inkjet‐printed routing"
+title: "Solution‐processed Vertically Stacked Complementary Organic Circuits with Inkjet‐printed Routing"
 title_url: "https://onlinelibrary.wiley.com/doi/full/10.1002/advs.201500439"
 
 authors: "<strong>Jimin Kwon</strong>, Sujeong Kyung, Sejung Yoon, Jae‐Joon Kim*, Sungjune Jung*"
