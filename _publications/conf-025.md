@@ -2,6 +2,7 @@
 pub-id: 25
 type:
     - international-conf
+    - conference
 
 year: 2026
 

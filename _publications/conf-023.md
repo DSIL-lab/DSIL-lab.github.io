@@ -2,6 +2,8 @@
 pub-id: 23
 type:
     - international-conf
+    - conference
+
 
 year: 2025
 
@@ -15,6 +17,6 @@ authors: "<strong>Yehyun Shin</strong><sup>†</sup>, Ikkyum Kim<sup>†</sup>, 
 # <sup>??/sup> : equally contributed
 # * : corresponding authors
 
-status: accepted
+status: published
 venue: "<em>2025 71th IEEE International Electron Devices Meeting (IEDM)</em>"
 ---

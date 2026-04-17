@@ -1,7 +1,7 @@
 ---
 pub-id: 21
 type:
-    - international-conf
+    - conference
 
 year: 2025
 
