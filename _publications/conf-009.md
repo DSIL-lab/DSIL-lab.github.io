@@ -1,6 +1,8 @@
 ---
 pub-id: 9
 type: conference
+    - international-conf
+
 year: 2024
 
 title: "Micro-3D-Printed Packaging Substrates with Embedded Through Holes for Organic Interposers"

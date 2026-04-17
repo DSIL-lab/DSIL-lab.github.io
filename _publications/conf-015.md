@@ -1,6 +1,8 @@
 ---
 pub-id: 15
 type: conference
+    - international-conf
+
 year: 2025
 
 title: "Active BSCDN Benchmark Framework with Backside-Compatible CNFET Logic Technology"

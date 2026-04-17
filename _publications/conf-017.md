@@ -1,6 +1,8 @@
 ---
 pub-id: 17
 type: conference
+    - international-conf
+
 year: 2026
 
 title: "Microchannel-Embedded 3D-Printed Ceramic Substrates for Liquid-Cooled Power Module Packaging"

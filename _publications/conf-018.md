@@ -1,6 +1,8 @@
 ---
 pub-id: 18
 type: conference
+    - international-conf
+
 year: 2026
 
 title: "Vertical-Die (V-Die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems"

@@ -1,6 +1,8 @@
 ---
 pub-id: 16
 type: conference
+    - international-conf
+
 year: 2026
 
 title: "3D-Printed Coaxial-Fed Patch Antenna-Embedded Substrates for 5G Antenna-in-Package Applications"

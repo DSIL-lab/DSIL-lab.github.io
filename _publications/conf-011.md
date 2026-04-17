@@ -1,6 +1,8 @@
 ---
 pub-id: 11
 type: conference
+    - international-conf
+
 year: 2025
 
 title: "3D Printed Fanout Interposer Substrates with Curved Through-Holes for Rapid Prototyping of Advanced Packaging"

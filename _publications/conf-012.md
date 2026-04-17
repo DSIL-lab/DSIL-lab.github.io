@@ -1,6 +1,8 @@
 ---
 pub-id: 12
 type: conference
+    - international-conf
+
 year: 2025
 
 title: "Quasi-Coaxial Through-Hole Integrated Additively Manufactured Antenna-in-Package Lid Substrates"
