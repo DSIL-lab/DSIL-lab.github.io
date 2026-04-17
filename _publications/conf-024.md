@@ -1,6 +1,6 @@
 ---
-pub-id: 16
-type: conference
+pub-id: 24
+type:
     - international-conf
 
 year: 2026
