@@ -1,0 +1,11 @@
+﻿---
+pub-id: 020
+type:
+    - patent
+year: 2025
+title: "수직채널 반도체 소자 및 그 제조 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>구현호</strong>, <strong>박민호</strong>, <strong>이용우</strong>"
+status: filed
+venue: "출원; 10-2025-0002761"
+---

@@ -1,0 +1,11 @@
+﻿---
+pub-id: 016
+type:
+    - patent
+year: 2025
+title: "3D 프린팅에 기반하여 반도체 패키징 구조물을 제조하기 위한 소재"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "출원; 10-2025-0071064"
+---

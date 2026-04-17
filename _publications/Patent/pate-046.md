@@ -1,0 +1,11 @@
+﻿---
+pub-id: 046
+type:
+    - patent
+year: 2024
+title: "3D 프린팅에 기반하여 형성된 기판 내부의 인터커넥트 구조를 형성하기 위한 장치, 및 공정 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "Filed; 2024-221476(JP)"
+---

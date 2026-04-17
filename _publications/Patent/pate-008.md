@@ -1,0 +1,11 @@
+﻿---
+pub-id: 008
+type:
+    - patent
+year: 2025
+title: "도면 파일에 기반하여 반도체 패키징 용 구조물을 생성하기 위한 인쇄 파일을 생성하기 위한 서버, 및 그 동작 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "출원; 10-2025-0071086"
+---

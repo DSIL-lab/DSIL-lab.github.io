@@ -1,0 +1,11 @@
+﻿---
+pub-id: 002
+type:
+    - patent
+year: 2026
+title: "반도체소자 및 반도체소자의 패터닝방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "출원; 10-2026-0058387"
+---

@@ -1,0 +1,11 @@
+﻿---
+pub-id: 003
+type:
+    - patent
+year: 2026
+title: "나노 물질 광학 특성 분석을 이용한 반도체 소자 레이아웃 자동 생성 방법 및 장치"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>이상현</strong>, <strong>이용우</strong>, <strong>정학순</strong>"
+status: filed
+venue: "출원; 10-2026-0052953"
+---

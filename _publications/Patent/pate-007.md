@@ -1,0 +1,11 @@
+﻿---
+pub-id: 007
+type:
+    - patent
+year: 2025
+title: "인공 지능 모델에 기반한 반도체 구조물의 방열 구조를 최적화하기 위한 전자 장치, 및 그 동작 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>, <strong>김성주</strong>"
+status: filed
+venue: "출원; 10-2025-0162475"
+---

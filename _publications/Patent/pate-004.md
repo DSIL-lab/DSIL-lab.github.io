@@ -1,0 +1,11 @@
+﻿---
+pub-id: 004
+type:
+    - patent
+year: 2025
+title: "클록 분배망의 독립적 배선 구조를 이용한 클록 신호 및 로직 신호의 완전 분리형 반도체 장치 및 시스템"
+title_url: ""
+authors: "<strong>권지민</strong>, 박희천, <strong>박민호</strong>, <strong>신예현</strong>, 김익겸"
+status: filed
+venue: "출원; 10-2025-0194458"
+---

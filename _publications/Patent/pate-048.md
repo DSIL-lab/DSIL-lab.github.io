@@ -1,0 +1,11 @@
+﻿---
+pub-id: 048
+type:
+    - patent
+year: 2024
+title: "3D 프린팅 기반 소비자 맞춤형 반도체 패키징을 위한 장치, 서버, 시스템, 및 그 동작 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "Filed; 2024-207709(JP)"
+---

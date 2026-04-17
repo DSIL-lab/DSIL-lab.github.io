@@ -1,0 +1,11 @@
+﻿---
+pub-id: 013
+type:
+    - patent
+year: 2025
+title: "3D 프린팅에 기반하여 생성된 기판 내부에 인터커넥트 구조를 형성하기 위한 장치, 및 그 제조 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>"
+status: filed
+venue: "출원; 10-2025-0071073"
+---

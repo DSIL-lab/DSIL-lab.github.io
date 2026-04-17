@@ -1,0 +1,11 @@
+﻿---
+pub-id: 036
+type:
+    - patent
+year: 2025
+title: "CHIP-LET PACKAGE INCLUDING A SUBSTRATE FOR SEMICONDUCTOR PACKAGING FORMED BASED ON 3DP, AND AN ELECTRONIC DEVICE INCLUDING THE SAME"
+title_url: ""
+authors: "<strong>J. Kwon</strong>, <strong>H. Jung</strong>"
+status: filed
+venue: "Filed; 24218385.3(EU)"
+---

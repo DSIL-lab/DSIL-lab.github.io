@@ -1,0 +1,11 @@
+﻿---
+pub-id: 005
+type:
+    - patent
+year: 2025
+title: "기상 증착 장치 및 이를 이용한 칼코젠 결함 회복 방법"
+title_url: ""
+authors: "<strong>권지민</strong>, <strong>정학순</strong>, 이철호"
+status: filed
+venue: "출원; 10-2025-0181247"
+---
