@@ -1,15 +1,14 @@
 ---
 pub-id: 17
-type: conference
-    - international-conf
+type: international-conf
 
-year: 2026
+year: 2025
 
-title: "Microchannel-Embedded 3D-Printed Ceramic Substrates for Liquid-Cooled Power Module Packaging"
+title: "Development of Silver EHD Jet Printing Design Rules for Reliable RF Component Fabrication"
 title_url: ""
 
-authors: "<strong>Haksoon Jung</strong> (Presenter), <strong>Seongju Kim</strong>, <strong>Jimin Kwon*</strong>"
+authors: "Hyeongjun Kim, Yongwoo Lee, Seongju Kim, and Jimin Kwon"
 
-status: accepted
-venue: "<em>2026 76th IEEE Electronic Components and Technology Conference (ECTC)</em>-Accepted"
+status: published
+venue: "<em>International Symposium on Microelectronics and Packaging 2025 (ISMP 2025)</em>"
 ---

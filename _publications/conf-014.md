@@ -1,13 +1,14 @@
 ---
 pub-id: 14
-type: conference
+type: international-conf
+
 year: 2025
 
-title: "Monolithic 3D Integration of III-V HEMTs on Glass Using Ultra-Thin Dielectric Bonding Layer: a High-Frequency and Low-Loss Active Glass Platform for Sub-THz Applications"
-title_url: "https://ieeexplore.ieee.org/document/11353813"
+title: "Reinforcement Learning–Driven Custom Liquid Micro-Channel Design for Direct Liquid Cooling in Advanced Packaging"
+title_url: ""
 
-authors: "Jaeyong Jeong<sup>†</sup>, <strong>Yurim Choi</strong><sup>†</sup>, <strong>Seongju Kim</strong>, <strong>Hyeongjun Kim</strong>, <strong>Jimin Kwon*</strong>, Sanghyeon Kim*"
+authors: "Seongju Kim and Jimin Kwon1,2,†"
 
 status: published
-venue: "<em>2025 71th IEEE International Electron Devices Meeting (IEDM)</em>"
+venue: "<em>International Symposium on Microelectronics and Packaging 2025 (ISMP 2025)</em>"
 ---

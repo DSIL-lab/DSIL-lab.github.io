@@ -1,15 +1,14 @@
 ---
 pub-id: 16
-type: conference
-    - international-conf
+type: international-conf
 
-year: 2026
+year: 2025
 
-title: "3D-Printed Coaxial-Fed Patch Antenna-Embedded Substrates for 5G Antenna-in-Package Applications"
+title: "Radio-Frequency Carbon Nanotube Field-Effect Transistors on Glass Substrates"
 title_url: ""
 
-authors: "<strong>Kyungsun Kim</strong> (Presenter), <strong>Nahyeon Kim</strong>, <strong>Yongwoo Lee</strong>, <strong>Haksoon Jung*</strong>, <strong>Jimin Kwon*</strong>"
+authors: "Sungmin Eum, Yehyun Shin, Seunghun Baek, Yurim Choi, Kyungsun Kim, Haksoon Jung, Yongwoo Lee, and Jimin Kwon"
 
-status: accepted
-venue: "<em>2026 76th IEEE Electronic Components and Technology Conference (ECTC)</em>-Accepted"
+status: published
+venue: "<em>International Symposium on Microelectronics and Packaging 2025 (ISMP 2025)</em>"
 ---
