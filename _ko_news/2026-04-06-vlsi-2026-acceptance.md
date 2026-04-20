@@ -2,7 +2,7 @@
 order: 26
 date: "Apr 06, 2026"
 slug: vlsi-2026-paper-acceptance
-title: "양희수·김형준 학생, IEEE VLSI Symposium 2026 논문 채택"
+title: "양희수 (석박통합 2년차)·김형준 (석박통합 2년차) 학생, IEEE VLSI Symposium 2026 논문 채택"
 image: ""
 summary: |-
     - 제목: Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems

@@ -7,7 +7,7 @@ image: ""
 summary: |-
     - 제목: 3D-Printed Antenna-in-Package Substrates with Quasi-Coaxial Through-Vias for 5G-Advanced Applications
 
-    김나현 (석박통합 2년차) 학생이 <strong>한국반도체학술대회 KCS 2025에서 현장우수포스터상</strong>을 받았습니다.
+    김나현 (석박통합 2년차) 학생이 한국반도체학술대회 KCS 2025에서 <strong>현장우수포스터상</strong>을 받았습니다.
 ---
 
 - 제목: 3D-Printed Antenna-in-Package Substrates with Quasi-Coaxial Through-Vias for 5G-Advanced Applications
