@@ -16,6 +16,7 @@ permalink: /ko/publications/
 {% assign conferences_a = pubs | where: "type", "conference" %}
 {% assign conferences_b = pubs | where_exp: "p", "p.type contains 'conference-proceeding'" %}
 {% assign conferences = conferences_a | concat: conferences_b %}
+{% assign patents = pubs | where_exp: "p", "p.type contains 'patent'" %}
 {% assign talks = pubs | where_exp: "p", "p.type contains 'invited'" %}
 
 <section class="pub-section">
@@ -55,18 +56,20 @@ permalink: /ko/publications/
             {% endif %}
 
             <div class="pub-meta">
+              {% if p_venue and p_venue != "" %}
+                <span class="pub-venue">{{ p_venue }}</span>
+              {% endif %}
+              {% if p_venue_detail and p_venue_detail != "" %}
+                <span class="pub-venue-detail">{{ p_venue_detail }}</span>
+              {% endif %}
               {% if p_status and p_status != "published" %}
+                {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
+                  <span class="pub-sep"> &middot; </span>
+                {% endif %}
                 <span class="pub-status">{{ p_status | replace: "_", " " }}</span>
-              {% else %}
-                {% if p_venue and p_venue != "" %}
-                  <span class="pub-venue">{{ p_venue }}</span>
-                {% endif %}
-                {% if p_venue_detail and p_venue_detail != "" %}
-                  <span class="pub-venue-detail">{{ p_venue_detail }}</span>
-                {% endif %}
-                {% if p_highlights and p_highlights != "" %}
-                  <span class="pub-highlights"> - {{ p_highlights }}</span>
-                {% endif %}
+              {% endif %}
+              {% if p_highlights and p_highlights != "" %}
+                <span class="pub-highlights"> - {{ p_highlights }}</span>
               {% endif %}
             </div>
           </li>
@@ -112,18 +115,78 @@ permalink: /ko/publications/
             {% endif %}
 
             <div class="pub-meta">
+              {% if p_venue and p_venue != "" %}
+                <span class="pub-venue">{{ p_venue }}</span>
+              {% endif %}
+              {% if p_venue_detail and p_venue_detail != "" %}
+                <span class="pub-venue-detail">{{ p_venue_detail }}</span>
+              {% endif %}
               {% if p_status and p_status != "published" %}
+                {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
+                  <span class="pub-sep"> &middot; </span>
+                {% endif %}
                 <span class="pub-status">{{ p_status | replace: "_", " " }}</span>
-              {% else %}
-                {% if p_venue and p_venue != "" %}
-                  <span class="pub-venue">{{ p_venue }}</span>
-                {% endif %}
-                {% if p_venue_detail and p_venue_detail != "" %}
-                  <span class="pub-venue-detail">{{ p_venue_detail }}</span>
-                {% endif %}
               {% endif %}
             </div>
           </li>
+        {% endfor %}
+      </ol>
+    </div>
+  {% endfor %}
+</section>
+
+<section class="pub-section">
+  <h2 class="pub-section-title">Patents</h2>
+
+  {% assign patent_years = patents | map: "year" | uniq | sort | reverse %}
+  {% assign patent_display_id = patents.size | plus: 0 %}
+  {% for y in patent_years %}
+    <div class="pub-year-block">
+      <h3 class="pub-year">{{ y }}</h3>
+
+      {% assign items = patents | where: "year", y %}
+      {% assign items = items | sort: "pub-id" | reverse %}
+
+      <ol class="pub-list">
+        {% for p in items %}
+          {% assign p_title = p["ko-title"] | default: p.title %}
+          {% assign p_authors = p["ko-authors"] | default: p.authors %}
+          {% assign p_status = p["ko-status"] | default: p.status %}
+          {% assign p_status_label = p_status | replace: "filed", "출원" | replace: "registered", "등록" %}
+          <li class="pub-item">
+            <div class="pub-title-line">
+              <span class="pub-id">[{{ patent_display_id | prepend: "000" | slice: -3, 3 }}]</span>
+
+              {% if p.title_url and p.title_url != "" %}
+                <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>
+              {% else %}
+                <span class="pub-title">{{ p_title }}</span>
+              {% endif %}
+            </div>
+
+            {% if p_authors and p_authors != "" %}
+              <div class="pub-authors">{{ p_authors }}</div>
+            {% endif %}
+
+            <div class="pub-meta">
+              {% if p.application_no and p.application_no != "" %}
+                <span class="pub-venue">출원번호 {{ p.application_no }}</span>
+              {% endif %}
+              {% if p.registration_no and p.registration_no != "" %}
+                {% if p.application_no and p.application_no != "" %}
+                  <span class="pub-venue-detail"> &middot; </span>
+                {% endif %}
+                <span class="pub-venue-detail">등록번호 {{ p.registration_no }}</span>
+              {% endif %}
+              {% if p_status and p_status != "published" %}
+                {% if p.application_no and p.application_no != "" or p.registration_no and p.registration_no != "" %}
+                  <span class="pub-sep"> &middot; </span>
+                {% endif %}
+                <span class="pub-status">{{ p_status_label | replace: "_", " " }}</span>
+              {% endif %}
+            </div>
+          </li>
+          {% assign patent_display_id = patent_display_id | minus: 1 %}
         {% endfor %}
       </ol>
     </div>
