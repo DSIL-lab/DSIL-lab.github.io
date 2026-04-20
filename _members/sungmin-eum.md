@@ -6,13 +6,13 @@ group: students     # pi / students / alumni
 role: TD Team
 
 photo_by_term:
-  "2026-spring": /assets/img/members/2026-spring/음성민.jpg
+  "2026-spring": /assets/img/members/2026-spring/음성민.png
 terms:
   - "2026-spring"
 
 education:
-  - MS-PhD / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Mar 2024 – present)
-  - BS / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2018 – Feb 2024)
+  - MS-PhD / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2024 – present)
+  - BS / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2018 – Feb 2024)
 
 research:
   - area: High-Speed CNFETs

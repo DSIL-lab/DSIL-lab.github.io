@@ -3,7 +3,7 @@ order: 1
 id: yongwoo-lee
 name: Yongwoo Lee
 group: students     # pi / students / alumni
-role: CP team
+role: Components and Packaging (CP) team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/이용우.jpg

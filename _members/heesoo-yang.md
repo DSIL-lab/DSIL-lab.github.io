@@ -3,28 +3,32 @@ order: 17
 id: heesoo-yang
 name: Heesoo Yang
 group: students     # pi / students / alumni
-role: DB team
+role: DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/양희수.jpg
 terms:
   - "2026-spring"
 
-projects:   # Optional, underlined when displayed
-  - ""
+ko-projects:    # Optional, underlined when displayed
+  - "NRF 석사과정생장려금 ('25)"
+
+projects:       # Optional, underlined when displayed
+  - "NRF 석사과정생장려금 ('25)"
 
 education:
-  - M.S.-Ph.D. / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2025 – present)
-  - B.S. / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2025)
+  - MS-PhD / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2025 – present)
+  - BS / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2025)
 
 research:
-  - area: Standard Cell Design
+  - area: Large-Area RF Electronics
     topics:
-      - Digital Circuit Synthesis Environment Setup
-      - Large-Area Circuit Design Using 2D Material-based Transistors
+      - "Standard Cell Design"
+      - "Digital Circuit Synthesis Environment Setup"
+      - "Large-Area Circuit Design and Synthesis Using 2D Material-Based Transistors"
 
 # Optional
-email: kristron@unist.ac.kr
+email: kristron.@unist.ac.kr
 # scholar: "https://scholar.google.com/citations?user=XXXX"
 linkedin: "https://www.linkedin.com/in/heesoo-yang-en"
 ---

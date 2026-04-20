@@ -10,14 +10,11 @@ photo_by_term:
 terms:
   - "2026-spring"
 
-ko-projects:    # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('24)"
-
 projects:       # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('24)"
+  - "NRF 석사과정생장려금 (2024)"
 
 education:
-  - MS / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Mar 2024 – present)
+  - MS / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2024 – present)
   - BS / Department of Electronic Materials Engineering, <strong>Kwangwoon University</strong> (Mar 2020 – Feb 2024)
 
 research:

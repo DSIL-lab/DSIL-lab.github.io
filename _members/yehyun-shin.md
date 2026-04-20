@@ -11,7 +11,7 @@ terms:
   - "2026-spring"
 
 education:
-  - MS / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Sep 2024 – present)
+  - MS / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Sep 2024 – present)
   - BS / Department of Chemical Engineering, <strong>Konkuk University</strong> (Mar 2017 – Aug 2024)
 
 research:

@@ -3,7 +3,7 @@ order: 3
 id: youngmin-jo
 name: Youngmin Jo
 group: students     # pi / students / alumni
-role: TD team
+role: Technology Development (TD) team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/조영민.jpg
@@ -12,9 +12,6 @@ terms:
 
 career:     # Optional, for postdocs and alumni
   - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
-
-ko-projects:    # Optional, underlined when displayed
-  - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"
 
 projects:       # Optional, underlined when displayed
   - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"

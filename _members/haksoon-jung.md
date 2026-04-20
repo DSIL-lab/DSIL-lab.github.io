@@ -22,7 +22,7 @@ projects:       # Optional, underlined when displayed
 
 education:
   - "MS-PhD / Chemical Engineering, <strong>POSTECH</strong> (Sep 2019 - Feb 2025)"
-  - "BS / Energy & Materials Engineering, <strong>Dongguk Univ.</strong> (Mar 2013 - Feb 2019)"
+  - "BS / Energy & Materials Engineering, <strong>Dongguk University</strong> (Mar 2013 - Feb 2019)"
 
 research:
   - area: Advanced Packaging with 3D Printing
