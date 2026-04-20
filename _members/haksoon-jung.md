@@ -6,7 +6,7 @@ group: students     # pi / students / alumni
 role: CP team
 
 photo_by_term:
-  "2025-summer": /assets/img/members/2025-summer/haksoon.jpg
+  "2025-summer": /assets/img/members/2026-spring/정학순.jpg
 terms:
   - "2025-summer"
 
@@ -35,7 +35,7 @@ research:
       - "Defect engineering of 2D TMD materials"
 
 # Optional
-email: hsjung@unist.ac.kr
+email: hsjung71@kaist.ac.kr
 scholar: "https://scholar.google.com/citations?user=Vg3lEr4AAAAJ"
 # linkedin: "https://www.linkedin.com/in/XXXX"
 ---

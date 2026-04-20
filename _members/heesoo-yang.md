@@ -6,7 +6,7 @@ group: students     # pi / students / alumni
 role: DB team
 
 photo_by_term:
-  "2025-summer": /assets/img/members/2025-summer/heesoo.jpg
+  "2025-summer": /assets/img/members/2026-spring/양희수.jpg
 terms:
   - "2025-summer"
 
