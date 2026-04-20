@@ -12,6 +12,6 @@ title_url: ""
 authors: "<strong>Haksoon Jung</strong> (Presenter), <strong>Seongju Kim</strong>, <strong>Jimin Kwon*</strong>"
 
 status: accepted
-venue: "<em>2026 76th IEEE Electronic Components and Technology Conference (ECTC)</em>-Accepted"
+venue: "<em>2026 76th IEEE Electronic Components and Technology Conference (ECTC)</em>"
 ---
 
