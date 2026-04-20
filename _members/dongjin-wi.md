@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 17
 id: dongjin-wi
 name: Dongjin Wi
 group: students     # pi / students / alumni

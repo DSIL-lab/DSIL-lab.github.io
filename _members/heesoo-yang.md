@@ -1,9 +1,9 @@
 ---
-order: 17
+order: 13
 id: heesoo-yang
 name: Heesoo Yang
 group: students     # pi / students / alumni
-role: DB Team
+role: Server manager, DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/양희수.jpg
