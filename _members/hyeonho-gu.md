@@ -14,8 +14,8 @@ projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 ('24)"
 
 education:
-  - "MS / UNIST 전기전자공학과, Sep '23 - Feb '26"
-  - "BS / 서울과기대 전기정보공학과, Mar '17 - Feb '23"
+  - MS / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Sep 2023 – Feb 2026)
+  - BS / Department of Electrical and Information Engineering, <strong>Seoul National University of Science and Technology</strong> (Mar 2017 – Feb 2023)
 
 research:
   - area: Vertical-Channel OS FET for M3D Memory 

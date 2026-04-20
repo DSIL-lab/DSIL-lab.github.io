@@ -11,8 +11,8 @@ terms:
   - "2026-spring"
 
 education:
-  - "MS-PhD / UNIST 반도체소재·부품대학원, Mar '24 - "
-  - "BS / UNIST 전기전자공학과, Mar '18 - Feb '24"
+  - MS-PhD / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Mar 2024 – present)
+  - BS / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2018 – Feb 2024)
 
 research:
   - area: High-Speed CNFETs

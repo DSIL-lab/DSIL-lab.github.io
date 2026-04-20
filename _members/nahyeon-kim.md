@@ -17,8 +17,8 @@ projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 ('24)"
 
 education:
-  - "MS / UNIST 반도체소재·부품대학원, Mar '24 -"
-  - "BS / 광운대 전자재료공학과, Mar '20 - Feb '24"
+  - MS / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Mar 2024 – present)
+  - BS / Department of Electronic Materials Engineering, <strong>Kwangwoon University</strong> (Mar 2020 – Feb 2024)
 
 research:
   - area: Advanced Packaging with 3D Printing

@@ -11,8 +11,8 @@ terms:
   - "2026-spring"
 
 education:
-  - "MS / UNIST 반도체소재·부품대학원, Sep '24 - "
-  - "BS / 건국대 화학공학부, Mar '17 - Aug '24"
+  - MS / Department of Semiconductor Materials and Components, <strong>UNIST</strong> (Sep 2024 – present)
+  - BS / Department of Chemical Engineering, <strong>Konkuk University</strong> (Mar 2017 – Aug 2024)
 
 research:
   - area: Wafer-Scale Fabrication of Aligned CNFETs
