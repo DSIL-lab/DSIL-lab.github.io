@@ -18,7 +18,7 @@ ko-projects:    # Optional, underlined when displayed
   - "NRF Post-Doc. 성장형 연구지원 (Feb 2025 - Jan 2028)"
 
 projects:       # Optional, underlined when displayed
-  - "NRF Post-Doc. Growth-oriented Research Support Program (Feb '25 - Jan '28)"
+  - "NRF Post-Doc. 성장형 연구지원 (Feb 2025 - Jan 2028)"
 
 education:
   - "MS-PhD / Chemical Engineering, <strong>POSTECH</strong> (Sep 2019 - Feb 2025)"
