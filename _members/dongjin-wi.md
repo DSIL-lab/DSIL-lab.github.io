@@ -3,7 +3,7 @@ order: 17
 id: dongjin-wi
 name: Dongjin Wi
 group: students     # pi / students / alumni
-role: DB Team
+role: TD Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/위동진.jpg
