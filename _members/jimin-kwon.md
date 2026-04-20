@@ -5,7 +5,10 @@ name: Jimin Kwon
 group: pi     # pi / students / alumni
 role: Principal Investigator (PI)
 
-photo: /assets/img/members/jimin-2025-summer.jpg
+photo_by_term:
+  "2025-summer": /assets/img/members/2025-summer/jimin.jpg
+terms:
+  - "2025-summer"
 
 career:
   - "Assistant Professor / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 – present)"
