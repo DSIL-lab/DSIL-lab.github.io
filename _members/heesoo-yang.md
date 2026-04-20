@@ -10,15 +10,12 @@ photo_by_term:
 terms:
   - "2026-spring"
 
-ko-projects:    # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
-
 projects:       # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
+  - "NRF 석사과정생장려금 (2025)"
 
 education:
-  - MS-PhD / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2025 – present)
-  - BS / Department of Electrical and Computer Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2025)
+  - MS-PhD / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2025 – present)
+  - BS / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2025)
 
 research:
   - area: Large-Area RF Electronics
@@ -28,7 +25,7 @@ research:
       - "Large-Area Circuit Design and Synthesis Using 2D Material-Based Transistors"
 
 # Optional
-email: kristron.@unist.ac.kr
+email: kristron@unist.ac.kr
 # scholar: "https://scholar.google.com/citations?user=XXXX"
 linkedin: "https://www.linkedin.com/in/heesoo-yang-en"
 ---

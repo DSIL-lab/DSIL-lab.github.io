@@ -10,15 +10,12 @@ photo_by_term:
 terms:
   - "2026-spring"
 
-ko-projects:    # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
-
 projects:       # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
+  - "NRF 석사과정생장려금 (2025)"
 
 education:
   - MS-PhD / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2025 – present)
-  - BS / Department of Electronic Engineering, <strong>Kyonggi University</strong> (Mar 2019 – Feb 2025)
+  - BS / School of Electronic Engineering, <strong>Kyonggi University</strong> (Mar 2019 – Feb 2025)
 
 research:
   - area: Large-Area RF Electronics

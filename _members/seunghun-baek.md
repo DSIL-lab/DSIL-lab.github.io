@@ -3,22 +3,20 @@ order: 12
 id: seunghun-baek
 name: Seunghun Baek
 group: students     # pi / students / alumni
-role: TD Team, Lab Safety Manager
+role: Lab Safety Manager, TD Team 
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/백승훈.jpg
 terms:
   - "2026-spring"
 
-ko-projects:    # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
 
 projects:       # Optional, underlined when displayed
-  - "NRF 석사과정생장려금 ('25)"
+  - "NRF 석사과정생장려금 (2025)"
 
 education:
   - MS-PhD / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2025 – present)
-  - BS / Department of Electronic Engineering, <strong>Kookmin University</strong> (Mar 2018 – Feb 2022)
+  - BS / Department of Electrical Engineering, <strong>Kookmin University</strong> (Mar 2018 – Feb 2022)
 
 research:
   - area: Å-node CNFET Logic

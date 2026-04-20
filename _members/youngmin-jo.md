@@ -11,10 +11,10 @@ terms:
   - "2026-spring"
 
 career:     # Optional, for postdocs and alumni
-  - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
+  - "Postdoc / Department of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
+  - "Staff Engineer / Memory Business, <strong>SAMSUNG DS Division</strong> (Mar 2024 - Feb 2025)"
+  - "Postdoc / Thin Film Materials Research Center, <strong>KRICT</strong> (Apr 2024 - Feb 2025)"
 
-projects:       # Optional, underlined when displayed
-  - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"
 
 education:
   - "PhD / Department of IT Convergence Engineering, <strong>POSTECH</strong> (Feb 2020 - Feb 2024)"
