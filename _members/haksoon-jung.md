@@ -6,9 +6,9 @@ group: students     # pi / students / alumni
 role: CP team
 
 photo_by_term:
-  "2025-summer": /assets/img/members/2026-spring/정학순.jpg
+  "2026-spring": /assets/img/members/2026-spring/정학순.jpg
 terms:
-  - "2025-summer"
+  - "2026-spring"
 
 career:     # Optional, for postdocs and alumni
   - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"

@@ -6,9 +6,9 @@ group: pi     # pi / students / alumni
 role: Principal Investigator (PI)
 
 photo_by_term:
-  "2025-summer": /assets/img/members/2025-summer/jimin.jpg
+  "2026-spring": /assets/img/members/2025-summer/jimin.jpg
 terms:
-  - "2025-summer"
+  - "2026-spring"
 
 career:
   - "Assistant Professor / School of Electrical Engineering & Department of AI Systems, <strong>KAIST</strong> (Apr 2026 – present)"
