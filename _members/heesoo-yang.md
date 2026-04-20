@@ -5,7 +5,10 @@ name: Heesoo Yang
 group: students     # pi / students / alumni
 role: DB team
 
-photo: /assets/img/members/heesoo-2025-summer.jpg
+photo_by_term:
+  "2025-summer": /assets/img/members/2025-summer/heesoo.jpg
+terms:
+  - "2025-summer"
 
 projects:   # Optional, underlined when displayed
   - ""

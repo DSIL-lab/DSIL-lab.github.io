@@ -5,7 +5,10 @@ name: Haksoon Jung
 group: students     # pi / students / alumni
 role: CP team
 
-photo: /assets/img/members/haksoon-2025-summer.jpg
+photo_by_term:
+  "2025-summer": /assets/img/members/2025-summer/haksoon.jpg
+terms:
+  - "2025-summer"
 
 career:     # Optional, for postdocs and alumni
   - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
