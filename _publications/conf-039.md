@@ -1,10 +1,10 @@
-﻿---
+---
 pub-id: 39
 type:
     - domestic-conf
 year: 2025
 
-title: "Novel Through-Hole Interconnect Technologies for 3D Printed Fanout Interposer Substrates"
+title: "Novel through-hole interconnect technologies for 3D printed fanout interposer substrates"
 title_url: ""
 
 authors: "<strong>정학순</strong>, <strong>김나현</strong>, <strong>권지민</strong>"
