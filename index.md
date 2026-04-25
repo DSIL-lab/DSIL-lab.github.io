@@ -8,7 +8,7 @@ title: Home
 	- hero_image: Update this path to change the left-side image.
 	- All right-side text (including headings) lives in: home-content.md
 -->
-{% assign hero_image = "/assets/img/home-image.png" %}
+{% assign hero_image = "/assets/img/home-image.jpg" %}
 {% capture hero_content_markdown %}{% include_relative home-content.md %}{% endcapture %}
 
 <!--
