@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Effect of Seed-Layer Morphology on Dielectric and Device Performance in MoS2 Field-Effect Transistors"
+title: "Effect of seed-layer morphology on dielectric and device performance in MoS2 field-effect transistors"
 title_url: ""
 
 authors: "<strong>홍수민</strong>, <strong>정학순</strong>, <strong>이상현</strong>, <strong>박민호</strong>, <strong>권지민</strong>"

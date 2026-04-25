@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "High-Resolution Ceramic 3D Printing Using Multidose Strategies for Liquid Cooled Flip-Chip Power Packaging"
+title: "High-resolution ceramic 3D printing using multidose strategies for liquid cooled flip-chip power packaging"
 title_url: ""
 
 authors: "<strong>정학순</strong>, <strong>김성주</strong>, <strong>권지민</strong>"

@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Buried Electrostatic Doping Using Nonstoichiometric Silicon Nitride for Scaled N-Type MOSFET-Like CNFETs Enabling High On/Off Ratio"
+title: "Buried electrostatic doping using nonstoichiometric silicon nitride for scaled n-type MOSFET-like CNFETs enabling high on/off ratio"
 title_url: ""
 
 authors: "<strong>백승훈</strong>, <strong>정학순</strong>, <strong>신예현</strong>, <strong>음성민</strong>, <strong>권지민</strong>"

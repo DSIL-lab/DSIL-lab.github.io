@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "T-shaped Gate High Frequency Carbon Nanotube Field-Effect Transistors on Glass Substrates"
+title: "T-shaped gate high frequency carbon nanotube field-effect transistors on glass substrates"
 title_url: ""
 
 authors: "<strong>음성민</strong>, <strong>신예현</strong>, <strong>백승훈</strong>, <strong>이용우</strong>, <strong>정학순</strong>, <strong>권지민</strong>"

@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2025
 
-title: "Fabrication of RF Transmission Lines and Antenna Using EHD Inkjet Printing"
+title: "Fabrication of RF transmission lines and antenna using EHD inkjet printing"
 title_url: ""
 
 authors: "<strong>김형준</strong>, <strong>이용우</strong>, <strong>권지민</strong>"

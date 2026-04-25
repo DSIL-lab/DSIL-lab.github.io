@@ -11,5 +11,5 @@ title_url: ""
 authors: "<strong>신예현</strong>, <strong>음성민</strong>, <strong>정학순</strong>, <strong>권지민</strong>"
 
 status: published
-venue: "<em>KFPE 한국 유연인쇄 전자학회</em>"
+venue: "한국유연인쇄전자학회 (KFPE 2024 추계)"
 ---

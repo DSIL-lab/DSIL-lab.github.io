@@ -1,4 +1,4 @@
----
+﻿---
 pub-id: 1
 type:
     # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf

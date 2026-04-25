@@ -1,10 +1,10 @@
----
+﻿---
 pub-id: 33
 type:
     - domestic-conf
 year: 2025
 
-title: "Achieving Low Leakage Current in Carbon Nanotube Field-Effect Transistors Using an Extension Doping Layer"
+title: "Achieving low leakage current in carbon nanotube field-effect transistors using an extension doping layer"
 title_url: ""
 
 authors: "<strong>백승훈</strong>, <strong>음성민</strong>, <strong>신예현</strong>, <strong>정학순</strong>, <strong>권지민</strong>"

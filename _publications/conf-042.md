@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2025
 
-title: "Curved Through-Holes in 3D-Printed Fanout Organic Interposer Substrate"
+title: "Curved through-holes in 3D-printed fanout organic interposer substrate"
 title_url: ""
 
 authors: "<strong>정학순</strong>, <strong>김나현</strong>, <strong>권지민</strong>"

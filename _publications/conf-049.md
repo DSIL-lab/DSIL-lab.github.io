@@ -10,5 +10,5 @@ title_url: ""
 authors: "<strong>이용우</strong>, 정성준, <strong>권지민</strong>"
 
 status: published
-venue: "<em>KFPE 2025 (추계)</em>"
+venue: "<em>한국유연인쇄전자학회 (KFPE 2025 추계)</em>"
 ---

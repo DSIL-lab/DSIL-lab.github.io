@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Scaling Characteristics of Oxide-Based Vertical Channel Transistors for Gain-Cell Memory"
+title: "Scaling characteristics of oxide-based vertical channel transistors for gain-cell memory"
 title_url: ""
 
 authors: "<strong>구현호</strong>, <strong>정학순</strong>, <strong>박민호</strong>, <strong>이현진</strong>, <strong>이용우</strong>, <strong>권지민</strong>"

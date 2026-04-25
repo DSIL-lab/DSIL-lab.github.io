@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Fan-Out 3D-Printed Packages with Embedded Curved Through-Hole Interconnections"
+title: "Fan-out 3D-printed packages with embedded curved through-hole interconnections"
 title_url: ""
 
 authors: "<strong>정학순</strong>, <strong>권지민</strong>"

@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Electrohydrodynamic Jet‑Printed Coplanar Waveguide Transmission Lines for UCIe‑Based High‑Speed Heterogeneous Systems"
+title: "Electrohydrodynamic jet-printed coplanar waveguide transmission lines for UCIe-based high-speed heterogeneous systems"
 title_url: ""
 
 authors: "<strong>김형준</strong>, <strong>이용우</strong>, <strong>김성주</strong>, <strong>권지민</strong>"

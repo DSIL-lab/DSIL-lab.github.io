@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Understanding the Interfaces in Dimension-Limited Self-Alignment for Highly Ordered Carbon Nanotube Monolayers"
+title: "Understanding the interfaces in dimension-limited self-alignment for highly ordered carbon nanotube monolayers"
 title_url: ""
 
 authors: "<strong>신예현</strong>, <strong>음성민</strong>, <strong>정학순</strong>, <strong>백승훈</strong>, <strong>권지민</strong>"
