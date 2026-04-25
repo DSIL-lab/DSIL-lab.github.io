@@ -7,8 +7,8 @@ year: 2025
 title: "3D-printed quasi-coaxial through-hole embedded substrate for antenna-in-package applications"
 title_url: ""
 
-authors: "<strong>±è³ªÇö</strong>, <strong>Á¤ÇĞ¼ø</strong>, <strong>±ÇÁö¹Î</strong>"
+authors: "<strong>ê¹€ë‚˜í˜„</strong>, <strong>ì •í•™ìˆœ</strong>, <strong>ê¶Œì§€ë¯¼</strong>"
 
 status: published
-venue: "<em><em>ÇÑ±¹À¯¿¬ÀÎ¼âÀüÀÚÇĞÈ¸ (KFPE 2025 Ãá°è)</em>"
+venue: "<em><em>í•œêµ­ìœ ì—°ì¸ì‡„ì „ìí•™íšŒ (KFPE 2025 ì¶˜ê³„)</em>"
 ---
