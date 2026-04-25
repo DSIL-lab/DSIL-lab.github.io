@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 35
 type:
     - domestic-conf
