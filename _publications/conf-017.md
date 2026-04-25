@@ -1,11 +1,11 @@
-﻿---
+---
 pub-id: 17
 type:
     - international-conf
 
 year: 2025
 
-title: "Development of Silver EHD Jet Printing Design Rules for Reliable RF Component Fabrication"
+title: "Development of silver EHD jet printing design rules for reliable RF component fabrication"
 title_url: ""
 
 authors: "<strong>Hyeongjun Kim</strong>, <strong>Yongwoo Lee</strong>, <strong>Seongju Kim</strong>, <strong>Jimin Kwon</strong>"
