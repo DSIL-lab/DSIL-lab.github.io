@@ -1,11 +1,11 @@
----
+﻿---
 pub-id: 14
 type:
     - international-conf
 
 year: 2025
 
-title: "Reinforcement Learning–Driven Custom Liquid Micro-Channel Design for Direct Liquid Cooling in Advanced Packaging"
+title: "Reinforcement learning-driven custom liquid micro-channel design for direct liquid cooling in advanced packaging"
 title_url: ""
 
 authors: "<strong>Seongju Kim</strong>, <strong>Jimin Kwon*</strong>"

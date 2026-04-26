@@ -1,4 +1,4 @@
----
+﻿---
 pub-id: 24
 type:
     - international-conf
@@ -7,7 +7,7 @@ type:
 
 year: 2026
 
-title: "3D-Printed Coaxial-Fed Patch Antenna-Embedded Substrates for 5G Antenna-in-Package Applications"
+title: "3D-printed coaxial-fed patch antenna-embedded substrates for 5G antenna-in-package applications"
 title_url: ""
 
 authors: "<strong>Kyungsun Kim</strong> (Presenter), <strong>Nahyeon Kim</strong>, <strong>Yongwoo Lee</strong>, <strong>Haksoon Jung*</strong>, <strong>Jimin Kwon*</strong>"

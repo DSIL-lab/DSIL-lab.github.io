@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2025
 
-title: "3D-Printed Quasi-Coaxial Through-Hole Embedded Substrate for Antenna-in-Package Applications"
+title: "3D-printed quasi-coaxial through-hole embedded substrate for antenna-in-package applications"
 title_url: ""
 
 authors: "<strong>김나현</strong>, <strong>정학순</strong>, <strong>권지민</strong>"

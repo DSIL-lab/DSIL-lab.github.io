@@ -5,7 +5,7 @@ type:
 
 year: 2025
 
-title: "Radio-Frequency Carbon Nanotube Field-Effect Transistors on Glass Substrates"
+title: "Radio-frequency carbon nanotube field-effect transistors on glass substrates"
 title_url: ""
 
 authors: "<strong>Sungmin Eum</strong>, <strong>Yehyun Shin</strong>, <strong>Seunghun Baek</strong>, <strong>Yurim Choi</strong>, <strong>Kyungsun Kim</strong>, <strong>Haksoon Jung</strong>, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon</strong>"

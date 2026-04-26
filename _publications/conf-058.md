@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "3D-Printed 28-GHz Antenna-in-Package Lid Substrate Featuring 50-Ohm Quasi-Coaxial Through-Vias"
+title: "3D-printed 28-GHz antenna-in-package lid substrate featuring 50-ohm quasi-coaxial through-vias"
 title_url: ""
 
 authors: "<strong>김나현</strong>, <strong>정학순</strong>, <strong>권지민</strong>"

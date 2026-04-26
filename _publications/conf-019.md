@@ -5,7 +5,7 @@ type:
 
 year: 2025
 
-title: "Radio-Frequency Signal Transmission in Organic Mixed Ionic-Electronic Conductors"
+title: "Radio-frequency signal transmission in organic mixed ionic-electronic conductors"
 title_url: ""
 
 authors: "<strong>Yongwoo Lee</strong>, <strong>Hyeongjun Kim</strong>, <strong>Kyungsun Kim</strong>, <strong>Haksoon Jung</strong>, <strong>Seongju Kim</strong>, <strong>Yurim Choi</strong>, <strong>Sungmin Eum</strong>, <strong>Jimin Kwon*</strong>"

@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Mixed Ionic-Electronic Conductors-based Radio-Frequency Switches with Interdigitated Channel"
+title: "Mixed ionic-electronic conductors-based radio-frequency switches with interdigitated channel"
 title_url: ""
 
 authors: "<strong>이용우</strong>, <strong>김형준</strong>, <strong>김경선</strong>, <strong>정학순</strong>, <strong>최유림</strong>, <strong>음성민</strong>, <strong>권지민</strong>"

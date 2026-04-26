@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Design Rule Development of Electrohydrodynamic Jet Printing for UCIe Based High-Speed Interconnections"
+title: "Design rule development of electrohydrodynamic jet printing for UCIe based high-speed interconnections"
 title_url: ""
 
 authors: "<strong>김형준</strong>, <strong>이용우</strong>, <strong>김성주</strong>, <strong>권지민</strong>"

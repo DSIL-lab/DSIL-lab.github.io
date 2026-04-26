@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2026
 
-title: "Study of Substrate-Dependent Signal Integrity in Chiplet Systems"
+title: "Study of substrate-dependent signal integrity in chiplet systems"
 title_url: ""
 
 authors: "<strong>최유림</strong>, <strong>이용우</strong>, <strong>정학순</strong>, <strong>권지민</strong>"

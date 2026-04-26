@@ -1,11 +1,11 @@
----
+﻿---
 pub-id: 18
 type:
     - international-conf
 
 year: 2025
 
-title: "3D-Printed Organic Interposer with Embedded Fan-Out Interconnects Enabled by Additive Manufacturing"
+title: "3D-printed organic interposer with embedded fan-out interconnects enabled by additive manufacturing"
 title_url: ""
 
 authors: "<strong>정학순</strong>, <strong>권지민</strong>"
