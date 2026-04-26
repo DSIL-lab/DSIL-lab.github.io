@@ -4,7 +4,7 @@ type:
     - domestic-conf
 year: 2025
 
-title: "High-Speed Mixed Ionic-Electronic Active Devices for Bio- and RF Signal Processing"
+title: "High-speed mixed ionic-electronic active devices for bio- and RF signal processing"
 title_url: ""
 
 authors: "<strong>이용우</strong>, 정성준, <strong>권지민</strong>"
