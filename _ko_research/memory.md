@@ -9,7 +9,7 @@ summary: |-
 
 ### Development of Oxide Semiconductor–Based Vertical Channel Transistor Device 
 
-산화물 반도체 기반 수직채널 트랜지스터(Vertical Channel Transistor, VCT)의 성능을 향상시키기 위한 최적 공정 통합(process integration) 전략을 개발하고 검증합니다. 최근에는, VCT 제작 과정에서 발생하는 문제를 해결하기 위해 새로운 공정 방식을 도입한 연구를 수행하였습니다. [link](https://ieeexplore.ieee.org/abstract/document/11381590) 또한 TCAD 기반 소자 모델링을 활용하여 공정 변수들이 소자 특성에 미치는 영향을 정량적으로 파라미터화하고, 이를 통해 공정 조건과 소자 성능 간의 상관관계를 체계적으로 분석합니다. TCAD를 기반으로 다양한 공정 조건과 소자 구조를 체계적으로 탐색하고 검증하며, 이를 바탕으로 새롭고 진보적인 VCT 구조를 제안합니다. 또한 TCAD 시뮬레이션을 통해 실험적으로 직접 관측하기 어려운 전기 퍼텐셜, 전기장, 전류 밀도의 위치 의존적 분포를 분석하여, 소자 내부의 물리적 동작 메커니즘을 정밀하게 규명합니다.
+산화물 반도체 기반 수직채널 트랜지스터(Vertical Channel Transistor, VCT)의 성능을 향상시키기 위한 최적 공정 통합(process integration) 전략을 개발하고 검증합니다. 최근에는, VCT 제작 과정에서 발생하는 문제를 해결하기 위해 새로운 공정 방식을 도입한 연구를 수행하였습니다. ([link](https://ieeexplore.ieee.org/abstract/document/11381590)) 또한 TCAD 기반 소자 모델링을 활용하여 공정 변수들이 소자 특성에 미치는 영향을 정량적으로 파라미터화하고, 이를 통해 공정 조건과 소자 성능 간의 상관관계를 체계적으로 분석합니다. TCAD를 기반으로 다양한 공정 조건과 소자 구조를 체계적으로 탐색하고 검증하며, 이를 바탕으로 새롭고 진보적인 VCT 구조를 제안합니다. 또한 TCAD 시뮬레이션을 통해 실험적으로 직접 관측하기 어려운 전기 퍼텐셜, 전기장, 전류 밀도의 위치 의존적 분포를 분석하여, 소자 내부의 물리적 동작 메커니즘을 정밀하게 규명합니다.
 
 ![](/assets/img/research/memory-0.png)
 
