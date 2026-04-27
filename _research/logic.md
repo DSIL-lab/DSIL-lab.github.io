@@ -1,5 +1,5 @@
 ---
-title: Logic TEAM
+title: Logic
 order: 3
 slug: logic
 summary: |-
@@ -10,7 +10,7 @@ summary: |-
 As silicon field-effect transistors approach their fundamental downscaling limits, maintaining performance gains through conventional scaling has become increasingly challenging. To address these limitations, advanced device architectures—such as gate-all-around (GAA) FETs, complementary FETs (CFETs), and FlipFETs—along with emerging low-dimensional channel materials, are being actively explored for next-generation logic. 
 Low-dimensional materials, including **two-dimensional transition metal dichalcogenides (TMDs)** and **one-dimensional carbon nanotubes (CNTs)**, are particularly attractive due to their excellent electrical properties at scaled dimensions and their compatibility with low-temperature, BEOL-compatible processes. These characteristics make them promising candidates for monolithic 3D integration. enabling sequential device stacking and vertical integration.
 
-## Two-dimensional transition metal dichalcogenides (TM
+## Two-dimensional transition metal dichalcogenides (TMDs)
 
 ### Single-crystalline 2D channel
 

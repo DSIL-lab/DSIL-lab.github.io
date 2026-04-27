@@ -1,5 +1,5 @@
 ---
-title: Logic TEAM
+title: Logic
 order: 3
 slug: logic
 summary: |-
