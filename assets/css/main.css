@@ -126,12 +126,12 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap:6px;
   white-space: nowrap;
 }
 
 .nav-logo-img {
-  height: 34px;
+  height: 60px;
   width: auto;
   display: block;
 }

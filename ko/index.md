@@ -4,7 +4,7 @@ title: 홈
 permalink: /ko/
 ---
 
-{% assign hero_image = "/assets/img/home-image.png" %}
+{% assign hero_image = "/assets/img/home-image.jpg" %}
 {% capture hero_content_markdown %}{% include_relative home-content.md %}{% endcapture %}
 
 {% assign home_news_limit = 2 %}
