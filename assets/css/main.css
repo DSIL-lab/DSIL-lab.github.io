@@ -126,12 +126,12 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap:6px;
   white-space: nowrap;
 }
 
 .nav-logo-img {
-  height: 34px;
+  height: 60px;
   width: auto;
   display: block;
 }
@@ -784,29 +784,40 @@ body {
 /* --------------------------------------------------- */
 .research-wrap {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 1fr;
   gap: var(--space-4);
   align-items: start;
 }
 
-.research-list > ul {
+.research-team-group {
+  margin-bottom: var(--space-2);
+}
+
+.research-team-title {
+  margin: 0 0 var(--space-1);
+  font-family: Arial, sans-serif;
+  color: var(--text);
+}
+
+.research-team-group > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .research-link {
   display: block;
   width: 100%;
   text-align: left;
-  border: none;
-  background: transparent;
-  padding: 12px 0px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  padding: 12px 14px;
   cursor: pointer;
-  color: var(--nav-accent);
+  color: var(--text);
   font-weight: 700;
   text-decoration: none;
 }
@@ -816,13 +827,33 @@ body {
 }
 
 .research-link-summary {
-  display: none;
+  display: block;
+  margin-top: 6px;
+  color: var(--text);
+  font-size: var(--small);
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .research-link.is-active {
-  color: var(--text);
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
+  border-color: var(--nav-accent);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.research-link-summary p {
+  margin: 0 0 6px 0;
+}
+
+.research-link-summary p:last-child {
+  margin-bottom: 0;
+}
+
+.research-link-summary ul,
+.research-link-summary ol {
+  list-style: disc;
+  margin: 0 0 6px 18px;
+  padding: 0;
 }
 
 .research-detail {
@@ -853,7 +884,7 @@ body {
 }
 
 .research-back {
-  display: none;  /* mobile only */
+  display: none;
   margin-bottom: var(--space-2);
   color: var(--nav-accent);
   text-decoration: none;
@@ -864,9 +895,9 @@ body {
   text-decoration: underline;
 }
 
-/* Mobile bottom nav: hidden on PC */
 .research-mobile-nav {
   display: none;
+  justify-content: space-between;
   margin-top: var(--space-3);
   gap: var(--space-2);
 }
@@ -886,6 +917,33 @@ body {
   opacity: 0.45;
   pointer-events: none;
 }
+
+/* Unified behavior for desktop/mobile:
+   list view => cards only, detail view => article only */
+body.research-list-view .research-list {
+  display: block;
+}
+
+body.research-list-view .research-detail {
+  display: none;
+}
+
+body.research-detail-view .research-list {
+  display: none;
+}
+
+body.research-detail-view .research-detail {
+  display: block;
+}
+
+body.research-detail-view .research-back {
+  display: inline-block;
+}
+
+body.research-detail-view .research-mobile-nav {
+  display: flex;
+}
+
 
 /* --------------------------------------------------- */
 /* Publications                                        */
@@ -1234,6 +1292,92 @@ body {
   display: block;
 }
 
+.home-slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.home-slider-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.home-slider-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.home-slider .home-hero-image {
+  height: auto;
+  min-height: unset;
+}
+
+.home-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.35);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  z-index: 2;
+  transition: background 0.2s;
+}
+
+.home-slider-btn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.home-slider-prev {
+  left: 10px;
+}
+
+.home-slider-next {
+  right: 10px;
+}
+
+.home-slider-btn .material-icons {
+  font-size: 20px;
+  line-height: 1;
+  user-select: none;
+}
+
+.home-slider-prev .material-icons {
+  margin-right: -3px;
+}
+
+.home-slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.home-slider-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.55);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.home-slider-dot.is-active {
+  background: #fff;
+}
+
 .home-hero-content {
   padding: 0;
 }
@@ -1535,7 +1679,8 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: calc(20px + env(safe-area-inset-top, 0px)) calc(20px + env(safe-area-inset-right, 0px))
+    calc(20px + env(safe-area-inset-bottom, 0px)) calc(20px + env(safe-area-inset-left, 0px));
   z-index: 1200;
 }
 
@@ -1551,10 +1696,12 @@ body {
 
 .home-recruit-dialog {
   position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 1120px;
   width: 100%;
   max-height: min(90vh, 980px);
-  overflow-y: auto;
+  overflow: hidden;
   padding: 0;
   border-radius: 16px;
   background: var(--bg);
@@ -1565,6 +1712,7 @@ body {
 .home-recruit-topbar {
   position: sticky;
   top: 0;
+  flex: 0 0 auto;
   z-index: 6;
   margin: 0;
   padding: 18px 52px 14px 20px;
@@ -1573,6 +1721,10 @@ body {
 }
 
 .home-recruit-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 14px 20px 10px;
 }
 
@@ -1653,8 +1805,8 @@ body {
 }
 
 .home-recruit-cta-wrap {
-  position: sticky;
-  bottom: 0;
+  position: relative;
+  flex: 0 0 auto;
   z-index: 6;
   display: flex;
   align-items: center;
@@ -1836,7 +1988,13 @@ body {
     grid-auto-columns: minmax(250px, 72vw);
   }
 
+  .home-recruit-modal {
+    padding: calc(18px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px))
+      calc(24px + env(safe-area-inset-bottom, 0px)) calc(12px + env(safe-area-inset-left, 0px));
+  }
+
   .home-recruit-dialog {
+    max-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 42px);
     padding: 0;
   }
 
@@ -1920,6 +2078,10 @@ body {
     top: calc(100% + 10px);
     right: 0;
     min-width: 200px;
+    max-height: calc(100dvh - 88px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
     z-index: 1000;
 
     background: var(--nav-top-bg);
@@ -2046,88 +2208,6 @@ body {
 
   .footer-lab {
     white-space: normal;
-  }
-}
-
-@media (max-width: 900px) {
-  .research-wrap {
-    grid-template-columns: 1fr;
-  }
-
-  .research-list ul {
-    gap: 10px;
-  }
-
-  .research-link {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--bg);
-    padding: 12px 14px;
-  }
-
-  .research-link.is-active {
-    border-color: var(--nav-accent);
-    text-decoration: none;
-    box-shadow: var(--shadow);
-  }
-
-  .research-link-summary {
-    display: block;
-    margin-top: 6px;
-    color: var(--text);
-    font-size: var(--small);
-    font-weight: 400;
-    line-height: 1.5;
-  }
-
-  .research-link-summary p {
-    margin: 0 0 6px 0;
-  }
-
-  .research-link-summary p:last-child {
-    margin-bottom: 0;
-  }
-
-  .research-link-summary ul,
-  .research-link-summary ol {
-    list-style: disc;
-    margin: 0 0 6px 18px;
-    padding: 0;
-  }
-
-  /* Default mobile: list only */
-  body.research-list-view .research-detail {
-    display: none;
-  }
-
-  body.research-list-view .research-list {
-    display: block;
-  }
-
-  /* When hash present: detail only */
-  body.research-detail-view .research-list {
-    display: none;
-  }
-
-  body.research-detail-view .research-detail {
-    display: block;
-  }
-
-  /* Back link visible in detail mode */
-  body.research-detail-view .research-back {
-    display: inline-block;
-  }
-
-  /* Prev/Next visible only in detail mode */
-  body.research-detail-view + .research-mobile-nav,
-  body.research-detail-view .research-mobile-nav {
-    display: flex;
-  }
-
-  /* Because nav is outside wrap, explicitly show it */
-  body.research-detail-view ~ .research-mobile-nav {
-    display: flex;
-    justify-content: space-between;
   }
 }
 

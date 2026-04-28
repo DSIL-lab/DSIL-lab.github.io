@@ -23,8 +23,10 @@ research:
       - "Gate-all-around VC OS FET"
       - "Reliability analysis VC OS FET for DRAM"
 
-# Optional
 email: hjlee0706@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

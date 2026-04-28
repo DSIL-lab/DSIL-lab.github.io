@@ -440,14 +440,55 @@ function renderResearch(research) {
 
 function renderLinks(m) {
   var parts = [];
-  if (m.scholar) {
-    parts.push('<a href="' + escapeHtml(m.scholar) + '" target="_blank" rel="noopener">Google Scholar</a>');
+  var seen = {};
+
+  function addLink(label, url) {
+    var l = String(label || "").trim();
+    var u = String(url || "").trim();
+    if (!l || !u) return;
+
+    var key = l + "|" + u;
+    if (seen[key]) return;
+    seen[key] = true;
+
+    parts.push('<a href="' + escapeHtml(u) + '" target="_blank" rel="noopener">' + escapeHtml(l) + "</a>");
   }
-  if (m.linkedin) {
-    parts.push('<a href="' + escapeHtml(m.linkedin) + '" target="_blank" rel="noopener">LinkedIn</a>');
+
+  if (m.scholar) addLink("Google Scholar", m.scholar);
+  if (m.linkedin) addLink("LinkedIn", m.linkedin);
+
+  if (m.links) {
+    if (Array.isArray(m.links)) {
+      for (var i = 0; i < m.links.length; i++) {
+        var item = m.links[i];
+        if (!item || typeof item !== "object") continue;
+
+        if (item.label && item.url) {
+          addLink(item.label, item.url);
+          continue;
+        }
+
+        for (var key in item) {
+          if (Object.prototype.hasOwnProperty.call(item, key)) {
+            addLink(key, item[key]);
+          }
+        }
+      }
+    } else if (typeof m.links === "object") {
+      for (var name in m.links) {
+        if (Object.prototype.hasOwnProperty.call(m.links, name)) {
+          addLink(name, m.links[name]);
+        }
+      }
+    }
   }
+
   if (parts.length === 0) return "";
   return '<div class="contact-links">' + parts.join(" ") + "</div>";
+}
+
+function hasContactLinks(m) {
+  return renderLinks(m) !== "";
 }
 
 function renderPiExtras(m) {
@@ -465,7 +506,7 @@ function renderPiExtras(m) {
     html += "</ul>";
   }
 
-  if (m.email || m.scholar || m.linkedin) {
+  if (m.email || hasContactLinks(m)) {
     html += "<h2>Contact</h2>";
     if (m.email) html += '<p class="contact-email">' + escapeHtml(m.email) + "</p>";
     html += renderLinks(m);
@@ -522,7 +563,7 @@ function showMember(btn) {
     html += renderList("Education", education, "", true);
     html += renderResearch(research);
 
-    if (m.email || m.scholar || m.linkedin) {
+    if (m.email || hasContactLinks(m)) {
       html += "<h2>Contact</h2>";
       if (m.email) html += '<p class="contact-email">' + escapeHtml(m.email) + "</p>";
       html += renderLinks(m);

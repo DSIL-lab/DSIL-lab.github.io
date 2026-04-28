@@ -23,8 +23,10 @@ research:
       - "Channel-all-around VC OS FET"
       - "M3D eDRAM array fabrication"
 
-# Optional
 email: hyeonho97@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

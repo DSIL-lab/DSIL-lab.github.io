@@ -1,13 +1,18 @@
 ---
 title: Advanced Packaging
-order: 0
+order: 1
 slug: advanced-packaging
+team: CP
 summary: |-
     - Advanced Packaging Technologies for High-Speed Interconnections
 ---
 
 ### Advanced Packaging Technologies for High-Speed Interconnections
 
-This project aims to develop and provide solutions for advanced packaging technologies that enable high-speed and highly reliable signal transmission in next-generation semiconductor systems by comprehensively considering electrical, mechanical, and thermal characteristics.Recent semiconductor packaging technologies face complex technical challenges such as achieving high-density I/O connections, efficient heat dissipation, and maintaining signal integrity in multi-layer structures.Our research group addresses these issues by employing an electrical and thermal simulation-based design approach to predict and optimize phenomena such as signal interference, impedance discontinuities, and localized thermal hotspots.Based on these analyses, we systematically research and develop core packaging technologies, including via filling, bump growth, single- and multi-layer RDL (Redistribution Layer) fabrication, and chip bonding techniques.
+This project aims to develop advanced packaging solutions that comprehensively integrate electrical, mechanical, and thermal characteristics to enable high-speed and high-reliability signal transmission in chiplet-based heterogeneous integration and next-generation semiconductor systems.
+
+Current packaging technologies are confronting multifaceted challenges, such as high-density I/O interconnects for ultra-fast inter-chiplet data transfer, efficient thermal management, and the maintenance of signal integrity in multilayered architectures. To overcome these hurdles, our laboratory employs design methodologies rooted in electrical and thermal simulations, allowing for the proactive prediction and optimization of signal interference, impedance mismatch, and thermal hotspots.
+
+Building on this foundation, we are systematically advancing core component technologies for seamless chiplet integration, including via filling, bump growth, single/multilayer RDL (Redistribution Layer) fabrication, and advanced chip bonding techniques.
 
 ![](/assets/img/research/advanced-packaging.png)

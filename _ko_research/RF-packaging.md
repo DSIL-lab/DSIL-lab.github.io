@@ -1,7 +1,8 @@
 ---
 title: RF Packaging
-order: 2
+order: 3
 slug: RF-packaging
+team: CP
 summary: |-
     - RF Packaging for Broadband and Advanced Computing Systems
     - Quantum Packaging for Cryogenic Quantum Computing Systems

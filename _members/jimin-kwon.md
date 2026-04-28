@@ -31,8 +31,9 @@ education:
   - "M.S., Division of IT Convergence Engineering, <strong>POSTECH</strong> (Mar 2012 – Feb 2014)"
   - "B.S., Department of Electrical Engineering, <strong>POSTECH</strong> (Mar 2007 – Feb 2012)"
 
-# Optional
 email: jmkwon@kaist.ac.kr
-scholar: "https://scholar.google.com/citations?user=9cwB6lUAAAAJ"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+links:
+  - Google Scholar: "https://scholar.google.com/citations?user=9cwB6lUAAAAJ"
 ---

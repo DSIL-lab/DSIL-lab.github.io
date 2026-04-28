@@ -27,8 +27,10 @@ research:
       - "Gate-all-around VC OS FET"
       - "Channel-all-around VC OS FET"
 
-# Optional
 email: ymjo@kaist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+links:
+  - Google Scholar: "https://scholar.google.co.kr/citations?user=weUMRPUAAAAJ"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

@@ -1,7 +1,8 @@
 ---
 title: Memory
-order: 4
+order: 2
 slug: memory
+team: TD
 summary: |-
     - Vertical Channel Transistor Development for eDRAM
     - Reliability Analysis from Device to Memory Level
