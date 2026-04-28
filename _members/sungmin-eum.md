@@ -21,8 +21,10 @@ research:
       - "CNT-based MMIC/RFPA design"
       - "3D CNFET benchmark circuit design and fabrication"
 
-# Optional
 email: esm98@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

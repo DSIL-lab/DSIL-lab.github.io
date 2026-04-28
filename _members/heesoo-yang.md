@@ -3,7 +3,7 @@ order: 13
 id: heesoo-yang
 name: Heesoo Yang
 group: students     # pi / students / alumni
-role: Server manager, DB Team
+role: IT system manager, DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/양희수.jpg
@@ -26,6 +26,10 @@ research:
 
 # Optional
 email: kristron@unist.ac.kr
-# scholar: "https://scholar.google.com/citations?user=XXXX"
-linkedin: "https://www.linkedin.com/in/heesoo-yang-en"
+
+links:
+  # - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+  - CV: "https://number-of-sheep.github.io/"
+  - LinkedIn: "https://www.linkedin.com/in/heesoo-yang-en"
+  - GitHub: "https://github.com/number-of-sheep"
 ---

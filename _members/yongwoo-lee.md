@@ -33,6 +33,8 @@ research:
 
 # Optional
 email: ywlee96@kaist.ac.kr
-scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+links:
+  - Google Scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
 ---

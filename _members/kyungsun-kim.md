@@ -21,8 +21,10 @@ research:
       - "Glass interposer and Chiplet"
       - "EMC/EMI design for chiplet interposer substrates"
 
-# Optional
 email: kskim99@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

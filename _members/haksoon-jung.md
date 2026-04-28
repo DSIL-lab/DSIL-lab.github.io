@@ -34,8 +34,11 @@ research:
       - "High-purity semi-CNT dispersion and alignment"
       - "Defect engineering of 2D TMD materials"
 
-# Optional
 email: hsjung71@kaist.ac.kr
-scholar: "https://scholar.google.com/citations?user=Vg3lEr4AAAAJ"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+
+# Optional
+links:
+  - Google Scholar: "https://scholar.google.com/citations?user=Vg3lEr4AAAAJ"
 ---

@@ -25,8 +25,10 @@ research:
       - "TCAD-based CNFET logic design"
       - "3D CNFET standard cell logic library and benchmark circuit fabrication"
 
-# Optional
 email: sh.baek@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---
