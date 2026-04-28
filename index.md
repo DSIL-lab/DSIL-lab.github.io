@@ -5,11 +5,12 @@ title: Home
 
 <!--
 	HOME HERO SETTINGS
-	- hero_image: Update this path to change the left-side image.
+	- Slider images live in: assets/img/home/
 	- All right-side text (including headings) lives in: home-content.md
 -->
-{% assign hero_image = "/assets/img/home-image.jpg" %}
 {% capture hero_content_markdown %}{% include_relative home-content.md %}{% endcapture %}
+{% assign _home_all = site.static_files | where_exp: "f", "f.path contains '/assets/img/home/'" %}
+{% assign home_slides = _home_all | where_exp: "f", "f.extname != '.md'" | sort: "name" | reverse %}
 
 <!--
 	NEWS SETTINGS
@@ -25,7 +26,22 @@ title: Home
 
 <section class="home-hero" aria-label="Lab introduction">
 	<div class="home-hero-media">
-		<img src="{{ hero_image | relative_url }}" alt="Lab hero image" class="home-hero-image">
+		<div class="home-slider" id="home-slider">
+			<div class="home-slider-track" id="home-slider-track">
+				{% for slide in home_slides %}
+				<div class="home-slider-slide">
+					<img src="{{ slide.path | relative_url }}" alt="{{ slide.basename }}" class="home-hero-image">
+				</div>
+				{% endfor %}
+			</div>
+			<button class="home-slider-btn home-slider-prev" id="home-slider-prev" aria-label="Previous image">
+				<span class="material-icons">arrow_back_ios</span>
+			</button>
+			<button class="home-slider-btn home-slider-next" id="home-slider-next" aria-label="Next image">
+				<span class="material-icons">arrow_forward_ios</span>
+			</button>
+			<div class="home-slider-dots" id="home-slider-dots" aria-hidden="true"></div>
+		</div>
 	</div>
 
 	<div class="home-hero-content">
@@ -227,6 +243,48 @@ document.addEventListener("DOMContentLoaded", function() {
 	window.addEventListener("resize", layoutHomeIntro);
 	window.addEventListener("load", layoutHomeIntro);
 	layoutHomeIntro();
+
+	// Home image slider
+	var sliderTrack = document.getElementById("home-slider-track");
+	var sliderPrev  = document.getElementById("home-slider-prev");
+	var sliderNext  = document.getElementById("home-slider-next");
+	var dotsContainer = document.getElementById("home-slider-dots");
+	if (sliderTrack && dotsContainer) {
+		var slides = sliderTrack.querySelectorAll(".home-slider-slide");
+		// Sort slides by year + season (most recent first)
+		var _seasonNum = { spring: 1, summer: 2, fall: 3, winter: 4 };
+		function _slideKey(slide) {
+			var src = (slide.querySelector("img") || {}).getAttribute ? slide.querySelector("img").getAttribute("src") : "";
+			var base = src.split("/").pop().replace(/\.[^.]+$/, "");
+			var m = base.match(/^(\d+)-(spring|summer|fall|winter)/i);
+			if (!m) return 0;
+			return parseInt(m[1], 10) * 10 + (_seasonNum[m[2].toLowerCase()] || 0);
+		}
+		var _arr = Array.prototype.slice.call(slides);
+		_arr.sort(function(a, b) { return _slideKey(b) - _slideKey(a); });
+		_arr.forEach(function(s) { sliderTrack.appendChild(s); });
+		slides = sliderTrack.querySelectorAll(".home-slider-slide");
+		var currentSlide = 0;
+		function goToSlide(n) {
+			currentSlide = (n + slides.length) % slides.length;
+			sliderTrack.style.transform = "translateX(-" + (currentSlide * 100) + "%)";
+			var dots = dotsContainer.querySelectorAll(".home-slider-dot");
+			for (var di = 0; di < dots.length; di++) {
+				dots[di].classList.toggle("is-active", di === currentSlide);
+			}
+		}
+		if (sliderPrev) sliderPrev.addEventListener("click", function() { goToSlide(currentSlide - 1); });
+		if (sliderNext) sliderNext.addEventListener("click", function() { goToSlide(currentSlide + 1); });
+		for (var si = 0; si < slides.length; si++) {
+			(function(idx) {
+				var dot = document.createElement("button");
+				dot.className = "home-slider-dot" + (idx === 0 ? " is-active" : "");
+				dot.setAttribute("aria-label", "Go to slide " + (idx + 1));
+				dot.addEventListener("click", function() { goToSlide(idx); });
+				dotsContainer.appendChild(dot);
+			})(si);
+		}
+	}
 
   var modal = document.getElementById("home-recruit-modal");
   var closeBtn = document.getElementById("home-recruit-close");
