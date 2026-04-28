@@ -2064,6 +2064,10 @@ body.research-detail-view .research-mobile-nav {
     top: calc(100% + 10px);
     right: 0;
     min-width: 200px;
+    max-height: calc(100dvh - 88px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
     z-index: 1000;
 
     background: var(--nav-top-bg);
