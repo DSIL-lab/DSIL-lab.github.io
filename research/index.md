@@ -4,42 +4,54 @@ title: Research
 ---
 
 {% assign projects = site.research | sort: "order" %}
+{% assign team_order = "TD|DB|CP" | split: "|" %}
 
 <div class="research-wrap">
 
   <!-- Left list -->
   <aside class="research-list" id="research-list">
-    <ul>
-        {% for p in projects %}
-        {% assign slug = p.slug | default: p.id | split: '/' | last %}
-        {% assign p_summary = p.summary | to_s | strip %}
-          <li>
-              <a class="research-link" href="#{{ slug }}" data-slug="{{ slug }}">
-                <span class="research-link-title">{{ p.title }}</span>
-                {% if p_summary != '' %}
-                  <div class="research-link-summary">{{ p_summary | markdownify }}</div>
-                {% endif %}
-              </a>
-          </li>
-        {% endfor %}
-    </ul>
+    {% for team in team_order %}
+      {% assign team_items = projects | where: "team", team %}
+      {% if team_items.size > 0 %}
+        <section class="research-team-group">
+          <h3 class="research-team-title">{{ team }} Team</h3>
+          <ul>
+            {% for p in team_items %}
+              {% assign slug = p.slug | default: p.id | split: '/' | last %}
+              {% assign p_summary = p.summary | to_s | strip %}
+              <li>
+                <a class="research-link" href="#{{ slug }}" data-slug="{{ slug }}">
+                  <span class="research-link-title">{{ p.title }}</span>
+                  {% if p_summary != '' %}
+                    <div class="research-link-summary">{{ p_summary | markdownify }}</div>
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    {% endfor %}
+
   </aside>
 
   <!-- Right content -->
   <div class="research-detail" id="research-detail">
-    <!-- Back to list (mobile only) -->
     <a href="#" class="research-back" id="research-back">◀ Back to list</a>
 
-    {% for p in projects %}
-      {% assign slug = p.slug | default: p.id | split: '/' | last %}
-      <article class="research-article article-page" id="r-{{ slug }}" data-title="{{ p.title | strip_html }}">
-          <header class="article-header">
-            <h1 class="article-title">{{ p.title }}</h1>
-          </header>
-          <div class="article-body research-body">
-            {{ p.content }}
-          </div>
-      </article>
+    {% for team in team_order %}
+      {% assign team_items = projects | where: "team", team %}
+      {% for p in team_items %}
+        {% assign slug = p.slug | default: p.id | split: '/' | last %}
+        <article class="research-article article-page" id="r-{{ slug }}" data-title="{{ p.title | strip_html }}">
+            <header class="article-header">
+              <h1 class="article-title">{{ p.title }}</h1>
+            </header>
+            <div class="article-body research-body">
+              {{ p.content }}
+            </div>
+        </article>
+      {% endfor %}
     {% endfor %}
   </div>
 
@@ -124,7 +136,9 @@ function showBySlug(slug) {
   hideAllArticles();
 
   var active = document.getElementById("r-" + slug);
-  if (active) active.style.display = "block";
+  if (active) {
+    active.style.display = "block";
+  }
 
   setActiveLink(slug);
   updatePrevNext(slug);
@@ -146,14 +160,8 @@ function buildOrderFromLinks() {
 }
 
 function goToList() {
-  // Remove hash -> list view on mobile, keep PC layout
   history.pushState(null, "", location.pathname);
-  setViewModeForMobile();
-  // On PC we still want a visible article; pick first
-  if (!getSlugFromHash() && researchOrder.length > 0) {
-    showBySlug(researchOrder[0]);
-    setActiveLink(researchOrder[0]);
-  }
+  syncFromHash();
 }
 
 function syncFromHash() {
@@ -163,8 +171,9 @@ function syncFromHash() {
   if (slug) {
     showBySlug(slug);
   } else {
-    // PC behavior: show first article by default
-    if (researchOrder.length > 0) showBySlug(researchOrder[0]);
+    hideAllArticles();
+    setActiveLink("");
+    updatePrevNext("");
   }
 }
 

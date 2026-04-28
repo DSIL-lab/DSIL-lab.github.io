@@ -1,7 +1,8 @@
 ---
 title: Logic
-order: 3
+order: 1
 slug: logic
+team: TD
 summary: |-
     - Two-dimensional transition metal dichalcogenides (TMDs)
     - One-dimensional carbon nanotubes (CNTs)

@@ -1,7 +1,8 @@
 ---
 title: Advanced Packaging
-order: 0
+order: 1
 slug: advanced-packaging
+team: CP
 summary: |-
     - Advanced Packaging Technologies for High-Speed Interconnections
 ---

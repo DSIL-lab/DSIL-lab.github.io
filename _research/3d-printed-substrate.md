@@ -1,7 +1,8 @@
 ---
 title: 3D Printed Substrate
-order: 1
+order: 2
 slug: 3d-printed-substrate
+team: CP
 summary: |-
     - Curved Through Hole Interposers for Advanced Packaging
     - Integrated RF Components Embedded 3D-Printed Lid Substrate

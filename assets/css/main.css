@@ -784,29 +784,40 @@ body {
 /* --------------------------------------------------- */
 .research-wrap {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 1fr;
   gap: var(--space-4);
   align-items: start;
 }
 
-.research-list > ul {
+.research-team-group {
+  margin-bottom: var(--space-2);
+}
+
+.research-team-title {
+  margin: 0 0 var(--space-1);
+  font-family: Arial, sans-serif;
+  color: var(--text);
+}
+
+.research-team-group > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .research-link {
   display: block;
   width: 100%;
   text-align: left;
-  border: none;
-  background: transparent;
-  padding: 12px 0px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  padding: 12px 14px;
   cursor: pointer;
-  color: var(--nav-accent);
+  color: var(--text);
   font-weight: 700;
   text-decoration: none;
 }
@@ -816,13 +827,33 @@ body {
 }
 
 .research-link-summary {
-  display: none;
+  display: block;
+  margin-top: 6px;
+  color: var(--text);
+  font-size: var(--small);
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .research-link.is-active {
-  color: var(--text);
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
+  border-color: var(--nav-accent);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.research-link-summary p {
+  margin: 0 0 6px 0;
+}
+
+.research-link-summary p:last-child {
+  margin-bottom: 0;
+}
+
+.research-link-summary ul,
+.research-link-summary ol {
+  list-style: disc;
+  margin: 0 0 6px 18px;
+  padding: 0;
 }
 
 .research-detail {
@@ -853,7 +884,7 @@ body {
 }
 
 .research-back {
-  display: none;  /* mobile only */
+  display: none;
   margin-bottom: var(--space-2);
   color: var(--nav-accent);
   text-decoration: none;
@@ -864,9 +895,9 @@ body {
   text-decoration: underline;
 }
 
-/* Mobile bottom nav: hidden on PC */
 .research-mobile-nav {
   display: none;
+  justify-content: space-between;
   margin-top: var(--space-3);
   gap: var(--space-2);
 }
@@ -886,6 +917,33 @@ body {
   opacity: 0.45;
   pointer-events: none;
 }
+
+/* Unified behavior for desktop/mobile:
+   list view => cards only, detail view => article only */
+body.research-list-view .research-list {
+  display: block;
+}
+
+body.research-list-view .research-detail {
+  display: none;
+}
+
+body.research-detail-view .research-list {
+  display: none;
+}
+
+body.research-detail-view .research-detail {
+  display: block;
+}
+
+body.research-detail-view .research-back {
+  display: inline-block;
+}
+
+body.research-detail-view .research-mobile-nav {
+  display: flex;
+}
+
 
 /* --------------------------------------------------- */
 /* Publications                                        */
@@ -2046,88 +2104,6 @@ body {
 
   .footer-lab {
     white-space: normal;
-  }
-}
-
-@media (max-width: 900px) {
-  .research-wrap {
-    grid-template-columns: 1fr;
-  }
-
-  .research-list ul {
-    gap: 10px;
-  }
-
-  .research-link {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--bg);
-    padding: 12px 14px;
-  }
-
-  .research-link.is-active {
-    border-color: var(--nav-accent);
-    text-decoration: none;
-    box-shadow: var(--shadow);
-  }
-
-  .research-link-summary {
-    display: block;
-    margin-top: 6px;
-    color: var(--text);
-    font-size: var(--small);
-    font-weight: 400;
-    line-height: 1.5;
-  }
-
-  .research-link-summary p {
-    margin: 0 0 6px 0;
-  }
-
-  .research-link-summary p:last-child {
-    margin-bottom: 0;
-  }
-
-  .research-link-summary ul,
-  .research-link-summary ol {
-    list-style: disc;
-    margin: 0 0 6px 18px;
-    padding: 0;
-  }
-
-  /* Default mobile: list only */
-  body.research-list-view .research-detail {
-    display: none;
-  }
-
-  body.research-list-view .research-list {
-    display: block;
-  }
-
-  /* When hash present: detail only */
-  body.research-detail-view .research-list {
-    display: none;
-  }
-
-  body.research-detail-view .research-detail {
-    display: block;
-  }
-
-  /* Back link visible in detail mode */
-  body.research-detail-view .research-back {
-    display: inline-block;
-  }
-
-  /* Prev/Next visible only in detail mode */
-  body.research-detail-view + .research-mobile-nav,
-  body.research-detail-view .research-mobile-nav {
-    display: flex;
-  }
-
-  /* Because nav is outside wrap, explicitly show it */
-  body.research-detail-view ~ .research-mobile-nav {
-    display: flex;
-    justify-content: space-between;
   }
 }
 
