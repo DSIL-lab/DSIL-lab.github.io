@@ -20,8 +20,10 @@ research:
       - "FET parameterized cell (PCell)"
       - "Standard cell logic library generation"
 
-# Optional
 email: djwi@unist.ac.kr
-# scholar: "https://scholar.google.co.kr/citations?user=7OXmRs8AAAAJ&hl=ko"
-# linkedin: "https://www.linkedin.com/in/XXXX"
+
+# Optional
+# links:
+#   - Google Scholar: "https://scholar.google.com/citations?user=XXXX"
+#   - LinkedIn: "https://www.linkedin.com/in/xxxxx"
 ---

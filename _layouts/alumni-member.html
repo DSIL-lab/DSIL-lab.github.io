@@ -1,0 +1,115 @@
+---
+layout: default
+---
+<article class="alumni-profile">
+  <section class="alumni-hero">
+    {% if page.profile or page.photo %}
+      <img
+        src="{{ page.profile | default: page.photo | relative_url }}"
+        alt="{{ page.name }}"
+        class="alumni-hero-photo"
+      >
+    {% endif %}
+
+    <div class="alumni-hero-main">
+      <h1 class="alumni-hero-name">{{ page.name }}</h1>
+
+      {% if page.lab_period %}
+        <p class="alumni-hero-period">{{ page.lab_period }}</p>
+      {% endif %}
+
+      {% if page.lab_roles and page.lab_roles.size > 0 %}
+        <ul class="alumni-hero-roles">
+          {% for role in page.lab_roles %}
+            <li>{{ role }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if page.current_affiliation %}
+        <p class="alumni-hero-current-line"><strong>Current:</strong> {{ page.current_affiliation }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="alumni-body">
+    {% if page.bio and page.bio != "" and page.alumni_type == "regular" %}
+      <section class="alumni-section">
+        <h2>BIO</h2>
+        <p>{{ page.bio }}</p>
+      </section>
+    {% endif %}
+
+    {% if page.career and page.career.size > 0 %}
+      <section class="alumni-section">
+        <h2>Career</h2>
+        <ul>
+          {% for item in page.career %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.education and page.education.size > 0 %}
+      <section class="alumni-section">
+        <h2>Education</h2>
+        <ul>
+          {% for item in page.education %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.selected_publications and page.alumni_type == "regular" %}
+      {% assign has_journal = false %}
+      {% assign has_conference = false %}
+      {% if page.selected_publications.journals and page.selected_publications.journals.size > 0 %}
+        {% assign has_journal = true %}
+      {% endif %}
+      {% if page.selected_publications.conferences and page.selected_publications.conferences.size > 0 %}
+        {% assign has_conference = true %}
+      {% endif %}
+      {% if has_journal or has_conference %}
+        <section class="alumni-section">
+          <h2>Publications in Lab</h2>
+
+          {% if has_journal %}
+            <h3 class="alumni-subsection-title">Journal</h3>
+            <ol class="alumni-pub-list">
+              {% for p in page.selected_publications.journals %}
+                <li>
+                  <div class="alumni-pub-title">{{ p.title }}</div>
+                  {% if p.contribution or p.venue %}
+                    <div class="alumni-pub-meta">
+                      {% if p.contribution %}{{ p.contribution }}{% endif %}{% if p.contribution and p.venue %} &middot; {% endif %}{% if p.venue %}{{ p.venue }}{% endif %}
+                    </div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ol>
+          {% endif %}
+
+          {% if has_conference %}
+            <h3 class="alumni-subsection-title">Conference</h3>
+            <ol class="alumni-pub-list">
+              {% for p in page.selected_publications.conferences %}
+                <li>
+                  <div class="alumni-pub-title">{{ p.title }}</div>
+                  {% if p.contribution or p.venue %}
+                    <div class="alumni-pub-meta">
+                      {% if p.contribution %}{{ p.contribution }}{% endif %}{% if p.contribution and p.venue %} &middot; {% endif %}{% if p.venue %}{{ p.venue }}{% endif %}
+                    </div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ol>
+          {% endif %}
+        </section>
+      {% endif %}
+    {% endif %}
+
+    {{ content }}
+  </section>
+</article>
