@@ -24,6 +24,8 @@ profile: /assets/img/members/2026-spring/구현호.jpg
 # BIO: include period, research area, and key contributions in the lab.
 bio: "To be updated."
 
+ko-bio: "업데이트 예정"
+
 career:
   - "Post MS Researcher / Department of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
   - "Post MS Researcher / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2026)"

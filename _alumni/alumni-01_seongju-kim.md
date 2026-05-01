@@ -23,6 +23,8 @@ profile: /assets/img/members/2025-summer/seongju.jpg
 # BIO: include period, research area, and key contributions in the lab.
 bio: "Dr. Seongju Kim was a postdoctoral researcher in UNIST Nanoelectronics and Advanced Packaging Lab (UNL) from March to August 2025. His research focused on thermal management of advanced packaging by machine learning. During his time in the lab, Dr. Kim actively engaged with students as a dedicated mentor. He generously shared his expertise by teaching foundational artificial intelligence concepts to lab members, and he took charge of thermal simulations and analyses across multiple projects, bringing valuable diversity to the lab's research. Beyond his meticulous work ethic and exceptional technical skills, he is remembered as a wonderful colleague. His unwavering positive mindset and warm interpersonal skills made him a constant source of encouragement and energy to everyone around him."
 
+ko-bio: "김성주 박사님은 우리 연구실이 UNIST에 자리하고 있던 시절인 2025년 3월부터 8월까지 박사후 연구원으로 함께하셨습니다. 박사님의 주요 연구 분야는 머신러닝을 활용한 첨단 패키징의 열 관리였습니다. 연구실에 계시는 동안 김 박사님은 헌신적인 멘토로서 학생들과 적극적으로 소통하셨습니다. 연구실 구성원들에게 인공지능의 기초 개념을 가르쳐 주신 '인공지능 기초 세미나'를 비롯하여 본인의 전문 지식을 아낌없이 나누어 주셨고, 여러 프로젝트에서 열 해석 및 시뮬레이션을 도맡아 진행하시며 연구실의 연구 스펙트럼을 넓히는 데 큰 기여를 해주셨습니다. 뛰어나신 연구 역량과 더불어, 박사님은 특유의 긍정적인 마인드와 따뜻한 친화력으로 주변 모든 사람들에게 큰 힘이 되어 주셨습니다."
+
 career:
   - "Assistant Professor / Department of Creative Convergence Engineering, <strong>Hanbat National University</strong> (Sep 2025 - present)"
   - "Postdoctoral Researcher / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2025 - Aug 2025)"
