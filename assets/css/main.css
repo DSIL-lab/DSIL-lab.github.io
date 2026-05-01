@@ -1081,11 +1081,30 @@ body.research-detail-view .research-mobile-nav {
 }
 
 .alumni-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 
-.alumni-list-view .pub-title:hover {
+.alumni-item.alumni-clickable {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.alumni-item.alumni-clickable:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+.alumni-card-link {
+  display: block;
+  color: inherit;
   text-decoration: none;
+}
+
+.alumni-card-link:hover .pub-title {
+  text-decoration: underline;
 }
 
 .alumni-meta-label {
@@ -1108,27 +1127,7 @@ body.research-detail-view .research-mobile-nav {
   color: var(--text);
 }
 
-.alumni-item .see-more {
-  margin-top: 6px;
-}
 
-.alumni-item .alumni-see-more {
-  margin-top: 8px;
-  padding-top: 4px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.alumni-item .alumni-see-more .see-more-link {
-  color: var(--muted);
-  font-size: 0.88rem;
-  font-weight: 600;
-}
-
-.alumni-item .alumni-see-more .see-more-link:hover {
-  color: var(--text);
-  text-decoration: none;
-}
 
 /* Alumni individual page */
 .alumni-profile {
@@ -1184,8 +1183,7 @@ body.research-detail-view .research-mobile-nav {
 }
 
 .alumni-body {
-  border-top: 1px solid var(--border-soft);
-  padding-top: 18px;
+  padding-top: 0;
 }
 
 .alumni-section {
