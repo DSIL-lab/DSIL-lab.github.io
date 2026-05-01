@@ -41,18 +41,20 @@ permalink: /ko/publications/journal-articles/
             {% endif %}
 
             <div class="pub-meta">
-              {% if p.status and p.status != "published" %}
+              {% if p.venue and p.venue != "" %}
+                <span class="pub-venue">{{ p.venue }}</span>
+              {% endif %}
+              {% if p.venue_detail and p.venue_detail != "" %}
+                <span class="pub-venue-detail">{{ p.venue_detail }}</span>
+              {% endif %}
+              {% if p.status == "under_review" or p.status == "accepted" %}
+                {% if p.venue and p.venue != "" or p.venue_detail and p.venue_detail != "" %}
+                  <span class="pub-sep"> &middot; </span>
+                {% endif %}
                 <span class="pub-status">{{ p.status | replace: "_", " " }}</span>
-              {% else %}
-                {% if p.venue and p.venue != "" %}
-                  <span class="pub-venue">{{ p.venue }}</span>
-                {% endif %}
-                {% if p.venue_detail and p.venue_detail != "" %}
-                  <span class="pub-venue-detail">{{ p.venue_detail }}</span>
-                {% endif %}
-                {% if p.highlights and p.highlights != "" %}
-                  <span class="pub-highlights"> - {{ p.highlights }}</span>
-                {% endif %}
+              {% endif %}
+              {% if p.highlights and p.highlights != "" %}
+                <span class="pub-highlights"> - {{ p.highlights }}</span>
               {% endif %}
             </div>
           </li>
