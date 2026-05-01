@@ -47,7 +47,7 @@ permalink: /ko/publications/journal-articles/
               {% if p.venue_detail and p.venue_detail != "" %}
                 <span class="pub-venue-detail">{{ p.venue_detail }}</span>
               {% endif %}
-              {% if p.status == "under_review" or p.status == "accepted" %}
+              {% if p.status and p.status != "published" %}
                 {% if p.venue and p.venue != "" or p.venue_detail and p.venue_detail != "" %}
                   <span class="pub-sep"> &middot; </span>
                 {% endif %}
