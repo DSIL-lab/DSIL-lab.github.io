@@ -10,8 +10,15 @@
   {% else %}
     <ol class="pub-list">
       {% for a in regular_alumni %}
+        {% assign alumni_detail_url = a.url %}
+        {% if a.alumni_slug and a.alumni_slug != '' %}
+          {% assign alumni_detail_url = '/people/alumni/' | append: a.alumni_slug | append: '/' %}
+        {% endif %}
+        {% if page.url and page.url contains '/ko/' %}
+          {% assign alumni_detail_url = '/ko' | append: alumni_detail_url %}
+        {% endif %}
         <li class="pub-item alumni-item alumni-clickable">
-          <a class="alumni-card-link" href="{{ a.url | relative_url }}">
+          <a class="alumni-card-link" href="{{ alumni_detail_url | relative_url }}">
             <div class="pub-title-line">
               <span class="pub-title">{{ a.name }}</span>
             </div>

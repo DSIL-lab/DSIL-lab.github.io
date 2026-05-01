@@ -1197,6 +1197,16 @@ body.research-detail-view .research-mobile-nav {
   padding-bottom: 4px;
 }
 
+.alumni-bio-text {
+  line-height: 1.65;
+}
+
+.alumni-bio-break,
+.alumni-bio-gap {
+  display: block;
+  height: 0.28rem;
+}
+
 .alumni-subsection-title {
   margin: 12px 0 8px;
   font-size: 0.98rem;

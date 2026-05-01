@@ -1,74 +1,102 @@
 ---
 layout: default
 ---
+{% assign alumni_source = page %}
+{% if page.alumni_data %}
+  {% assign alumni_source = page.alumni_data %}
+{% elsif page.alumni_ref_id and page.alumni_ref_id != "" %}
+  {% assign matched_alumni = site.alumni | where_exp: "a", "a.data.id == page.alumni_ref_id" | first %}
+  {% if matched_alumni %}
+    {% assign alumni_source = matched_alumni %}
+  {% endif %}
+{% endif %}
+
 <article class="alumni-profile">
+  {% assign display_name = alumni_source.name %}
+  {% if alumni_source.alumni_name and alumni_source.alumni_name != "" %}
+    {% assign display_name = alumni_source.alumni_name %}
+  {% elsif alumni_source.title and alumni_source.title != "" and display_name == "index.html" %}
+    {% assign display_name = alumni_source.title %}
+  {% endif %}
+
+  {% assign display_bio = alumni_source.bio %}
+  {% assign display_ko_bio = alumni_source.ko_bio %}
+  {% if display_ko_bio == nil or display_ko_bio == "" %}
+    {% assign display_ko_bio = alumni_source["ko-bio"] %}
+  {% endif %}
+  {% if page.url and page.url contains '/ko/' and display_ko_bio and display_ko_bio != "" %}
+    {% assign display_bio = display_ko_bio %}
+  {% endif %}
+
   <section class="alumni-hero">
-    {% if page.profile or page.photo %}
+    {% if alumni_source.profile or alumni_source.photo %}
       <img
-        src="{{ page.profile | default: page.photo | relative_url }}"
-        alt="{{ page.name }}"
+        src="{{ alumni_source.profile | default: alumni_source.photo | relative_url }}"
+        alt="{{ display_name }}"
         class="alumni-hero-photo"
       >
     {% endif %}
 
     <div class="alumni-hero-main">
-      <h1 class="alumni-hero-name">{{ page.name }}</h1>
+      <h1 class="alumni-hero-name">{{ display_name }}</h1>
 
-      {% if page.lab_period %}
-        <p class="alumni-hero-period">{{ page.lab_period }}</p>
+      {% if alumni_source.lab_period %}
+        <p class="alumni-hero-period">{{ alumni_source.lab_period }}</p>
       {% endif %}
 
-      {% if page.lab_roles and page.lab_roles.size > 0 %}
+      {% if alumni_source.lab_roles and alumni_source.lab_roles.size > 0 %}
         <ul class="alumni-hero-roles">
-          {% for role in page.lab_roles %}
+          {% for role in alumni_source.lab_roles %}
             <li>{{ role }}</li>
           {% endfor %}
         </ul>
       {% endif %}
 
-      {% if page.current_affiliation %}
-        <p class="alumni-hero-current-line"><strong>Current:</strong> {{ page.current_affiliation }}</p>
+      {% if alumni_source.current_affiliation %}
+        <p class="alumni-hero-current-line"><strong>Current:</strong> {{ alumni_source.current_affiliation }}</p>
       {% endif %}
     </div>
   </section>
 
   <section class="alumni-body">
-    {% if page.bio and page.bio != "" and page.alumni_type == "regular" %}
+    {% if display_bio and display_bio != "" and alumni_source.alumni_type == "regular" %}
+      {% assign bio_html = display_bio | newline_to_br %}
+      {% assign bio_html = bio_html | replace: '<br />', '<span class="alumni-bio-break"></span>' %}
       <section class="alumni-section">
         <h2>BIO</h2>
-        <p>{{ page.bio }}</p>
+        <p class="alumni-bio-text">{{ bio_html }}</p>
       </section>
     {% endif %}
 
-    {% if page.career and page.career.size > 0 %}
+    {% if alumni_source.career and alumni_source.career.size > 0 %}
       <section class="alumni-section">
         <h2>Career</h2>
         <ul>
-          {% for item in page.career %}
+          {% for item in alumni_source.career %}
             <li>{{ item }}</li>
           {% endfor %}
         </ul>
       </section>
     {% endif %}
 
-    {% if page.education and page.education.size > 0 %}
+    {% if alumni_source.education and alumni_source.education.size > 0 %}
       <section class="alumni-section">
         <h2>Education</h2>
         <ul>
-          {% for item in page.education %}
+          {% for item in alumni_source.education %}
             <li>{{ item }}</li>
           {% endfor %}
         </ul>
       </section>
     {% endif %}
 
-    {% if page.selected_publications and page.alumni_type == "regular" %}
+    {% if alumni_source.selected_publications and alumni_source.alumni_type == "regular" %}
       {% assign has_journal = false %}
       {% assign has_conference = false %}
-      {% if page.selected_publications.journals and page.selected_publications.journals.size > 0 %}
+      {% if alumni_source.selected_publications.journals and alumni_source.selected_publications.journals.size > 0 %}
         {% assign has_journal = true %}
       {% endif %}
-      {% if page.selected_publications.conferences and page.selected_publications.conferences.size > 0 %}
+      {% if alumni_source.selected_publications.conferences and alumni_source.selected_publications.conferences.size > 0 %}
         {% assign has_conference = true %}
       {% endif %}
       {% if has_journal or has_conference %}
@@ -78,7 +106,7 @@ layout: default
           {% if has_journal %}
             <h3 class="alumni-subsection-title">Journal</h3>
             <ol class="alumni-pub-list">
-              {% for p in page.selected_publications.journals %}
+              {% for p in alumni_source.selected_publications.journals %}
                 <li>
                   <div class="alumni-pub-title">{{ p.title }}</div>
                   {% if p.contribution or p.venue %}
@@ -94,7 +122,7 @@ layout: default
           {% if has_conference %}
             <h3 class="alumni-subsection-title">Conference</h3>
             <ol class="alumni-pub-list">
-              {% for p in page.selected_publications.conferences %}
+              {% for p in alumni_source.selected_publications.conferences %}
                 <li>
                   <div class="alumni-pub-title">{{ p.title }}</div>
                   {% if p.contribution or p.venue %}
