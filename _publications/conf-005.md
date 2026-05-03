@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 5
 type: conference
 year: 2021

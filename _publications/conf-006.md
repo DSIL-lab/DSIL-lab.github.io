@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 6
 type: conference
 year: 2022

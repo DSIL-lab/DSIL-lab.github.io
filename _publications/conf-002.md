@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 2
 type: conference
 year: 2019

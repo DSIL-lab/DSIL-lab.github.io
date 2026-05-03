@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 4
 type: conference
 year: 2020
