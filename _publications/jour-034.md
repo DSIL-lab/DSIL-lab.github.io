@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 34
 type: journal
 year: 2023

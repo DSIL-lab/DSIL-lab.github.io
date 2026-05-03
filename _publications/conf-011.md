@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 11
 type: conference
     - international-conf

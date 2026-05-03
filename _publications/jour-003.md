@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 3
 type: journal
 year: 2016

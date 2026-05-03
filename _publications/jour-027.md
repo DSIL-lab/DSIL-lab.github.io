@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 27
 type: journal
 year: 2022

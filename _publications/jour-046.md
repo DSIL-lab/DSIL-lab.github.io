@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 46
 type: journal
 year: 2026

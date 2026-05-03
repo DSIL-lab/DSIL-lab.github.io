@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 43
 type: journal
 year: 2025

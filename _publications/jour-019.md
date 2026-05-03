@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 19
 type: journal
 year: 2020

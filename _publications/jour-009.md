@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 9
 type: journal
 year: 2018

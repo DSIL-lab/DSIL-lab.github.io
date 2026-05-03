@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 25
 type: journal
 year: 2021

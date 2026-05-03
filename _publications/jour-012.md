@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 12
 type: journal
 year: 2019

@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 39
 type: journal
 year: 2024

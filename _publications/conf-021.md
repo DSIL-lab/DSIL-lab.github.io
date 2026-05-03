@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 21
 type:
     - conference
