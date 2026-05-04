@@ -1,0 +1,93 @@
+{% if page.dir contains '/ko/' %}
+  {% assign is_ko = true %}
+{% else %}
+  {% assign is_ko = false %}
+{% endif %}
+{% assign career_label = 'Career' %}
+{% assign activities_label = 'Activities' %}
+{% assign awards_label = 'Awards' %}
+{% assign education_label = 'Education' %}
+{% assign no_info = 'No PI information found.' %}
+
+{% assign pi = site.members | where: "group", "pi" | sort: "order" | first %}
+{% assign pi_name = pi["ko-name"] | default: pi.name %}
+{% assign pi_role = pi["ko-role"] | default: pi.role %}
+{% assign pi_career = pi["ko-career"] | default: pi.career %}
+{% assign pi_activities = pi["ko-activities"] | default: pi.activities %}
+{% assign pi_awards = pi["ko-awards"] | default: pi.awards %}
+{% assign pi_education = pi["ko-education"] | default: pi.education %}
+
+{% if pi %}
+
+<div class="pi-profile">
+
+  <div class="pi-header">
+    {% if pi.photo_by_term %}
+      {% assign pi_photo_src = pi.photo_by_term | first | last %}
+      <img class="pi-photo" src="{{ pi_photo_src | relative_url }}" alt="{{ pi_name }}">
+    {% elsif pi.photo %}
+      <img class="pi-photo" src="{{ pi.photo | relative_url }}" alt="{{ pi_name }}">
+    {% endif %}
+    <div class="pi-basic">
+      <h1 class="pi-name">{% if is_ko %}{{ pi_name }}{% else %}{{ pi.name }}{% endif %}</h1>
+      <div class="pi-role">{% if is_ko %}{{ pi_role }}{% else %}{{ pi.role }}{% endif %}</div>
+      {% if pi.email %}
+        <div class="pi-email">{{ pi.email }}</div>
+      {% endif %}
+      <div class="pi-links">
+        {% if pi.scholar %}
+          <a href="{{ pi.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {% if pi_career %}
+  <section>
+    <h2>{{ career_label }}</h2>
+    <ul>
+      {% for c in pi_career %}
+        <li>{{ c }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if pi_activities %}
+  <section>
+    <h2>{{ activities_label }}</h2>
+    <ul>
+      {% for a in pi_activities %}
+        <li>{{ a }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if pi_awards %}
+  <section>
+    <h2>{{ awards_label }}</h2>
+    <ul>
+      {% for award in pi_awards %}
+        <li>{{ award }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if pi_education %}
+  <section>
+    <h2>{{ education_label }}</h2>
+    <ul>
+      {% for edu in pi_education %}
+        <li>{{ edu }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+</div>
+
+{% else %}
+  <p>{{ no_info }}</p>
+{% endif %}

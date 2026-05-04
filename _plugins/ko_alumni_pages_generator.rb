@@ -24,13 +24,12 @@ module DSIL
         next unless doc.data["alumni_type"] == "regular"
         id = doc.data["id"].to_s.strip
         next if id.empty?
-
-        # Avoid conflict with Jekyll's built-in document `id` property in Liquid.
+        
+        # Use explicit id-based URLs for alumni detail pages.
         doc.data["alumni_slug"] = id
 
         en_dir = File.join("people", "alumni", id)
         ko_dir = File.join("ko", "people", "alumni", id)
-
         site.pages << AlumniProxyPage.new(site, site.source, en_dir, doc)
         site.pages << AlumniProxyPage.new(site, site.source, ko_dir, doc)
       end

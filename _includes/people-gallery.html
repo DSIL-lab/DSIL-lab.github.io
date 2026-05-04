@@ -1,0 +1,26 @@
+{% assign is_ko_page = false %}
+{% if page.url and page.url contains '/ko/' %}
+  {% assign is_ko_page = true %}
+{% endif %}
+
+{% assign gallery_base = site.static_files | where_exp: "f", "f.path contains '/assets/img/gallery/'" %}
+{% assign gallery_jpg = gallery_base | where: "extname", ".jpg" %}
+{% assign gallery_jpeg = gallery_base | where: "extname", ".jpeg" %}
+{% assign gallery_png = gallery_base | where: "extname", ".png" %}
+{% assign gallery_webp = gallery_base | where: "extname", ".webp" %}
+{% assign gallery_gif = gallery_base | where: "extname", ".gif" %}
+{% assign gallery_files = gallery_jpg | concat: gallery_jpeg | concat: gallery_png | concat: gallery_webp | concat: gallery_gif | sort: "modified_time" | reverse %}
+
+{% if gallery_files.size > 0 %}
+<div class="gallery-grid">
+  {% for file in gallery_files %}
+    <figure class="gallery-card">
+      <a href="{{ file.path | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ file.path | relative_url }}" alt="Gallery image {{ forloop.index }}" class="gallery-image">
+      </a>
+    </figure>
+  {% endfor %}
+</div>
+{% else %}
+<p class="gallery-empty">No gallery images yet. Add image files to assets/img/gallery.</p>
+{% endif %}

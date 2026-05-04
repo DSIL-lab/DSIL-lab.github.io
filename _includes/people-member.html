@@ -1,0 +1,59 @@
+{% assign is_ko = false %}
+{% assign pi_link = '/people/pi/' | relative_url %}
+{% if page.dir contains '/ko/' %}
+  {% assign is_ko = true %}
+  {% assign pi_link = '/ko/people/pi/' | relative_url %}
+{% endif %}
+
+{% assign members_pi = site.members | where: "group", "pi" %}
+{% assign members_students = site.members | where: "group", "students" %}
+{% assign members_sorted = members_pi | concat: members_students | sort: "order" %}
+
+<div
+  class="people-wrap"
+  data-is-ko="{% if is_ko %}true{% else %}false{% endif %}"
+  data-pi-link="{{ pi_link | escape }}"
+  data-base-url="{{ site.baseurl | default: '' | escape }}"
+>
+
+  <div id="member-detail" class="people-detail">
+    <p>Loading...</p>
+  </div>
+
+  <div class="people-controls">
+    <div class="people-term-select-wrap" id="people-term-picker">
+      <button
+        type="button"
+        id="photo-term-trigger"
+        class="people-term-trigger"
+        aria-haspopup="listbox"
+        aria-expanded="false"
+      >
+        <span id="photo-term-label">Current</span>
+        <span class="people-term-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div id="photo-term-menu" class="people-term-menu" role="listbox" hidden></div>
+    </div>
+  </div>
+
+  <div class="people-grid">
+    {% for m in members_sorted %}
+      <button
+        type="button"
+        class="member-card a4-card"
+        data-member='{{ m | jsonify | escape }}'
+        onclick="showMember(this)"
+      >
+        {% if m.photo_by_term %}
+          <img class="member-card-photo a4-photo" alt="{{ m.name }}" loading="lazy" decoding="async">
+        {% endif %}
+        <div class="member-card-text a4-text">
+          <div class="member-card-name">{% if is_ko %}{{ m["ko-name"] | default: m.name }}{% else %}{{ m.name }}{% endif %}</div>
+          <div class="member-card-role">{% if is_ko %}{{ m["ko-role"] | default: m.role }}{% else %}{{ m.role }}{% endif %}</div>
+        </div>
+      </button>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="{{ '/assets/js/people.js' | relative_url }}"></script>
