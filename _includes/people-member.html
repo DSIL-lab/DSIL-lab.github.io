@@ -42,7 +42,7 @@
         type="button"
         class="member-card a4-card"
         data-member='{{ m | jsonify | escape }}'
-        onclick="showMember(this)"
+        onclick="showMember(this, true)"
       >
         {% if m.photo_by_term %}
           <img class="member-card-photo a4-photo" alt="{{ m.name }}" loading="lazy" decoding="async">

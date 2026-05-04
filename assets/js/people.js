@@ -16,6 +16,48 @@ var labels = {
 var selectedMemberButton = null;
 var activeTerm = "";
 var termOptions = [];
+var smoothScrollFrame = null;
+
+function smoothScrollToTop(durationMs) {
+  var scrollEl = document.scrollingElement || document.documentElement;
+  var startY = scrollEl.scrollTop || window.pageYOffset || document.documentElement.scrollTop || 0;
+  if (startY <= 0) return;
+
+  if (smoothScrollFrame) {
+    cancelAnimationFrame(smoothScrollFrame);
+    smoothScrollFrame = null;
+  }
+
+  var duration = typeof durationMs === "number" ? durationMs : 420;
+  var startTime = null;
+
+  function step(ts) {
+    if (startTime === null) startTime = ts;
+
+    var elapsed = ts - startTime;
+    var t = elapsed / duration;
+    if (t > 1) t = 1;
+
+    // easeOutCubic for a quick start and soft stop.
+    var eased = 1 - Math.pow(1 - t, 3);
+    var nextY = Math.round(startY * (1 - eased));
+    scrollEl.scrollTop = nextY;
+    if (window.pageYOffset !== nextY) {
+      window.scrollTo(0, nextY);
+    }
+
+    if (t < 1) {
+      smoothScrollFrame = requestAnimationFrame(step);
+      return;
+    }
+
+    smoothScrollFrame = null;
+    scrollEl.scrollTop = 0;
+    window.scrollTo(0, 0);
+  }
+
+  smoothScrollFrame = requestAnimationFrame(step);
+}
 
 function escapeHtml(s) {
   return String(s)
@@ -428,7 +470,7 @@ function renderPiExtras(m) {
   return html;
 }
 
-function showMember(btn) {
+function showMember(btn, shouldScrollToDetail) {
   selectedMemberButton = btn;
 
   var raw = btn.getAttribute("data-member");
@@ -479,7 +521,16 @@ function showMember(btn) {
   html += "</div>";
   html += "</div>";
 
-  document.getElementById("member-detail").innerHTML = html;
+  var detailEl = document.getElementById("member-detail");
+  if (!detailEl) return;
+
+  detailEl.innerHTML = html;
+
+  if (shouldScrollToDetail) {
+    requestAnimationFrame(function() {
+      smoothScrollToTop(420);
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
