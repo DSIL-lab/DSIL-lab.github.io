@@ -1,5 +1,14 @@
 {% assign target_id = include.pub_id | plus: 0 %}
-{% assign pub = site.publications | where: "pub-id", target_id | first %}
+{% assign target_type = include.type %}
+{% assign pub = nil %}
+{% for p in site.publications %}
+  {% if p["pub-id"] == target_id %}
+    {% if target_type == nil or target_type == blank or p.type == target_type or p.type contains target_type %}
+      {% assign pub = p %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 {% if pub %}
   {% assign p_title = pub.title %}
@@ -18,7 +27,7 @@
     {% assign p_venue_detail = pub["ko-venue_detail"] | default: pub.venue_detail %}
   {% endif %}
 
-  {% assign citation_number = include.index | default: target_id %}
+  {% assign citation_number = include.index | default: pub["pub-id"] %}
   {% assign p_authors_plain = p_authors | strip_html | replace: "†", "" | replace: "*", "" | replace: "(Presenter)", "" %}
   {% assign p_first_author = p_authors_plain | split: "," | first | strip %}
   {% assign author_style = include.authors | default: "short" %}

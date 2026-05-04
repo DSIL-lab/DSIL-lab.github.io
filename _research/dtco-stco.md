@@ -14,4 +14,4 @@ This project focuses on block- and system-level design and benchmarking studies 
 
 ![](/assets/img/research/DB-0.png)
 
-{% include research-publication-citation.html pub_id=23 index=1 %}
+{% include research-publication-citation.html pub_id=23 type="international-conf" index=1 %}

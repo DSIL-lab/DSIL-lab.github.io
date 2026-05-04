@@ -14,4 +14,4 @@ summary: |-
 
 ![](/assets/img/research/DB-0-ko.png)
 
-{% include research-publication-citation.html pub_id=23 index=1 %}
+{% include research-publication-citation.html pub_id=23 type="international-conf" index=1 %}
