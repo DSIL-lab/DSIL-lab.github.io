@@ -1,0 +1,35 @@
+{% assign target_id = include.pub_id | plus: 0 %}
+{% assign pub = site.publications | where: "pub-id", target_id | first %}
+
+{% if pub %}
+  {% assign p_title = pub.title %}
+  {% assign p_authors = pub.authors %}
+  {% assign p_venue = pub.venue %}
+  {% assign p_venue_detail = pub.venue_detail %}
+  {% assign p_year = pub.year %}
+  {% assign p_doi = pub.doi %}
+  {% assign p_pages = pub.pages %}
+  {% assign p_location = pub.location %}
+
+  {% if page.dir contains '/ko/' %}
+    {% assign p_title = pub["ko-title"] | default: pub.title %}
+    {% assign p_authors = pub["ko-authors"] | default: pub.authors %}
+    {% assign p_venue = pub["ko-venue"] | default: pub.venue %}
+    {% assign p_venue_detail = pub["ko-venue_detail"] | default: pub.venue_detail %}
+  {% endif %}
+
+  {% assign citation_number = include.index | default: target_id %}
+  {% assign p_authors_plain = p_authors | strip_html | replace: "†", "" | replace: "*", "" | replace: "(Presenter)", "" %}
+  {% assign p_first_author = p_authors_plain | split: "," | first | strip %}
+  {% assign author_style = include.authors | default: "short" %}
+  {% if author_style == "full" %}
+    {% assign p_author_text = p_authors_plain | strip %}
+  {% else %}
+    {% assign p_author_text = p_first_author | append: " <em>et al.</em>" %}
+  {% endif %}
+  {% assign p_venue_text = p_venue | strip_html | strip %}
+  {% assign p_venue_detail_text = p_venue_detail | strip_html | strip %}
+  {% assign p_location_text = p_location | strip_html | strip %}
+
+  <div class="research-formal-citation">[{{ citation_number }}] {{ p_author_text }}, &quot;{% if pub.title_url and pub.title_url != "" %}<a href="{{ pub.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>{% else %}{{ p_title }}{% endif %},&quot; <em>{{ p_venue_text }}</em>{% if p_venue_detail_text != "" %}, {{ p_venue_detail_text }}{% endif %}{% if p_location_text != "" %}, {{ p_location_text }}{% endif %}{% if p_year and p_year != "" %}, {{ p_year }}{% endif %}{% if p_pages and p_pages != "" %}, pp. {{ p_pages }}{% endif %}{% if p_doi and p_doi != "" %}, doi: {{ p_doi }}{% endif %}.</div>
+{% endif %}
