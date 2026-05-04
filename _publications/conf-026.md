@@ -1,9 +1,9 @@
 ---
 pub-id: 26
 type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
     - international-conf
-    - conference
-
 
 year: 2026
 

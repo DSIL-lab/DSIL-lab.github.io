@@ -1,5 +1,7 @@
 {% assign items_all = site.publications | where_exp: "p", "p.type contains 'domestic-conf'" %}
 {% assign years = items_all | map: "year" | uniq | sort | reverse %}
+{% assign total_count = items_all.size %}
+{% assign shown_count = 0 %}
 
 <section class="pub-section">
   <h2 class="pub-section-title">Domestic Conferences</h2>
@@ -16,6 +18,10 @@
           {% for p in items %}
             <li class="pub-item">
               <div class="pub-title-line">
+                {% assign display_no = total_count | minus: shown_count %}
+                <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
+                {% assign shown_count = shown_count | plus: 1 %}
+
                 {% if p.title_url and p.title_url != "" %}
                   <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p.title }}</a>
                 {% else %}

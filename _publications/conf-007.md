@@ -1,6 +1,9 @@
 ---
 pub-id: 7
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2022
 
 title: "First demonstration of top-gated ITO transistors: effect of channel passivation"

@@ -1,6 +1,9 @@
 ---
 pub-id: 6
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2022
 
 title: "8-layer 3D vertical Ru/AlOxNy/TiN RRAM with mega-ohm level LRS for low power and ultrahigh-density memory"

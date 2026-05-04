@@ -1,6 +1,9 @@
 ---
 pub-id: 4
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2020
 
 title: "Printed 2-V dual-gate CNFETs with an enhanced depletion behavior"

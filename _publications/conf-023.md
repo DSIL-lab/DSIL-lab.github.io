@@ -1,9 +1,9 @@
 ---
 pub-id: 23
 type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
     - international-conf
-    - conference
-
 
 year: 2025
 
@@ -14,7 +14,7 @@ authors: "<strong>Yehyun Shin</strong><sup>†</sup>, Ikkyum Kim<sup>†</sup>, 
 
 # when writing authors,
 # <strong> </strong> : bold
-# <sup>??/sup> : equally contributed
+# <sup>†</sup> : equally contributed
 # * : corresponding authors
 
 status: published

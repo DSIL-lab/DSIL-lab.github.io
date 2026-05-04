@@ -1,6 +1,9 @@
 ---
 pub-id: 8
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2022
 
 title: "Bias stress stability of ITO transistors and its dependence on dielectric properties"

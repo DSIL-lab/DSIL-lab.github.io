@@ -1,6 +1,9 @@
 ---
 pub-id: 5
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2021
 
 title: "The future of hardware technologies for computing: N3XT 3D MOSAIC, illusion scaleup, co-design"

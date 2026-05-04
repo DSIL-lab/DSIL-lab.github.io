@@ -1,6 +1,8 @@
 ---
 pub-id: 13
-type: international-conf
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - international-conf
 
 year: 2025
 

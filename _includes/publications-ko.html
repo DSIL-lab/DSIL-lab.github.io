@@ -17,6 +17,8 @@
   <h2 class="pub-section-title">Journal Articles</h2>
 
   {% assign journal_years = journals | map: "year" | uniq | sort | reverse %}
+  {% assign journal_total_count = journals.size %}
+  {% assign journal_shown_count = 0 %}
   {% for y in journal_years %}
     <div class="pub-year-block">
       <h3 class="pub-year">{{ y }}</h3>
@@ -34,9 +36,9 @@
           {% assign p_highlights = p["ko-highlights"] | default: p.highlights %}
           <li class="pub-item">
             <div class="pub-title-line">
-              {% if p["pub-id"] %}
-                <span class="pub-id">[{{ p["pub-id"] | plus: 0 | prepend: "000" | slice: -3, 3 }}]</span>
-              {% endif %}
+              {% assign display_no = journal_total_count | minus: journal_shown_count %}
+              <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
+              {% assign journal_shown_count = journal_shown_count | plus: 1 %}
 
               {% if p.title_url and p.title_url != "" %}
                 <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>
@@ -77,6 +79,8 @@
   <h2 class="pub-section-title">Conference Proceedings</h2>
 
   {% assign conf_years = conferences | map: "year" | uniq | sort | reverse %}
+  {% assign conf_total_count = conferences.size %}
+  {% assign conf_shown_count = 0 %}
   {% for y in conf_years %}
     <div class="pub-year-block">
       <h3 class="pub-year">{{ y }}</h3>
@@ -93,9 +97,9 @@
           {% assign p_venue_detail = p["ko-venue_detail"] | default: p.venue_detail %}
           <li class="pub-item">
             <div class="pub-title-line">
-              {% if p["pub-id"] %}
-                <span class="pub-id">[{{ p["pub-id"] | plus: 0 | prepend: "000" | slice: -3, 3 }}]</span>
-              {% endif %}
+              {% assign display_no = conf_total_count | minus: conf_shown_count %}
+              <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
+              {% assign conf_shown_count = conf_shown_count | plus: 1 %}
 
               {% if p.title_url and p.title_url != "" %}
                 <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>
