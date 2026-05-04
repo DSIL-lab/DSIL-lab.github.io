@@ -1,29 +1,15 @@
-{% comment %}
-    HOME CONTENT - EDIT GUIDE
-
-    This file is loaded as the full right section in the homepage hero.
-    You can edit this file without touching HTML or Liquid templates.
-
-    Markdown quick guide:
-    - Bold: **text**
-    - Italic: *text*
-    - Underline: <u>text</u>  (HTML is allowed in Markdown)
-    - Bullet list: start lines with "- "
-    - Numbered list: start lines with "1. " "2. " "3. "
-    - Link: [Contact us](/contact/)
-{% endcomment %}
-
 ## KAIST Device-to-System Integration Lab (DSIL)
 
-Our lab focuses on **device-to-system integration** for next-generation semiconductor and AI hardware platforms.
+Our lab aims to develop core semiconductor technologies for next-generation AI hardware systems. To achieve this, we take a multidisciplinary approach—centered on Electrical Engineering and integrated with Mechanical Engineering, Materials Science, and Chemical Engineering—to research integrated semiconductor technologies that connect devices, packaging, and systems.
 
-<u>We actively welcome students and collaborators</u> interested in advanced packaging, monolithic 3D integration, and system-technology co-optimization.
+Our research fields cover a wide range of areas, including:
 
-- Semiconductor devices and BEOL-compatible processes
-- Advanced packaging and chiplet integration
-- RF fundamentals, digital systems, and AI hardware co-design
+- Logic and memory transistors (2D TMD, CNT for logic / oxide semiconductors for DRAM)
+- Monolithic 3D (M3D) systems (3D IC design and PPA evaluation)
+- Advanced semiconductor packaging
+- Heterogeneous multi-chip systems (package-level digital architecture, system evaluation)
 
 ## Contact Us
-If you are interested in pursuing a postdoctoral position, a PhD or integrated PhD program, or an internship, please send your CV, transcripts, and relevant research materials to jmkwon@kaist.ac.kr.
+Currently, we give priority to applicants for the Ph.D. or MS-Ph.D. integrated programs who can make a long-term commitment. If you are interested, please send your CV, academic transcripts, and research activity materials (papers, projects, etc.) to my email (jmkwon@kaist.ac.kr).
 
 <p class="home-content-meta">April 2, 2026<br>updated by Jimin Kwon</p>
