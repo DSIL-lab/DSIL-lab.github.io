@@ -7,16 +7,23 @@ layout: default
   {% assign article_back_url = '/news/' %}
   {% assign article_back_label = 'Back to News' %}
 
+  {% case page.collection %}
+    {% when 'research' %}
+      {% assign article_back_url = '/research/' %}
+      {% assign article_back_label = 'Back to Research' %}
+    {% when 'contact' %}
+      {% assign article_back_url = '/contact/' %}
+      {% assign article_back_label = 'Back to Contact' %}
+    {% when 'ko_contact' %}
+      {% assign article_back_url = '/ko/contact/' %}
+      {% assign article_back_label = 'Back to Contact' %}
+  {% endcase %}
+
   {% if page.back_url %}
     {% assign article_back_url = page.back_url %}
   {% endif %}
   {% if page.back_label %}
     {% assign article_back_label = page.back_label %}
-  {% endif %}
-
-  {% if page.collection == 'research' %}
-    {% assign article_back_url = '/research/' %}
-    {% assign article_back_label = 'Back to Research' %}
   {% endif %}
 
   <header class="article-header">

@@ -2,7 +2,8 @@
 {% assign title_text = 'Open Roles' %}
 
 {% assign contact_intro_page = site.pages | where: "path", include.intro_source | first %}
-{% assign contact_roles = site.contact | sort: "order" %}
+{% assign contact_collection = include.collection | default: 'contact' %}
+{% assign contact_roles = site[contact_collection] | sort: "order" %}
 
 <section class="contact-intro">
   {% if contact_intro_page %}

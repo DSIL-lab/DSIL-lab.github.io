@@ -52,6 +52,9 @@ collections:
   contact:
     output: true
     permalink: /contact/positions/:slug/
+  ko_contact:
+    output: true
+    permalink: /ko/contact/positions/:slug/
 
 include:
   - _members
@@ -61,6 +64,8 @@ include:
   - _publications
   - _news
   - _ko_news
+  - _contact
+  - _ko_contact
 
 defaults:
   - scope:

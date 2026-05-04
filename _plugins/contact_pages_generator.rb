@@ -1,11 +1,11 @@
 module DSIL
   class GeneratedContactPage < Jekyll::PageWithoutAFile
-    def initialize(site, base, dir, title, intro_source)
+    def initialize(site, base, dir, title, intro_source, collection)
       super(site, base, dir, "index.html")
 
       data["layout"] = "page"
       data["title"] = title
-      self.content = "{% include contact-page.html intro_source='#{intro_source}' %}\n"
+      self.content = "{% include contact-page.html intro_source='#{intro_source}' collection='#{collection}' %}\n"
     end
   end
 
@@ -14,8 +14,8 @@ module DSIL
     priority :low
 
     def generate(site)
-      site.pages << GeneratedContactPage.new(site, site.source, "contact", "Contact", "contact-content.md")
-      site.pages << GeneratedContactPage.new(site, site.source, File.join("ko", "contact"), "Contact", "ko/contact-content.md")
+      site.pages << GeneratedContactPage.new(site, site.source, "contact", "Contact", "contact-content.md", "contact")
+      site.pages << GeneratedContactPage.new(site, site.source, File.join("ko", "contact"), "Contact", "ko/contact-content.md", "ko_contact")
     end
   end
 end

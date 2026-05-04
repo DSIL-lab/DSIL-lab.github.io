@@ -7,8 +7,6 @@ title: High Performance Logic Devices
 team: Logic
 summary: >-
   This position focuses on advanced CMOS technology development by investigating low-dimensional (2D/1D) transistors through experiments and TCAD simulations. The research extends device concepts to logic architectures enabling standard cell height scaling (e.g., GAA, CFET), and evaluates power, performance, and area (PPA) from device to standard-cell and chip levels within a Design Technology Co-Optimization (DTCO) framework.
-back_url: /contact/
-back_label: Back to Contact
 ---
 
 ## What you will do
