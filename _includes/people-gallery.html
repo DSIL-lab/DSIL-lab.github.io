@@ -9,7 +9,7 @@
 {% assign gallery_png = gallery_base | where: "extname", ".png" %}
 {% assign gallery_webp = gallery_base | where: "extname", ".webp" %}
 {% assign gallery_gif = gallery_base | where: "extname", ".gif" %}
-{% assign gallery_files = gallery_jpg | concat: gallery_jpeg | concat: gallery_png | concat: gallery_webp | concat: gallery_gif | sort: "modified_time" | reverse %}
+{% assign gallery_files = gallery_jpg | concat: gallery_jpeg | concat: gallery_png | concat: gallery_webp | concat: gallery_gif | sort: "name" | reverse %}
 
 {% if gallery_files.size > 0 %}
 <div class="gallery-grid">
