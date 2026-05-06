@@ -3,12 +3,12 @@ pub-id: 39
 type: journal
 year: 2024
 
-title: "Dual-gate carbon nanotube thin-film transistors with printed channel and passivation interlayer on plastic foil"
+title: "<strong>Yongwoo Lee</strong><sup>†</sup>, <strong>Haksoon Jung</strong><sup>†</sup>, <strong>Youngmin Jo</strong>, Sanghoon Baek, Hyunjin Park, Seong Jun Park, Sungjune Jung, Yong-Young Noh*, <strong>Jimin Kwon*</strong>, Dual-gate carbon nanotube thin-film transistors with printed channel and passivation interlayer on plastic foil. <em>IEEE Electron Device Letters</em> 45, 2036-2039 (2024). DOI: 10.1109/LED.2024.3440484"
 title_url: "https://ieeexplore.ieee.org/document/10630846"
 
-authors: "<strong>Yongwoo Lee</strong><sup>†</sup>, <strong>Haksoon Jung</strong><sup>†</sup>, <strong>Youngmin Jo</strong>, Sanghoon Baek, Hyunjin Park, Seong Jun Park, Sungjune Jung, Yong-Young Noh*, <strong>Jimin Kwon*</strong>"
+authors: ""
 
 status: published
-venue: "<em>IEEE Electron Device Letters</em>"
+venue: ""
 ---
 

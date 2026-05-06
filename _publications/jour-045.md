@@ -3,12 +3,12 @@ pub-id: 45
 type: journal
 year: 2026
 
-title: "Indium tin oxide vertical channel transistors for scaled 4F<sup>2</sup> 2T0C gain cell memory with etched sidewall cleaning"
+title: "<strong>Hyeonho Gu</strong><sup>†</sup>, <strong>Haksoon Jung</strong><sup>†</sup>, <strong>Minho Park</strong>, <strong>Hyeonjin Lee</strong>, Ae Rim Choi, Il-Kwon Oh, Yanfeng Zhao, Byungjo Kim, Jungsik Kim, Byung Chul Jang, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon*</strong>, Indium tin oxide vertical channel transistors for scaled 4F2 2T0C gain cell memory with etched sidewall cleaning. <em>IEEE Electron Device Letters</em> 47, 836-839 (2026). DOI: 10.1109/LED.2026.3661249"
 title_url: "https://ieeexplore.ieee.org/document/11381590"
 
-authors: "<strong>Hyeonho Gu</strong><sup>†</sup>, <strong>Haksoon Jung</strong><sup>†</sup>, <strong>Minho Park</strong>, <strong>Hyeonjin Lee</strong>, Ae Rim Choi, Il-Kwon Oh, Yanfeng Zhao, Byungjo Kim, Jungsik Kim, Byung Chul Jang, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon*</strong>"
+authors: ""
 
 status: published
-venue: "<em>IEEE Electron Device Letters</em>"
+venue: ""
 ---
 
