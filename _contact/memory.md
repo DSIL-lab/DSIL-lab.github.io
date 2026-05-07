@@ -7,6 +7,8 @@ title: VCT based Oxide DRAM
 team: Memory
 summary: >-
   The Memory Team focuses on oxide-semiconductor-based 2T0C DRAM, pursuing an integrated research framework that spans device architecture, fabrication processes, materials, circuits, and system-level design to realize high-density, high-reliability, and low-power memory and computing platforms. In particular, we investigate vertical channel transistors (VCTs) as a core device platform to enable next-generation three-dimensional stacked memory and AI-oriented CIM/PIM architectures.
+back_url: /contact/
+back_label: Back to Contact
 ---
 
 ## What you will do

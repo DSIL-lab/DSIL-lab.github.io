@@ -13,7 +13,7 @@ permalink: /ko/
 {% assign home_join_excerpt_words = 24 %}
 {% assign locale_prefix = '/ko' %}
 {% assign contact_intro_page = site.pages | where: "path", "ko/contact-content.md" | first %}
-{% assign popup_roles = site.ko_contact | sort: "order" %}
+{% assign popup_roles = site.contact | sort: "order" %}
 
 <section class="home-hero" aria-label="연구실 소개">
   <div class="home-hero-media">

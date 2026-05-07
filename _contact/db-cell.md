@@ -7,6 +7,8 @@ title: Standard Cell Design and Benchmarking for 3D-Stacked FETs
 team: Design and Benchmark
 summary: >-
   This position focuses on evaluating and abstracting the physical characteristics of silicon 3D-stacked FETs and novel-material devices from the standard-cell perspective. Building on this foundation, the role quantitatively investigates the PPA (Power, Performance, Area) gains achievable when advanced and 3D-stacked CMOS logic (e.g., GAA, CFET, FlipFET) and BEOL-compatible devices are integrated and stacked. Ultimately, based on these analyses, the position aims to propose new directions for three-dimensional integration and an application roadmap that can extend scaling beyond the limits of CMOS downscaling.
+back_url: /contact/
+back_label: Back to Contact
 ---
 
 ## What you will do
