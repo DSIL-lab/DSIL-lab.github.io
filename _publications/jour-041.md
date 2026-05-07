@@ -3,12 +3,12 @@ pub-id: 41
 type: journal
 year: 2024
 
-title: "Sanghoon Baek*, <strong>Youngmin Jo</strong>, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon*</strong>, Sungjune Jung*, Design and integration of organic printed thin-film transistor-based soft biosensors for wearable applications. <em>ACS Applied Electronic Materials</em> 6, 7657-7678 (2024). DOI: 10.1021/acsaelm.4c01632"
+title: "Design and integration of organic printed thin-film transistor-based soft biosensors for wearable applications"
 title_url: "https://pubs.acs.org/doi/full/10.1021/acsaelm.4c01632"
 
-authors: ""
+authors: "Sanghoon Baek*, <strong>Youngmin Jo</strong>, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon*</strong>, Sungjune Jung*"
 
 status: published
-venue: ""
+venue: "<em>ACS Applied Electronic Materials</em>"
 ---
 
