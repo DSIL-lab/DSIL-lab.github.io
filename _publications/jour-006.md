@@ -9,6 +9,6 @@ title_url: "https://www.nature.com/articles/s41598-017-14726-w"
 authors: "Ju An Park, Sejung Yoon, <strong>Jimin Kwon</strong>, Hesung Now, Young Kwon Kim, Woo-Jong Kim, Joo-Yeon Yoo, Sungjune Jung*"
 
 status: published
-venue: "<em>Scientific Reports</em> 8, 2018"
+venue: "<em>Scientific Reports</em> 7, 14610 (2018). DOI: 10.1038/s41598-017-14726-w"
 ---
 

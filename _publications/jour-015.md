@@ -9,6 +9,6 @@ title_url: "https://ieeexplore.ieee.org/abstract/document/8736018"
 authors: "<strong>Jimin Kwon*</strong>, Hiroyuki Matsui, Woojo Kim, Shizuo Tokito*, Sungjune Jung*"
 
 status: published
-venue: "<em>IEEE Electron Device Letters</em>"
+venue: "<em>IEEE Electron Device Letters</em> 40, 1277-1280 (2019). DOI: 10.1109/LED.2019.2922296"
 ---
 

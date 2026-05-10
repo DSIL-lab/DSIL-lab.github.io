@@ -9,6 +9,6 @@ title_url: "https://onlinelibrary.wiley.com/doi/full/10.1002/mabi.202000144"
 authors: "Sanghoon Baek<sup>†</sup>, <strong>Jimin Kwon</strong><sup>†</sup>, Taisei Mano, Shizuo Tokito, Sungjune Jung*"
 
 status: published
-venue: "<em>Macromolecular Bioscience</em>"
+venue: "<em>Macromolecular Bioscience</em> 20, 2000144 (2020). DOI: 10.1002/mabi.202000144"
 ---
 

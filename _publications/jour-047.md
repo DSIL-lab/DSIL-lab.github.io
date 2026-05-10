@@ -8,6 +8,6 @@ title_url: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.20253
 
 authors: "<strong>Sanghyun Lee</strong>, <strong>Sumin Hong</strong>, <strong>Minho Park</strong>, <strong>Seongju Kim</strong>, Sanghoon Baek, Seonguk Yang, Chang-Soo Lee, Sang-Hoon Bae, Joonki Suh, <strong>Yongwoo Lee*</strong>, <strong>Haksoon Jung*</strong>, <strong>Jimin Kwon*</strong>"
 
-status: early_access
-venue: "<em>Advanced Functional Materials</em>"
+status: published
+venue: "<em>Advanced Functional Materials</em> (early access). DOI: 10.1002/adfm.202532204"
 ---

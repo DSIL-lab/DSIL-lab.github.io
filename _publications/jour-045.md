@@ -9,6 +9,6 @@ title_url: "https://ieeexplore.ieee.org/document/11381590"
 authors: "<strong>Hyeonho Gu</strong><sup>†</sup>, <strong>Haksoon Jung</strong><sup>†</sup>, <strong>Minho Park</strong>, <strong>Hyeonjin Lee</strong>, Ae Rim Choi, Il-Kwon Oh, Yanfeng Zhao, Byungjo Kim, Jungsik Kim, Byung Chul Jang, <strong>Yongwoo Lee</strong>, <strong>Jimin Kwon*</strong>"
 
 status: published
-venue: "<em>IEEE Electron Device Letters</em>"
+venue: "<em>IEEE Electron Device Letters</em> 47, 836-839 (2026). DOI: 10.1109/LED.2026.3661249"
 ---
 
