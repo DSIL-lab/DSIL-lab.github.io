@@ -15,6 +15,12 @@ education:
   - BS / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2026)
 
 research:
+- area: Oxide Semiconductor FET for M3D Memory
+
+    topics:
+      - "Vertical-Channel OS FET"
+      - "M3D eDRAM array fabrication"
+
   - area: Electronic Design Automation for M3D Logic
     topics:
       - "FET parameterized cell (PCell)"
