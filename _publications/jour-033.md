@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 33
 type: journal
 year: 2023
@@ -9,6 +9,6 @@ title_url: "https://www.sciencedirect.com/science/article/abs/pii/S1385894723028
 authors: "Young-Shin Kim, Hoimin Kim, Taewoong Yoon, Min-Jae Kim, Jiyun Lee, Hansol Lee, Dongki Lee, Young Jae Song, <strong>Jimin Kwon</strong>, Sae Byeok Jo, Jeong Ho Cho, Seung Goo Lee, Boseok Kang*"
 
 status: published
-venue: "<em>Chemical Engineering Journal</em>"
+venue: "<em>Chemical Engineering Journal</em> 470, 144129 (2023). DOI: 10.1016/j.cej.2023.144129"
 ---
 

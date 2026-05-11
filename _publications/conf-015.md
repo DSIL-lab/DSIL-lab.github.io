@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 15
 type:
     - international-conf

@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 5
 type: journal
 year: 2017
@@ -9,6 +9,6 @@ title_url: "https://ieeexplore.ieee.org/abstract/document/7857706/"
 authors: "Sujeong Kyung, <strong>Jimin Kwon</strong>, Yun-Hi Kim, Sungjune Jung*"
 
 status: published
-venue: "<em>IEEE Transactions on Electron Devices</em> 64 (5), 2017"
+venue: "<em>IEEE Transactions on Electron Devices</em> 64, 1955-1959 (2017). DOI: 10.1109/TED.2017.2659741"
 ---
 

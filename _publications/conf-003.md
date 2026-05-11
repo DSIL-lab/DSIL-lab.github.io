@@ -1,6 +1,9 @@
-﻿---
+---
 pub-id: 3
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2019
 
 title: "A phase-separated polymer blocking layer for enhancing data retention in flexible printed nonvolatile organic memories"

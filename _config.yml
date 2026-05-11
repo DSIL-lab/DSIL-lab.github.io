@@ -30,6 +30,9 @@ excerpt_separator: "<!--more-->"
 collections:
   members:
     output: false
+  alumni:
+    output: true
+    permalink: /people/alumni/:slug/
   research:
     output: true
     permalink: /research/:slug/
@@ -52,6 +55,7 @@ collections:
 
 include:
   - _members
+  - _alumni
   - _research
   - _ko_research
   - _publications
@@ -79,3 +83,8 @@ defaults:
       type: "ko_news"
     values:
       layout: article
+  - scope:
+      path: ""
+      type: "alumni"
+    values:
+      layout: alumni-member

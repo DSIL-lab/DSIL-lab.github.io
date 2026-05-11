@@ -1,9 +1,12 @@
 ---
 pub-id: 10
-type: conference
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf
+    - conference-proceeding
+    - international-conf
 year: 2024
 
-title: "Future of memory: massive, diverse, tightly integrated with compute - from device to software"
+title: "Future of memory: massive, diverse, tightly integrated with compute ― from device to software"
 title_url: "https://ieeexplore.ieee.org/abstract/document/10873508"
 
 authors: "Shuhan Liu, Robert M. Radway, Xinxin Wang, <strong>Jimin Kwon</strong>, Caroline Trippel, Philip Livis, Subhasish Mitra, H.-S. Philip Wong"

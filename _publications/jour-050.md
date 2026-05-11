@@ -8,6 +8,6 @@ title_url: ""
 
 authors: "<strong>Haksoon Jung</strong>, Hanbin Cho, <strong>Yongwoo Lee</strong>, <strong>Seunghun Baek</strong>, <strong>Hyeongjun Kim</strong>, Yun Goo Ro, Hyunhyub Ko, Joonki Suh, Yong-Young Noh*, <strong>Jimin Kwon*</strong>"
 
-status: under_review
+status: Under_review
 venue: ""
 ---

@@ -1,9 +1,14 @@
 <head>
   <meta charset="utf-8">
 
+  {% assign resolved_page_title = page.title %}
+  {% if page.collection == "alumni" and page.name and page.name != "" %}
+    {% assign resolved_page_title = page.name %}
+  {% endif %}
+
   <title>
-    {% if page.title %}
-      {{ page.title }} | {{ site.lab_name }}
+    {% if resolved_page_title %}
+      {{ resolved_page_title }} | {{ site.lab_name }}
     {% else %}
       {{ site.lab_name }}
     {% endif %}

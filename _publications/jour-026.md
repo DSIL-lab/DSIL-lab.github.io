@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 26
 type: journal
 year: 2021
@@ -9,6 +9,6 @@ title_url: "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.1c01296"
 authors: "<strong>Jimin Kwon*</strong>, Sanghoon Baek, <strong>Yongwoo Lee</strong>, Shizuo Tokito, Sungjune Jung*"
 
 status: published
-venue: "<em>Langmuir</em>"
+venue: "<em>Langmuir</em> 37, 10692-10701 (2021). DOI: 10.1021/acs.langmuir.1c01296"
 ---
 

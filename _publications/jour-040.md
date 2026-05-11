@@ -1,4 +1,4 @@
-﻿---
+---
 pub-id: 40
 type: journal
 year: 2024
@@ -9,6 +9,6 @@ title_url: "https://www.science.org/doi/abs/10.1126/science.adp3299"
 authors: "Minsik Kong<sup>†</sup>, Man Hou Vong<sup>†</sup>, Mingyu Kwak, Ighyun Lim, Younghyun Lee, Seong-hun Lee, Insang You, Omar Awartani, <strong>Jimin Kwon</strong>, Tae Joo Shin, Unyong Jeong*, Michael D Dickey*"
 
 status: published
-venue: "<em>Science</em>"
+venue: "<em>Science</em> 385, 731-737 (2024). DOI: 10.1126/science.adp3299"
 ---
 

@@ -1,0 +1,65 @@
+{% if page.dir contains '/ko/' %}
+  {% assign back_label = '◀ 목록으로' %}
+  {% assign prev_label = '◀ 이전' %}
+  {% assign next_label = '다음 ▶' %}
+{% else %}
+  {% assign back_label = '◀ Back to list' %}
+  {% assign prev_label = '◀ Previous' %}
+  {% assign next_label = 'Next ▶' %}
+{% endif %}
+
+{% assign projects = site[include.collection] | sort: "order" %}
+{% assign team_order = "TD|DB|CP" | split: "|" %}
+
+<div class="research-wrap">
+
+  <aside class="research-list" id="research-list">
+    {% for team in team_order %}
+      {% assign team_items = projects | where: "team", team %}
+      {% if team_items.size > 0 %}
+        <section class="research-team-group">
+          <h3 class="research-team-title">{{ team }} Team</h3>
+          <ul>
+            {% for p in team_items %}
+              {% assign slug = p.slug | default: p.id | split: '/' | last %}
+              {% assign p_summary = p.summary | to_s | strip %}
+              <li>
+                <a class="research-link" href="#{{ slug }}" data-slug="{{ slug }}">
+                  <span class="research-link-title">{{ p.title }}</span>
+                  {% if p_summary != '' %}
+                    <div class="research-link-summary">{{ p_summary | markdownify }}</div>
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    {% endfor %}
+  </aside>
+
+  <div class="research-detail" id="research-detail">
+    <a href="#" class="research-back" id="research-back">{{ back_label }}</a>
+
+    {% for team in team_order %}
+      {% assign team_items = projects | where: "team", team %}
+      {% for p in team_items %}
+        {% assign slug = p.slug | default: p.id | split: '/' | last %}
+        <article class="research-article article-page" id="r-{{ slug }}" data-title="{{ p.title | strip_html }}">
+            <header class="article-header">
+              <h1 class="article-title">{{ p.title }}</h1>
+            </header>
+            <div class="article-body research-body">
+              {{ p.content }}
+            </div>
+        </article>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="research-mobile-nav" id="research-mobile-nav">
+  <a class="research-nav-btn" id="research-prev" href="#">{{ prev_label }}</a>
+  <a class="research-nav-btn" id="research-next" href="#">{{ next_label }}</a>
+</div>
+<script src="{{ '/assets/js/research.js' | relative_url }}"></script>

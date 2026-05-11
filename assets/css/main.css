@@ -1075,6 +1075,198 @@ body.research-detail-view .research-mobile-nav {
   font-style: italic;
 }
 
+.research-formal-citation {
+  margin: 0.2rem 0;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.research-formal-citation + .research-formal-citation {
+  margin-top: 0.35rem;
+}
+
+.research-formal-citation a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.research-formal-citation a:hover {
+  text-decoration: underline;
+}
+
+/* Alumni list view (publication-like) */
+.alumni-list-view .pub-section-title {
+  margin-bottom: 1rem;
+}
+
+.alumni-item {
+  margin-bottom: 1.2rem;
+}
+
+.alumni-item.alumni-clickable {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.alumni-item.alumni-clickable:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+.alumni-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.alumni-card-link:hover .pub-title {
+  text-decoration: underline;
+}
+
+.alumni-meta-label {
+  font-weight: 700;
+}
+
+.alumni-role-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--text);
+}
+
+.alumni-role-list li {
+  margin: 0.1rem 0;
+  font-size: 0.9rem;
+}
+
+.alumni-current-line {
+  font-style: normal;
+  color: var(--text);
+}
+
+
+
+/* Alumni individual page */
+.alumni-profile {
+  max-width: 980px;
+}
+
+.alumni-hero {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 30px;
+}
+
+.alumni-hero-photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
+
+.alumni-hero-main {
+  min-width: 0;
+}
+
+.alumni-hero-current,
+.alumni-hero-period {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.alumni-hero-name {
+  margin: 8px 0;
+  font-size: clamp(1.6rem, 3.2vw, 2rem);
+  line-height: 1.2;
+}
+
+.alumni-hero-roles {
+  margin: 10px 0 0;
+  padding-left: 1.15rem;
+}
+
+.alumni-hero-roles li {
+  margin: 0.15rem 0;
+}
+
+.alumni-hero-current-line {
+  margin: 10px 0 0;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.alumni-body {
+  padding-top: 0;
+}
+
+.alumni-section {
+  margin-bottom: 22px;
+}
+
+.alumni-section h2 {
+  font-size: 1.1rem;
+  margin: 0 0 10px;
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 4px;
+}
+
+.alumni-bio-text {
+  line-height: 1.65;
+}
+
+.alumni-bio-break,
+.alumni-bio-gap {
+  display: block;
+  height: 0.28rem;
+}
+
+.alumni-subsection-title {
+  margin: 12px 0 8px;
+  font-size: 0.98rem;
+}
+
+.alumni-pub-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.alumni-pub-list li {
+  margin-bottom: 10px;
+}
+
+.alumni-pub-title {
+  color: var(--text);
+}
+
+.alumni-pub-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .alumni-hero {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .alumni-hero-photo {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  .alumni-hero-name,
+  .alumni-hero-period {
+    text-align: center;
+  }
+}
+
 /* --------------------------------------------------- */
 /* Facilities page layout                              */
 /* --------------------------------------------------- */
