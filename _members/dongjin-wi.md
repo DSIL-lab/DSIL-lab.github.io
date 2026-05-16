@@ -17,14 +17,14 @@ education:
 research:
 - area: Oxide Semiconductor FET for M3D Memory
 
-    topics:
-      - "Vertical-Channel OS FET"
-      - "M3D eDRAM array fabrication"
+  topics:
+    - "Vertical-Channel OS FET"
+    - "M3D eDRAM array fabrication"
 
-  - area: Electronic Design Automation for M3D Logic
-    topics:
-      - "FET parameterized cell (PCell)"
-      - "Standard cell logic library generation"
+- area: Electronic Design Automation for M3D Logic
+  topics:
+    - "FET parameterized cell (PCell)"
+    - "Standard cell logic library generation"
 
 email: djwi@unist.ac.kr
 
