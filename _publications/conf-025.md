@@ -7,10 +7,10 @@ type:
 
 year: 2026
 
-title: "Microchannel-Embedded 3D-Printed Ceramic Substrates for Liquid-Cooled Power Module Packaging"
+title: "Microchannel-embedded 3D-printed ceramic substrates for liquid-cooled power module packaging"
 title_url: ""
 
-authors: "<strong>Haksoon Jung</strong> (Presenter), <strong>Seongju Kim</strong>, <strong>Jimin Kwon*</strong>"
+authors: "<strong>Haksoon Jung</strong> (Presenter), <strong>Seongju Kim</strong>, <strong>Nahyeon Kim</strong>, Seungjun Chung, <strong>Jimin Kwon*</strong>"
 
 status: accepted
 venue: "<em>2026 76th IEEE Electronic Components and Technology Conference (ECTC)</em>"
