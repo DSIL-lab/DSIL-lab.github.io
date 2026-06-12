@@ -2,14 +2,16 @@
 order: 26
 date: "Apr 06, 2026"
 slug: vlsi-2026-paper-acceptance
-title: "Two Student Papers Accepted to IEEE VLSI Symposium 2026"
+title: "Paper Co-First-Authored by Heesoo Yang and Hyeongjun Kim (Integrated M.S./Ph.D., 2nd year) Accepted to IEEE VLSI Symposium 2026"
 image: ""
 summary: |-
     - Title: Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems
 
-    Papers submitted by Heesoo Yang and Hyeongjun Kim were accepted to the IEEE Symposium on VLSI Technology and Circuits (VLSI) 2026. The results were produced through collaboration with Hanbat National University (Prof. Seongju Kim) and UNIST (Prof. Dongyun Kam).
+    A paper with Heesoo Yang (integrated M.S./Ph.D., 2nd year) and Hyeongjun Kim (integrated M.S./Ph.D., 2nd year) as co-first authors has been accepted to the <strong>IEEE Symposium on VLSI Technology and Circuits (VLSI) 2026</strong>, one of the most prestigious international conferences on integrated devices and circuits. The work was carried out in collaboration with Hanbat National University (Prof. Seongju Kim) and UNIST (Prof. Dongyun Kam).
 ---
 
-Heesoo Yang (combined M.S./Ph.D. student, Year 2) and Hyeongjun Kim (combined M.S./Ph.D. student, Year 2) had papers accepted to the IEEE Symposium on VLSI Technology and Circuits (VLSI) 2026.
+A paper with Heesoo Yang (integrated M.S./Ph.D., 2nd year) and Hyeongjun Kim (integrated M.S./Ph.D., 2nd year) as co-first authors has been accepted to the IEEE Symposium on VLSI Technology and Circuits (VLSI) 2026, one of the most prestigious international conferences on integrated devices and circuits.
 
-This outcome was achieved through joint research with Hanbat National University (Prof. Seongju Kim) and UNIST (Prof. Dongyun Kam), and focuses on V-die 3.5D integration strategies for cool ultrahigh-bandwidth memory systems.
+The work was carried out in collaboration with Hanbat National University (Prof. Seongju Kim) and UNIST (Prof. Dongyun Kam).
+
+- Title: Vertical-Die (V-die) 3.5D Integration for Cool Ultrahigh-Bandwidth Memory Systems
