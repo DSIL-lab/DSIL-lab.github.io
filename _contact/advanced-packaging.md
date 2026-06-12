@@ -1,10 +1,10 @@
 ---
 layout: article
 role: position
-order: 4
+order: 6
 slug: advanced-packaging
 title: Advanced Packaging Technologies
-team: Components and Packaging
+team: Components and Packaging (CP), Packaging
 summary: >-
   This position focuses on integrated electrical, mechanical, and thermal design, experimentation, measurement, and development for high-speed signal transmission based on advanced packaging building-block technologies. You will participate in experiment- and simulation-driven research on high-speed interconnects and packaging technologies for next-generation semiconductor systems.
 back_url: /contact/

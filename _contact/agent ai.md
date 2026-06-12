@@ -1,10 +1,10 @@
 ---
 layout: article
 role: position
-order: 5
+order: 2
 slug: agent ai for semiconductor system
 title: Agent AI for Semiconductor System
-team: 개별연구 학생 (undergraduate)
+team: 개별연구 학생 (Undergraduate Internship)
 summary: >-
   This position focuses to establish a next-generation AI-native semiconductor design framework that enables integrated optimization across the Device–Circuit–Package–System stack. It includes AI-based standard cell design and autonomous semiconductor measurement systems for 3DIC environments, RF power amplifier and impedance matching circuit design considering RF packaging effects, neural compact model-based readout circuit design for vertical-channel DRAM and gain-cell memory, and AI-enhanced performance prediction simulators for multi-chip (chiplet) systems.
 
