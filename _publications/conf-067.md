@@ -1,6 +1,7 @@
 ---
 pub-id: 67
 type:
+    - conference-proceeding
     - international-conf
 
 year: 2026
