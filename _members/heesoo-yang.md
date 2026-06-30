@@ -18,11 +18,11 @@ education:
   - BS / Department of Electrical Engineering, <strong>UNIST</strong> (Mar 2021 – Feb 2025)
 
 research:
-  - area: Large-Area RF Electronics
+  - area: Autonomous Design of Systems
     topics:
-      - "Standard Cell Design"
-      - "Digital Circuit Synthesis Environment Setup"
-      - "Large-Area Circuit Design and Synthesis Using 2D Material-Based Transistors"
+      - "Digital IP design and verification"
+      - "System-level modeling and simulation"
+      - "Agentic AI for design automation"
 
 # Optional
 email: kristron@unist.ac.kr
