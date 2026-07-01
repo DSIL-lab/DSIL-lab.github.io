@@ -1,7 +1,7 @@
 ---
 pub-id: 39
 type:
-    - domestic-conf
+    - invited
 year: 2025
 
 title: "Novel through-hole interconnect technologies for 3D printed fanout interposer substrates"
