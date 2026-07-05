@@ -1,6 +1,9 @@
 ---
 pub-id: 27
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2022
 
 title: "Spatiotemporal measurement of arterial pulse waves enabled by wearable active-matrix pressure sensor arrays"

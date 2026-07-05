@@ -1,6 +1,9 @@
 ---
 pub-id: 24
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2021
 
 title: "Flexible and printed organic nonvolatile memory transistor with bilayer polymer dielectrics"

@@ -1,6 +1,9 @@
 ---
 pub-id: 4
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2016
 
 title: "Three-dimensional, inkjet-printed organic transistors and integrated circuits with 100% yield, high uniformity, and long-term stability"

@@ -1,6 +1,9 @@
 ---
 pub-id: 22
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2020
 
 title: "Stand-alone intrinsically stretchable electronic device platform powered by stretchable rechargeable battery"

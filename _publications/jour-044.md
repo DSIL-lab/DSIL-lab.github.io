@@ -1,6 +1,9 @@
 ---
 pub-id: 44
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2025
 
 title: "Addressing transconductance-bandwidth trade-off by three-dimensional electrolyte-surrounded organic electrochemical transistors"

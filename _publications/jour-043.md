@@ -1,6 +1,9 @@
 ---
 pub-id: 43
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2025
 
 title: "Back-end-of-line-compatible passivation of sulfur vacancies in MoS<sub>2</sub> transistors using electron-withdrawing benzenethiol"

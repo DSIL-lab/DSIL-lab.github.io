@@ -1,6 +1,9 @@
 ---
 pub-id: 37
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2024
 
 title: "High mobility amorphous polymer-based 3D stacked pseudo logic circuits through precision printing"

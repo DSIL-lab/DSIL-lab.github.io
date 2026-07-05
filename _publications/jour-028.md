@@ -1,6 +1,9 @@
 ---
 pub-id: 28
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2022
 
 title: "High performance carbon nanotubes thin film transistors by selective ferric chloride doping"

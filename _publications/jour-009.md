@@ -1,6 +1,9 @@
 ---
 pub-id: 9
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2018
 
 title: "Pressure/temperature sensing bimodal electronic skin with stimulus discriminability and linear sensitivity"

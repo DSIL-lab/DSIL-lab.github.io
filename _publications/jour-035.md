@@ -1,6 +1,9 @@
 ---
 pub-id: 35
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2024
 
 title: "Flexible field-effect transistors with high-quality and uniform single-layer graphene for high mobility"

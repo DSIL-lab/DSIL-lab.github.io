@@ -1,6 +1,9 @@
 ---
 pub-id: 45
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2026
 
 title: "Indium tin oxide vertical channel transistors for scaled 4F<sup>2</sup> 2T0C gain cell memory with etched sidewall cleaning"

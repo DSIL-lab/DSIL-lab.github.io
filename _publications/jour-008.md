@@ -1,6 +1,9 @@
 ---
 pub-id: 8
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2018
 
 title: "Control of concentration of non-hydrogen-bonded hydroxyl groups in polymer dielectrics for organic field-effect transistors with operational stability"

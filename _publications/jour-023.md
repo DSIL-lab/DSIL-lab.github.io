@@ -1,6 +1,9 @@
 ---
 pub-id: 23
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2021
 
 title: "Programmable a-InGaZnO gate array with laser-induced forward transfer"

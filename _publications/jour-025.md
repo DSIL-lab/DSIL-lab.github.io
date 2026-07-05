@@ -1,6 +1,9 @@
 ---
 pub-id: 25
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2021
 
 title: "Dual-pulse photoactivated atomic force microscopy"

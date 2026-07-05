@@ -1,6 +1,9 @@
 ---
 pub-id: 5
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2017
 
 title: "Low-temperature, solution-processed, 3-D complementary organic FETs on flexible substrate"

@@ -1,6 +1,9 @@
 ---
 pub-id: 2
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2016
 
 title: "Double-shot inkjet printing for high-conductivity polymer electrode"

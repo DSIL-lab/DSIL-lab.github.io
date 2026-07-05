@@ -1,6 +1,9 @@
 ---
 pub-id: 18
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2020
 
 title: "Reliable inkjet contact metallization on printed polymer semiconductors for fabricating staggered TFTs"

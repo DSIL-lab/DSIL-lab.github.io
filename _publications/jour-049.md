@@ -1,6 +1,9 @@
 ---
 pub-id: 49
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2026
 
 title: "Oxygen-tunnel indium tin oxide vertical channel transistors with enhanced current density and reliability for monolithic 3D compute-in-memory systems"

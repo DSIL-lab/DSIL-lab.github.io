@@ -1,6 +1,9 @@
 ---
 pub-id: 20
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2020
 
 title: "A flexible 3D organic preamplifier for a lactate sensor"

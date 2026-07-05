@@ -1,6 +1,9 @@
 ---
 pub-id: 41
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2024
 
 title: "Design and integration of organic printed thin-film transistor-based soft biosensors for wearable applications"

@@ -1,6 +1,9 @@
 ---
 pub-id: 3
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2016
 
 title: "Vertically stacked complementary organic field‐effect transistors and logic circuits fabricated by inkjet printing"

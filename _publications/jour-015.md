@@ -1,6 +1,9 @@
 ---
 pub-id: 15
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2019
 
 title: "Static and dynamic response comparison of printed, single- and dual-gate 3-D complementary organic TFT inverters"

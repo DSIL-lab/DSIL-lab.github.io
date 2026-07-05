@@ -1,6 +1,9 @@
 ---
 pub-id: 33
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2023
 
 title: "Latent and controllable doping of stimuli-activated molecular dopants for flexible and printable organic thermoelectric generators"

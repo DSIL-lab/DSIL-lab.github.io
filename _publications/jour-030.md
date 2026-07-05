@@ -1,6 +1,9 @@
 ---
 pub-id: 30
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2023
 
 title: "Large transconductance of electrochemical transistors based on fluorinated donor-acceptor conjugated polymers"

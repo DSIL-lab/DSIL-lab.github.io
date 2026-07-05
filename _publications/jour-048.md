@@ -1,6 +1,9 @@
 ---
 pub-id: 48
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2026
 
 title: "Wafer-scale uniform non-ferroelectric κ-phase In<sub>2</sub>Se<sub>3</sub> transistors"

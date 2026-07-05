@@ -1,6 +1,9 @@
 ---
 pub-id: 46
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2026
 
 title: "Advances and future challenges in monolithic 3D integrated logic, power, and optoelectronics technologies for tightly interconnected intelligent systems"

@@ -16,6 +16,8 @@ module DSIL
     PAGE_SPECS = [
       ["publications", "Publications", "publications.html"],
       ["publications/journal-articles", "Journal Articles", "publications-journal-articles.html"],
+      ["publications/journal-articles/international-journals", "International Journals", "publications-international-journals.html"],
+      ["publications/journal-articles/domestic-journals", "Domestic Journals", "publications-domestic-journals.html"],
       ["publications/conference-proceedings", "Conference Proceedings", "publications-conference-proceedings.html"],
       ["publications/patents", "Patents", "publications-patents.html"],
       ["publications/presentations-talks", "Presentations & Talks", "publications-presentations-talks.html"],
@@ -24,6 +26,8 @@ module DSIL
       ["publications/presentations-talks/domestic-conferences", "Domestic Conferences", "publications-domestic-conferences.html"],
       ["ko/publications", "Publications", "publications-ko.html"],
       ["ko/publications/journal-articles", "Journal Articles", "publications-journal-articles.html"],
+      ["ko/publications/journal-articles/international-journals", "International Journals", "publications-international-journals.html"],
+      ["ko/publications/journal-articles/domestic-journals", "Domestic Journals", "publications-domestic-journals.html"],
       ["ko/publications/conference-proceedings", "Conference Proceedings", "publications-conference-proceedings.html"],
       ["ko/publications/patents", "Patents", "publications-patents-ko.html"],
       ["ko/publications/presentations-talks", "Presentations & Talks", "publications-presentations-talks.html"],

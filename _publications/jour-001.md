@@ -1,6 +1,9 @@
 ---
 pub-id: 1
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2016
 
 title: "Solution‐processed vertically stacked complementary organic circuits with inkjet‐printed routing"

@@ -1,6 +1,9 @@
 ---
 pub-id: 47
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2026
 
 title: "Statistically resolving thickness-dependent electrical characteristics in multilayer-MoS<sub>2</sub> transistors"

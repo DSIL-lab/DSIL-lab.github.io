@@ -1,6 +1,9 @@
 ---
 pub-id: 19
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2020
 
 title: "Phase-separated, printed organic thin-film transistor-based nonvolatile memory with enhanced data retention"

@@ -1,6 +1,9 @@
 ---
 pub-id: 12
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2019
 
 title: "Three-dimensional monolithic integration in flexible printed organic transistors"

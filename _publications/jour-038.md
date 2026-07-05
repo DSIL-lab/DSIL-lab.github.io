@@ -1,6 +1,9 @@
 ---
 pub-id: 38
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2024
 
 title: "Stabilizing schottky junction in conjugated polymer diodes enables long-term reliable radio-frequency energy harvesting on plastic"

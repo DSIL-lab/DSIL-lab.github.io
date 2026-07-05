@@ -4,58 +4,155 @@
   <div>Lab member names in <strong>bold</strong></div>
 </div>
 
-{% assign items_all = site.publications | where_exp: "p", "p.type contains 'journal'" %}
-{% assign years = items_all | map: "year" | uniq | sort | reverse %}
-{% assign total_count = items_all.size %}
-{% assign shown_count = 0 %}
+{% assign is_ko_page = false %}
+{% if page.url and page.url contains '/ko/' %}
+  {% assign is_ko_page = true %}
+{% endif %}
+
+{% assign international_all = site.publications | where_exp: "p", "p.type contains 'international-jour'" %}
+{% assign international_years = international_all | map: "year" | uniq | sort | reverse %}
+{% assign international_total = international_all.size %}
+{% assign international_shown = 0 %}
+
+{% assign domestic_all = site.publications | where_exp: "p", "p.type contains 'domestic-jour'" %}
+{% assign domestic_years = domestic_all | map: "year" | uniq | sort | reverse %}
+{% assign domestic_total = domestic_all.size %}
+{% assign domestic_shown = 0 %}
 
 <section class="pub-section">
-  <h2 class="pub-section-title">Journal Articles</h2>
+  <h2 class="pub-section-title">International Journals</h2>
 
-  {% for y in years %}
-    <div class="pub-year-block">
-      <h3 class="pub-year">{{ y }}</h3>
+  {% if international_all.size == 0 %}
+    <p>No international journal records yet.</p>
+  {% else %}
+    {% for y in international_years %}
+      <div class="pub-year-block">
+        <h3 class="pub-year">{{ y }}</h3>
 
-      {% assign items = items_all | where: "year", y | sort: "pub-id" | reverse %}
-      <ol class="pub-list">
-        {% for p in items %}
-          <li class="pub-item">
-            <div class="pub-title-line">
-              {% assign display_no = total_count | minus: shown_count %}
-              <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
-              {% assign shown_count = shown_count | plus: 1 %}
-
-              {% if p.title_url and p.title_url != "" %}
-                <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p.title }}</a>
-              {% else %}
-                <span class="pub-title">{{ p.title }}</span>
-              {% endif %}
-            </div>
-
-            {% if p.authors and p.authors != "" %}
-              <div class="pub-authors">{{ p.authors }}</div>
+        {% assign items = international_all | where: "year", y | sort: "pub-id" | reverse %}
+        <ol class="pub-list">
+          {% for p in items %}
+            {% assign p_title = p.title %}
+            {% assign p_authors = p.authors %}
+            {% assign p_status = p.status %}
+            {% assign p_venue = p.venue %}
+            {% assign p_venue_detail = p.venue_detail %}
+            {% assign p_highlights = p.highlights %}
+            {% if is_ko_page %}
+              {% assign p_title = p["ko-title"] | default: p_title %}
+              {% assign p_authors = p["ko-authors"] | default: p_authors %}
+              {% assign p_status = p["ko-status"] | default: p_status %}
+              {% assign p_venue = p["ko-venue"] | default: p_venue %}
+              {% assign p_venue_detail = p["ko-venue_detail"] | default: p_venue_detail %}
+              {% assign p_highlights = p["ko-highlights"] | default: p_highlights %}
             {% endif %}
+            <li class="pub-item">
+              <div class="pub-title-line">
+                {% assign display_no = international_total | minus: international_shown %}
+                <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
+                {% assign international_shown = international_shown | plus: 1 %}
 
-            <div class="pub-meta">
-              {% if p.venue and p.venue != "" %}
-                <span class="pub-venue">{{ p.venue }}</span>
-              {% endif %}
-              {% if p.venue_detail and p.venue_detail != "" %}
-                <span class="pub-venue-detail">{{ p.venue_detail }}</span>
-              {% endif %}
-              {% if p.status and p.status != "published" %}
-                {% if p.venue and p.venue != "" or p.venue_detail and p.venue_detail != "" %}
-                  <span class="pub-sep"> &middot; </span>
+                {% if p.title_url and p.title_url != "" %}
+                  <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>
+                {% else %}
+                  <span class="pub-title">{{ p_title }}</span>
                 {% endif %}
-                <span class="pub-status">{{ p.status | replace: "_", " " }}</span>
+              </div>
+
+              {% if p_authors and p_authors != "" %}
+                <div class="pub-authors">{{ p_authors }}</div>
               {% endif %}
-              {% if p.highlights and p.highlights != "" %}
-                <span class="pub-highlights"> - {{ p.highlights }}</span>
+
+              <div class="pub-meta">
+                {% if p_venue and p_venue != "" %}
+                  <span class="pub-venue">{{ p_venue }}</span>
+                {% endif %}
+                {% if p_venue_detail and p_venue_detail != "" %}
+                  <span class="pub-venue-detail">{{ p_venue_detail }}</span>
+                {% endif %}
+                {% if p_status and p_status != "published" %}
+                  {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
+                    <span class="pub-sep"> &middot; </span>
+                  {% endif %}
+                  <span class="pub-status">{{ p_status | replace: "_", " " }}</span>
+                {% endif %}
+                {% if p_highlights and p_highlights != "" %}
+                  <span class="pub-highlights"> - {{ p_highlights }}</span>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+  {% endif %}
+</section>
+
+<section class="pub-section">
+  <h2 class="pub-section-title">Domestic Journals</h2>
+
+  {% if domestic_all.size == 0 %}
+    <p>No domestic journal records yet.</p>
+  {% else %}
+    {% for y in domestic_years %}
+      <div class="pub-year-block">
+        <h3 class="pub-year">{{ y }}</h3>
+
+        {% assign items = domestic_all | where: "year", y | sort: "pub-id" | reverse %}
+        <ol class="pub-list">
+          {% for p in items %}
+            {% assign p_title = p.title %}
+            {% assign p_authors = p.authors %}
+            {% assign p_status = p.status %}
+            {% assign p_venue = p.venue %}
+            {% assign p_venue_detail = p.venue_detail %}
+            {% assign p_highlights = p.highlights %}
+            {% if is_ko_page %}
+              {% assign p_title = p["ko-title"] | default: p_title %}
+              {% assign p_authors = p["ko-authors"] | default: p_authors %}
+              {% assign p_status = p["ko-status"] | default: p_status %}
+              {% assign p_venue = p["ko-venue"] | default: p_venue %}
+              {% assign p_venue_detail = p["ko-venue_detail"] | default: p_venue_detail %}
+              {% assign p_highlights = p["ko-highlights"] | default: p_highlights %}
+            {% endif %}
+            <li class="pub-item">
+              <div class="pub-title-line">
+                {% assign display_no = domestic_total | minus: domestic_shown %}
+                <span class="pub-id">[{{ display_no | prepend: "000" | slice: -3, 3 }}]</span>
+                {% assign domestic_shown = domestic_shown | plus: 1 %}
+
+                {% if p.title_url and p.title_url != "" %}
+                  <a class="pub-title" href="{{ p.title_url }}" target="_blank" rel="noopener">{{ p_title }}</a>
+                {% else %}
+                  <span class="pub-title">{{ p_title }}</span>
+                {% endif %}
+              </div>
+
+              {% if p_authors and p_authors != "" %}
+                <div class="pub-authors">{{ p_authors }}</div>
               {% endif %}
-            </div>
-          </li>
-        {% endfor %}
-      </ol>
-    </div>
-  {% endfor %}
+
+              <div class="pub-meta">
+                {% if p_venue and p_venue != "" %}
+                  <span class="pub-venue">{{ p_venue }}</span>
+                {% endif %}
+                {% if p_venue_detail and p_venue_detail != "" %}
+                  <span class="pub-venue-detail">{{ p_venue_detail }}</span>
+                {% endif %}
+                {% if p_status and p_status != "published" %}
+                  {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
+                    <span class="pub-sep"> &middot; </span>
+                  {% endif %}
+                  <span class="pub-status">{{ p_status | replace: "_", " " }}</span>
+                {% endif %}
+                {% if p_highlights and p_highlights != "" %}
+                  <span class="pub-highlights"> - {{ p_highlights }}</span>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+  {% endif %}
 </section>

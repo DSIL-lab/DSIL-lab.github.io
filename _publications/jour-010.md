@@ -1,6 +1,9 @@
 ---
 pub-id: 10
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2018
 
 title: "Parylene-based double-layer gate dielectrics for organic field-effect transistors"

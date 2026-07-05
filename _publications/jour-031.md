@@ -1,6 +1,9 @@
 ---
 pub-id: 31
-type: journal
+type:
+    # publication type: journal, conference-proceeding, patent, invited-talk, international-conf, domestic-conf, international-jour, domestic-jour
+    - journal
+    - international-jour
 year: 2023
 
 title: "Dual-gate thin film transistor lactate sensors operating in the subthreshold regime"
