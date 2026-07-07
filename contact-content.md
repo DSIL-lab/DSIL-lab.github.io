@@ -22,6 +22,6 @@ In our lab, researchers from diverse backgrounds—such as Electrical Engineerin
 
 In particular, I am highly interested in <u style="color: var(--nav-accent);">building an Agentic AI research assistant system</u> that can comprehensively utilize the diverse data generated during recent research processes. Many companies in Silicon Valley have already integrated this into their workflows, transitioning a wide range of tasks over to AI, from coding to the analysis of massive physical datasets. Accordingly, our lab is looking for researchers to build a new type of device and packaging research environment where AI and humans collaborate. If you dream of pursuing this kind of future-oriented research, please feel free to contact me at any time.
 
-Currently, we give priority to applicants for the Ph.D. or MS-Ph.D. integrated programs who can make a long-term commitment. If you are interested, please send your CV, academic transcripts, and research activity materials (papers, projects, etc.) to my email (jmkwon@kaist.ac.kr).
+We currently prioritize applicants for the Ph.D. or MS-Ph.D. integrated programs who can make a long-term commitment. If you are interested, please email your CV, academic transcripts, and research materials (papers, projects, etc.) to me (jmkwon@kaist.ac.kr) and CC our lab representative, Minho Park (mhpark@unist.ac.kr).
 
 ※ Please note that as of the Spring semester of 2026, the lab has relocated to <u><strong>the School of Electrical Engineering in KAIST</strong></u> and the <u><strong>Department of AI Systems in KAIST</strong></u>.
