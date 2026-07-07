@@ -23,7 +23,7 @@ profile: /assets/img/members/2026-spring/최유림.jpg
 
 # BIO: include period, research area, and key contributions in the lab.
 bio: |-
-  MMs. Yurim Choi was a Master's student in the UNIST Nanoelectronics and Advanced Packaging Lab (UNL) and a core member of the CP Team from January 2024 to July 2026. As one of the lab's foundational members, she established the electroplating process from the ground up, successfully defining the metallization processes for packaging components such as Cu pillar bumps, RDLs, and build-up layers—which have now become integral to the lab's fabrication workflow. Leveraging this infrastructure, she advanced the lab’s capabilities by performing actual flip-chip assemblies for empirical measurements. These pioneering process achievements culminated in a publication at the IEEE Electronic Components and Technology Conference (ECTC), the premier global event in the field of semiconductor packaging.
+  Ms. Yurim Choi was a Master's student in the UNIST Nanoelectronics and Advanced Packaging Lab (UNL) and a core member of the CP Team from January 2024 to July 2026. As one of the lab's foundational members, she established the electroplating process from the ground up, successfully defining the metallization processes for packaging components such as Cu pillar bumps, RDLs, and build-up layers—which have now become integral to the lab's fabrication workflow. Leveraging this infrastructure, she advanced the lab’s capabilities by performing actual flip-chip assemblies for empirical measurements. These pioneering process achievements culminated in a publication at the IEEE Electronic Components and Technology Conference (ECTC), the premier global event in the field of semiconductor packaging.
 
   Her research also made significant strides in electromagnetic interference (EMI) analysis for packaging interconnections; by rigorously aligning experimental transmission line data with EM simulation results, she successfully integrated realistic physical parameters into the models, drastically improving simulation accuracy. This groundbreaking work bridging fabrication and simulation led to a top-tier academic milestone, being published as a co-first author at the IEEE International Electron Devices Meeting (IEDM), the world’s most prestigious conference in semiconductor devices.
   
@@ -48,31 +48,31 @@ selected_publications:
   journals:
   conferences:
     - title: "3D printed fanout interposer substrates with curved through-holes for rapid prototyping of advanced packaging"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2025 75th IEEE Electronic Components and Technology Conference (ECTC)</em>"
 
     - title: "Quasi-coaxial through-hole integrated additively manufactured antenna-in-package lid substrates"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2025 75th IEEE Electronic Components and Technology Conference (ECTC)</em>"
 
     - title: "Monolithic 3D integration of III-V HEMTs on glass using ultra-thin dielectric bonding layer: a high-frequency and low-loss active glass platform for sub-THz applications"
-      contribution: "co-author"
+      contribution: "Co-first author"
       venue: "<em>2025 71st IEEE International Electron Devices Meeting (IEDM)</em>"
 
     - title: "Active BSCDN benchmark framework with backside-compatible CNFET logic technology"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2025 71st IEEE International Electron Devices Meeting (IEDM)</em>"
 
     - title: "Vertical-die (v-die) 3.5D integration for cool ultrahigh-bandwidth memory systems"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2026 IEEE Symposium on VLSI Technology and Circuits (VLSI)</em>"
 
     - title: "Signal integrity challenges and opportunities in high-density chiplet I/O on glass substrates"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2026 International Conference on Electronics Packaging joined with Hybrid Bonding Symposium (ICEP-HBS 2026)</em>"
 
     - title: "Analysis of shrinkage-induced dimensional mismatch in 3D-printed packaging substrates for flip-chip bonding"
-      contribution: "author"
+      contribution: "Co-author"
       venue: "<em>2026 International Conference on Electronics Packaging joined with Hybrid Bonding Symposium (ICEP-HBS 2026)</em>"
 
 ---
