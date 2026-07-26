@@ -32,6 +32,7 @@ research:
       - "Panel-level packaging with additive manufacturing for high-speed I/O systems"
 
   - area : Scaling-Up Printed Electronics
+    topics :
       - "Ion-gated FET RF varactors"
       - "Intelligent reflective surface (IRS) for 5G/6G"
 
