@@ -13,6 +13,7 @@ terms:
 career:     # Optional, for postdocs and alumni
   - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
   - "Postdoc / Department of Electrical Engineering, <strong>UNIST</strong> (Feb 2024 - Mar 2026)"
+  - "NRF Post-Doc. 성장형 연구지원 (Jun 2026 - May 2029)"
 
 ko-projects:    # Optional, underlined when displayed
   - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"
@@ -25,11 +26,14 @@ education:
   - "BS / Department of Electrical Engineering, <strong>POSTECH</strong> (Mar 2014 - Feb 2018)"
 
 research:
-  - area: Scaling-Up Printed Electronics 
+  - area: Advanced semiconductor packaging
     topics:
+      - "RF packaging for heterogeneous wireless systems"
+      - "Panel-level packaging with additive manufacturing for high-speed I/O systems"
+
+  - area : Scaling-Up Printed Electronics
       - "Ion-gated FET RF varactors"
       - "Intelligent reflective surface (IRS) for 5G/6G"
-      - "Panel-level-packaging with EHD inkjet printing"
 
 # Optional
 email: ywlee96@kaist.ac.kr
