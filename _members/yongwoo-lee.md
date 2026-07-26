@@ -16,10 +16,10 @@ career:     # Optional, for postdocs and alumni
   - "NRF Post-Doc. 성장형 연구지원 (Jun 2026 - May 2029)"
 
 ko-projects:    # Optional, underlined when displayed
-  - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"
+  - "NRF 국내박사후연수 (Sep 2024 - Aug 2026)"
 
 projects:       # Optional, underlined when displayed
-  - "NRF 국내박사후연수 (Sep 2024 - Aug 2018)"
+  - "NRF 국내박사후연수 (Sep 2024 - Aug 2026)"
 
 education:
   - "MS-PhD / Department of IT Convergence Engineering, <strong>POSTECH</strong> (Mar 2018 - Feb 2024)"
