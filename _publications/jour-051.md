@@ -11,6 +11,6 @@ title_url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.
 
 authors: "<strong>정학순</strong>, <strong>권지민*</strong>"
 
-status: accepted
+status: published
 venue: "<em>J. Microelectron. Packag. Soc.</em> 33, 36-47 (2026). DOI: 10.6117/kmeps.2026.33.2.036"
 ---
