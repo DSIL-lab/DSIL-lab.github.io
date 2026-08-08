@@ -7,7 +7,7 @@ role: TD team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/구현호.jpg
-  "2026-summer": /assets/img/members/2026-summer/구현호.jp
+  "2026-summer": /assets/img/members/2026-summer/구현호.jpg
 terms:
   - "2026-spring"
   - "2026-summer"

@@ -7,7 +7,7 @@ role: Principal Investigator (PI)
 
 photo_by_term:
   "2026-spring": /assets/img/members/2025-summer/jimin.jpg
-  "2026-summer": /assets/img/members/2026-summer/교수님.jp
+  "2026-summer": /assets/img/members/2026-summer/교수님.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
