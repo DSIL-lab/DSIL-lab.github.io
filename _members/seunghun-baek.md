@@ -7,7 +7,7 @@ role: Lab Safety Manager, TD Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/백승훈.jpg
-  "2026-summer": /assets/img/members/2026-spring/백승훈.jpg
+  "2026-summer": /assets/img/members/2026-summer/백승훈.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
