@@ -6,7 +6,7 @@ group: students     # pi / students / alumni
 role: TD Team
 
 photo_by_term:
-  "2026-summer": /assets/img/members/2026-summer/윤진수.jp
+  "2026-summer": /assets/img/members/2026-summer/윤진수.jpg
 terms:
   - "2026-summer"
 
