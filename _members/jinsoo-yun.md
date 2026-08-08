@@ -15,14 +15,17 @@ education:
   - BS / College of Nursing (major) & Department of Integrated Information Technology (double major), <strong>Yonsei University</strong> (Mar 2018 - Feb 2026)
 
 research:
-- area: Carbon Nanotube FET Fabrication for 3D-Stacked Logic
+- area: 3D-Stacked Logic Devices
 
   topics:
-    - "CNFET doping process development"
-    - "CNFET fabrication and CFET stacking"
-    - "CFET Standard Cell Design and Benchmarking"
-    - "Standard cell library and design rules"
-    - "Physical design and PPA benchmarking"
+    - "Carbon nanotube and 2D-material transistors"
+    - "Beyond-CFET 3D integration"
+
+- area: Design Enablement for Stacked CMOS
+
+  topics:
+    - "Compact modeling and standard cell design"
+    - "Circuit design and benchmarking"
 
 email: jsyun@kaist.ac.kr
 
