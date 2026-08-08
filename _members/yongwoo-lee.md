@@ -7,8 +7,10 @@ role: Components and Packaging (CP) team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/이용우.jpg
+  "2026-summer": /assets/img/members/2026-summer/이용우.jpg
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 career:     # Optional, for postdocs and alumni
   - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"

@@ -7,8 +7,10 @@ role: TD Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/음성민.png
+  "2026-summer": /assets/img/members/2026-summer/음성민.png
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 education:
   - MS-PhD / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2024 – present)

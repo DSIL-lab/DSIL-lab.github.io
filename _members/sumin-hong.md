@@ -7,8 +7,10 @@ role: TD Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/홍수민.jpg
+  "2026-summer": /assets/img/members/2026-summer/홍수민.jpg
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 education:
   - MS / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2024 – present)

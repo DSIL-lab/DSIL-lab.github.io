@@ -7,8 +7,10 @@ role: IT system manager, DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/양희수.jpg
+  "2026-summer": /assets/img/members/2026-summer/양희수.jpg
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 (2025)"

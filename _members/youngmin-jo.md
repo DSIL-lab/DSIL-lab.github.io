@@ -7,8 +7,10 @@ role: Technology Development (TD) team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/조영민.jpg
+  "2026-summer": /assets/img/members/2026-summer/조영민.jpg
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 career:     # Optional, for postdocs and alumni
   - "Postdoc / Department of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
