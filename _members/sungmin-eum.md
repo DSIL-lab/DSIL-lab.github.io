@@ -3,7 +3,7 @@ order: 5
 id: sungmin-eum
 name: Sungmin Eum
 group: students     # pi / students / alumni
-role: TD Team
+role: CP Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/음성민.png
