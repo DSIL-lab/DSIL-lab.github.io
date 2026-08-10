@@ -11,6 +11,7 @@ terms:
   - "2026-summer"
 
 education:
+  - BS / Department of Physics, Konkuk University (Mar 2019 - Feb 2024, Transferred)
   - BS / Department of Physics (major) and Next Generation Semiconductor Engineering (second major), <strong>Korea University</strong> (Mar 2024 – present)
 
 research:
