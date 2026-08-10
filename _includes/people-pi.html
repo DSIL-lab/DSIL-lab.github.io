@@ -19,12 +19,14 @@
 
 {% if pi %}
 
-<div class="pi-profile">
+<div class="pi-profile"
+     data-base-url="{{ site.baseurl | default: '' | escape }}">
 
   <div class="pi-header">
     {% if pi.photo_by_term %}
       {% assign pi_photo_src = pi.photo_by_term | first | last %}
-      <img class="pi-photo" src="{{ pi_photo_src | relative_url }}" alt="{{ pi_name }}">
+      <img class="pi-photo" src="{{ pi_photo_src | relative_url }}" alt="{{ pi_name }}"
+           data-photo-by-term='{{ pi.photo_by_term | jsonify | escape }}'>
     {% elsif pi.photo %}
       <img class="pi-photo" src="{{ pi.photo | relative_url }}" alt="{{ pi_name }}">
     {% endif %}
@@ -91,3 +93,5 @@
 {% else %}
   <p>{{ no_info }}</p>
 {% endif %}
+
+<script src="{{ '/assets/js/pi.js' | relative_url }}"></script>
