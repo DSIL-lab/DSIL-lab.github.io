@@ -39,7 +39,7 @@
             {% endif %}
 
             <div class="pub-meta">
-              {% if p.status and p.status != "published" %}
+              {% if p.status and p.status != "" and p.status != "published" %}
                 {% if p.status == "accepted" %}
                   {% if p.venue and p.venue != "" %}
                     <span class="pub-venue">{{ p.venue }}</span>
