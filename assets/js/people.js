@@ -243,6 +243,7 @@ function renderTermMenuOptions() {
       var selected = this.getAttribute("data-term") || "";
       if (selected !== activeTerm) {
         activeTerm = selected;
+        try { sessionStorage.setItem("dsilActiveTerm", activeTerm); } catch (e) {}
         refreshView();
       }
       syncTermSelectorUI();
@@ -295,7 +296,10 @@ function initTermSelector() {
     return;
   }
 
-  activeTerm = termOptions[0];
+  var storedTerm = "";
+  try { storedTerm = sessionStorage.getItem("dsilActiveTerm") || ""; } catch (e) {}
+  activeTerm = termOptions.indexOf(storedTerm) >= 0 ? storedTerm : termOptions[0];
+  try { sessionStorage.setItem("dsilActiveTerm", activeTerm); } catch (e) {}
 
   renderTermMenuOptions();
   syncTermSelectorUI();

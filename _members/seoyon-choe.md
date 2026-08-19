@@ -1,5 +1,5 @@
 ---
-order: 18
+order: 17
 id: seoyon-choe
 name: Seoyon Choe
 group: students     # pi / students / alumni
@@ -7,8 +7,10 @@ role: DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/최서연.jpg
+  "2026-summer": /assets/img/members/2026-summer/최서연.jpg
 terms:
   - "2026-spring"
+  - "2026-summer"
 
 education:
   - MS / The Kim Jaechul Graduate School of AI, <strong>KAIST</strong> (Mar 2025 – present)
