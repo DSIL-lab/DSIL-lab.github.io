@@ -17,6 +17,8 @@ summary: |-
     
     This research was supported by NRF, KEIT, and related Ministry of Science and ICT / MOTIE funding programs.
 
+    - Featured Article: [Herald Corp] KAIST Solves 3D Memory Challenge to Boost AI Semiconductor Performance and Energy Efficiency ([link](https://biz.heraldcorp.com/article/10846129))
+
 ---
 
   - Title: Oxygen-Tunnel Indium Tin Oxide Vertical Channel Transistors with Enhanced Current Density and Reliability for Monolithic 3D Compute-In-Memory Systems ([link](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202531989))
@@ -30,5 +32,7 @@ summary: |-
     System-level evaluations further showed that hybrid Si-CMOS/ITO integration can reduce memory cell area while extending data retention and improving compute-in-memory performance for next-generation AI hardware. 
     
     This research was supported by NRF, KEIT, and related Ministry of Science and ICT / MOTIE funding programs.
+   
+    - Featured Article: [Herald Corp] KAIST Solves 3D Memory Challenge to Boost AI Semiconductor Performance and Energy Efficiency ([link](https://biz.heraldcorp.com/article/10846129))
 
 
