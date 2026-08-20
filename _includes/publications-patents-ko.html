@@ -44,7 +44,7 @@
                   {% endif %}
                   <span class="pub-venue-detail">등록번호 {{ p.registration_no }}</span>
                 {% endif %}
-                {% if p_status and p_status != "published" %}
+                {% if p_status and p_status != "" and p_status != "published" %}
                   {% if p.application_no and p.application_no != "" or p.registration_no and p.registration_no != "" %}
                     <span class="pub-sep"> &middot; </span>
                   {% endif %}

@@ -70,7 +70,7 @@
                 {% if p_venue_detail and p_venue_detail != "" %}
                   <span class="pub-venue-detail">{{ p_venue_detail }}</span>
                 {% endif %}
-                {% if p_status and p_status != "published" %}
+                {% if p_status and p_status != "" and p_status != "published" %}
                   {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
                     <span class="pub-sep"> &middot; </span>
                   {% endif %}
@@ -139,7 +139,7 @@
                 {% if p_venue_detail and p_venue_detail != "" %}
                   <span class="pub-venue-detail">{{ p_venue_detail }}</span>
                 {% endif %}
-                {% if p_status and p_status != "published" %}
+                {% if p_status and p_status != "" and p_status != "published" %}
                   {% if p_venue and p_venue != "" or p_venue_detail and p_venue_detail != "" %}
                     <span class="pub-sep"> &middot; </span>
                   {% endif %}
