@@ -7,7 +7,7 @@ image: ""
 summary: |-
     - 본 연구실의 3차원 산화물 수직 채널 트랜지스터(VCT) 및 '산소 터널' 기반 AI 반도체 연구 성과가 주요 언론 매체에 보도되었습니다. 
 
-    Featured Articles: 
+    주요 보도 기사: 
      - [헤럴드경제] KAIST “3차원 메모리 난제 해결”…AI 반도체 성능↑전력↓ ([link](https://biz.heraldcorp.com/article/10846129))
       
      - [TechWorld] 카이스트, AI 반도체 전력 효율 높인다…‘산소 터널’로 3차원 메모리 난제 해결 ([link](https://www.epnc.co.kr/news/articleView.html?idxno=405784))
@@ -20,7 +20,7 @@ summary: |-
 
   - 본 연구실의 3차원 산화물 수직 채널 트랜지스터(VCT) 및 '산소 터널' 기반 AI 반도체 연구 성과가 주요 언론 매체에 보도되었습니다. 
 
-    Featured Articles: 
+    주요 보도 기사: 
       - [헤럴드경제] KAIST “3차원 메모리 난제 해결”…AI 반도체 성능↑전력↓ ([link](https://biz.heraldcorp.com/article/10846129))
       
       - [TechWorld] 카이스트, AI 반도체 전력 효율 높인다…‘산소 터널’로 3차원 메모리 난제 해결 ([link](https://www.epnc.co.kr/news/articleView.html?idxno=405784))

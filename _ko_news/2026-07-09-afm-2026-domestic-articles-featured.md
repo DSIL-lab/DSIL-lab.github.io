@@ -7,7 +7,7 @@ image: ""
 summary: |-
     - 본 연구실의 2차원 반도체 자동 선별 및 트랜지스터 제작 연구 성과가 국내 주요 언론 매체에 보도되었습니다. 
 
-    Featured Articles: 
+    주요 보도 기사: 
     
      - [디지털투데이] KAIST, 2차원 반도체 선별 자동화 기술 개발 ([link](https://www.digitaltoday.co.kr/news/articleView.html?idxno=682628))
     
@@ -22,7 +22,7 @@ summary: |-
 
 - 본 연구실의 2차원 반도체 자동 선별 및 트랜지스터 제작 연구 성과가 국내 주요 언론 매체에 보도되었습니다. 
 
-    Featured Articles: 
+    주요 보도 기사: 
     
     - [디지털투데이] KAIST, 2차원 반도체 선별 자동화 기술 개발 ([link](https://www.digitaltoday.co.kr/news/articleView.html?idxno=682628))
     
