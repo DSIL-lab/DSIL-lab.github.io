@@ -13,6 +13,7 @@ summary: |-
     
     시스템 수준의 평가에서는 Si-CMOS와 ITO 소자의 하이브리드 집적을 통해 메모리 셀 면적을 줄이는 동시에 데이터 유지 시간을 연장하고, 차세대 AI 하드웨어를 위한 컴퓨트-인-메모리(Compute-in-Memory) 성능을 향상시킬 수 있음을 보였습니다.
     본 연구는 한국연구재단, 한국산업기술기획평가원 및 과학기술정보통신부, 산업통상자원부의 연구개발 지원을 받아 수행되었습니다.
+
 ---
 
 - 제목: Oxygen-Tunnel Indium Tin Oxide Vertical Channel Transistors with Enhanced Current Density and Reliability for Monolithic 3D Compute-In-Memory Systems ([link](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202531989))
@@ -23,3 +24,4 @@ summary: |-
     
     시스템 수준의 평가에서는 Si-CMOS와 ITO 소자의 하이브리드 집적을 통해 메모리 셀 면적을 줄이는 동시에 데이터 유지 시간을 연장하고, 차세대 AI 하드웨어를 위한 컴퓨트-인-메모리(Compute-in-Memory) 성능을 향상시킬 수 있음을 보였습니다.
     본 연구는 한국연구재단, 한국산업기술기획평가원 및 과학기술정보통신부, 산업통상자원부의 연구개발 지원을 받아 수행되었습니다.
+
