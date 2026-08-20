@@ -21,7 +21,7 @@ summary: |-
 
 - Our research on automated sorting and transistor fabrication for 2D semiconductors has been widely featured in domestic media outlets. 
 
-    -Featured Articles: 
+    Featured Articles: 
     - [DigitalToday] KAIST Develops Automated Sorting Technology for 2D Semiconductors ([link](https://www.digitaltoday.co.kr/news/articleView.html?idxno=682628))
     -  [Asia Business Daily] Automating the Sorting and Transistor Fabrication of "Dream" 2D Semiconductors ([link](https://v.daum.net/v/ZksOlLTsAk?f=p))
     -  [Donga Science] Automating 2D Semiconductor Flake Sorting and Device Fabrication ([link](https://www.dongascience.com/ko/news/78850))
