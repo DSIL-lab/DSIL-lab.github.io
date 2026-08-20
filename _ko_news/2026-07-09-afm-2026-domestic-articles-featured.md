@@ -19,9 +19,9 @@ summary: |-
 
 ---
 
-    - DSIL 연구실의 2차원 반도체 자동 선별 및 트랜지스터 제작 연구 성과가 국내 주요 언론 매체에 보도되었습니다. 
+- DSIL 연구실의 2차원 반도체 자동 선별 및 트랜지스터 제작 연구 성과가 국내 주요 언론 매체에 보도되었습니다. 
 
-    -Featured Articles: 
+    - Featured Articles: 
     [디지털투데이] KAIST, 2차원 반도체 선별 자동화 기술 개발 ([link](https://www.digitaltoday.co.kr/news/articleView.html?idxno=682628))
     
     [아시아경제] 꿈의 2차원 반도체 선별·트랜지스터 제작 '자동화' ([link](https://v.daum.net/v/ZksOlLTsAk?f=p))
