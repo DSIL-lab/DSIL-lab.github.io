@@ -24,6 +24,6 @@ permalink: /ko/contact-content-source/
 
 현재는 오랜 호흡으로 박사까지 진학할 학생이나 통합 과정 지원자를 우선적으로 선발합니다. 관심 있는 분들은 CV, 성적표, 연구 활동 자료 (논문, 프로젝트 등)를 제 메일로 보내주시기 바랍니다 (jmkwon@kaist.ac.kr). 원활한 소통을 위해 메일 발송 시 랩장 박민호 학생(mhpark@unist.ac.kr)을 꼭 참조로 넣어주시기 바랍니다.
 
-※ 2026년 1학기부터 연구실은 <u><strong>KAIST 전기및전자공학부</strong></u> 및 <u><strong>KAIST AI시스템학과</strong></u>로 이동하였습니다. 지원에 참고 바랍니다.
+※ 우리 연구실은 <u><strong>KAIST 전기및전자공학부</strong></u> 및 <u><strong>KAIST AI시스템학과</strong></u> 소속이며, 저는 <u><strong>KAIST 반도체공학대학원</strong></u> 참여교수와 <u><strong>KAIST 신소재공학과</strong></u> 겸임교수를 함께 맡고 있습니다. 지원 시 참고 바랍니다.
 
-<p class="home-content-meta">April 2, 2026<br>updated by Jimin Kwon</p>
+<p class="home-content-meta">August 25, 2026<br>updated by Jimin Kwon</p>
