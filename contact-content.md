@@ -24,4 +24,4 @@ In particular, I am highly interested in <u style="color: var(--nav-accent);">bu
 
 We currently prioritize applicants for the Ph.D. or MS-Ph.D. integrated programs who can make a long-term commitment. If you are interested, please email your CV, academic transcripts, and research materials (papers, projects, etc.) to me (jmkwon@kaist.ac.kr) and CC our lab representative, Minho Park (mhpark@unist.ac.kr).
 
-※ Please note that as of the Spring semester of 2026, the lab has relocated to <u><strong>the School of Electrical Engineering in KAIST</strong></u> and the <u><strong>Department of AI Systems in KAIST</strong></u>.
+※ Please note that our lab is affiliated with <u><strong>the School of Electrical Engineering</strong></u> and the <u><strong>Department of AI Systems</strong></u> at KAIST. I also serve as a participating faculty member of the <u><strong>KAIST Graduate School of Semiconductor Technology</strong></u> and as an adjunct professor in the <u><strong>Department of Materials Science and Engineering</strong></u> at KAIST.
