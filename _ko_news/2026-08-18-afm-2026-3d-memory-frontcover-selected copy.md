@@ -2,7 +2,7 @@
 order: 32
 date: "Aug 18, 2026"
 slug: AFM-2026-front-cover
-title: "[표지 논문] 산소 터널 ITO 수직 채널 트랜지스터 연구, Advanced Functional Materials 전면 표지 장식"
+title: "[전면 표지] 산소 터널 ITO 수직 채널 트랜지스터 연구, Advanced Functional Materials 표지 선정"
 image: "/assets/img/news/2026-03-구현호-AFM-전면표지선정.jpg"
 summary: |-
     - DSIL 연구실의 산소 터널 ITO 수직 채널 트랜지스터 연구가 국제 학술지 'Advanced Functional Materials' (Volume 36, Issue 66, 2026년 8월 17일 출판)의 전면 표지(Front Cover)로 선정되었습니다.
