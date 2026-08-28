@@ -2,7 +2,7 @@
 order: 32
 date: "Aug 18, 2026"
 slug: AFM-2026-front-cover
-title: "[Cover] Research on Oxygen-Tunnel ITO VCTs Featured on the Front Cover of Advanced Functional Materials"
+title: "[Cover Article] Research on Oxygen-Tunnel ITO VCTs Featured on the Front Cover of Advanced Functional Materials"
 image: "/assets/img/news/2026-03-구현호-AFM-전면표지선정.jpg"
 summary: |-
     - Our research on oxygen-tunnel ITO vertical-channel transistors has been featured on the Front Cover of Advanced Functional Materials (Volume 36, Issue 66, August 17, 2026).
