@@ -14,7 +14,7 @@ summary: |-
 
      - [News1] KAIST Opens New Era for 3D AI Memory via Dedicated 'Oxygen Passageways' ([link](https://www.news1.kr/amp/local/daejeon-chungnam/6264026))
 
-    Led by Prof. Jimin Kwon's team, this study introduced a multilayer inter-layer dielectric (SiN/SiO₂/SiN) structure termed an "Oxygen Tunnel" to precisely regulate oxygen migration in oxide VCTs. This technology overcomes the instability of 3D memory devices and opens new avenues for energy-efficient compute-in-memory (CIM) AI semiconductors. The research was featured on the Front Cover of Advanced Functional Materials.
+    
 
 ---
 
@@ -27,4 +27,4 @@ summary: |-
 
      - [ETNews] KAIST-Led Team Resolves 3D Memory Challenges: Higher Performance, Lower Power ([link](https://www.etnews.com/20260820000018))
 
-    Led by Prof. Jimin Kwon's team, this study introduced a multilayer inter-layer dielectric (SiN/SiO₂/SiN) structure termed an "Oxygen Tunnel" to precisely regulate oxygen migration in oxide VCTs. This technology overcomes the instability of 3D memory devices and opens new avenues for energy-efficient compute-in-memory (CIM) AI semiconductors. The research was featured on the Front Cover of Advanced Functional Materials.
+    

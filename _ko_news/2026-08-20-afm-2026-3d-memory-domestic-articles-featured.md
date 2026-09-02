@@ -14,7 +14,7 @@ summary: |-
 
      - [뉴스1] KAIST "산소 전용 통로로 3차원 AI 메모리 새 장 열었다" ([link](https://www.news1.kr/amp/local/daejeon-chungnam/6264026))
 
-    Led by Prof. Jimin Kwon's team, this study introduced a multilayer inter-layer dielectric (SiN/SiO₂/SiN) structure termed an "Oxygen Tunnel" to precisely regulate oxygen migration in oxide VCTs. This technology overcomes the instability of 3D memory devices and opens new avenues for energy-efficient compute-in-memory (CIM) AI semiconductors. The research was featured on the Front Cover of Advanced Functional Materials.
+    
 
 ---
 
@@ -27,4 +27,4 @@ summary: |-
 
       - [뉴스1] KAIST "산소 전용 통로로 3차원 AI 메모리 새 장 열었다" ([link](https://www.news1.kr/amp/local/daejeon-chungnam/6264026))
 
-    Led by Prof. Jimin Kwon's team, this study introduced a multilayer inter-layer dielectric (SiN/SiO₂/SiN) structure termed an "Oxygen Tunnel" to precisely regulate oxygen migration in oxide VCTs. This technology overcomes the instability of 3D memory devices and opens new avenues for energy-efficient compute-in-memory (CIM) AI semiconductors. The research was featured on the Front Cover of Advanced Functional Materials.
+    

@@ -26,4 +26,3 @@ summary: |-
     - 논문 링크: [link](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202531989)
 
     - 표지 링크: [link](https://advanced.onlinelibrary.wiley.com/toc/16163028/2026/36/66)
-
