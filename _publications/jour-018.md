@@ -9,7 +9,7 @@ year: 2020
 title: "Reliable inkjet contact metallization on printed polymer semiconductors for fabricating staggered TFTs"
 title_url: "https://pubs.aip.org/aip/apl/article/116/15/153301/38130"
 
-authors: "<strong>Yongwoo Lee</strong><sup>†</sup>, <strong>Jimin Kwon</strong><sup>†</sup>, Sungyeop Jung, Woojo Kim, Sanghoon Baek, Sungjune Jung*"
+authors: "Yongwoo Lee<sup>†</sup>, <strong>Jimin Kwon</strong><sup>†</sup>, Sungyeop Jung, Woojo Kim, Sanghoon Baek, Sungjune Jung*"
 
 status: published
 venue: "<em>Applied Physics Letters</em> 11, 153301 (2020). DOI: 10.1063/1.5142264"
