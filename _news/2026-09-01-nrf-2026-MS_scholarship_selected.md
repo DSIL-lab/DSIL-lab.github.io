@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 date: "Sep 02, 2026"
 slug: NRF-2026-MS-scholorship-selected
 title: "Dongjin Wi Selected for the NRF Master's Research Fellowship (2026)"

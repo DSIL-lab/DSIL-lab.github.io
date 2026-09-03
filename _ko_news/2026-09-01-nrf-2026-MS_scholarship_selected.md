@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 date: "Sep 02, 2026"
 slug: NRF-2026-MS-scholorship-selected
 title: "위동진 (석박통합 1년차) 학생, 한국연구재단 석사과정생연구장려금 (2026) 선정"
