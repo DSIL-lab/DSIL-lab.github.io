@@ -2,7 +2,7 @@
 order: 29
 date: "Jul 9, 2026"
 slug: AFM-2026-domestic articles scrap
-title: "[Media] KAIST Develops Automated Sorting Technology for 2D Semiconductors"
+title: "[Media Coverage] KAIST Develops Automated Sorting Technology for 2D Semiconductors"
 image: ""
 summary: |-
     - Our research on automated sorting and transistor fabrication for 2D semiconductors has been widely featured in domestic media outlets. 
