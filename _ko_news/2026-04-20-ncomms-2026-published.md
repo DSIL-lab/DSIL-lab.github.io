@@ -2,7 +2,7 @@
 order: 27
 date: "Apr 20, 2026"
 slug: ncomms-2026-paper-published
-title: "이용우 박사 논문 Nature Communications 게재"
+title: "이용우 박사, 논문 Nature Communications 게재"
 image: ""
 summary: |-
     - 제목: Wafer-scale uniform non-ferroelectric κ-phase In₂Se₃ transistors ([link](https://www.nature.com/articles/s41467-026-72553-y))
