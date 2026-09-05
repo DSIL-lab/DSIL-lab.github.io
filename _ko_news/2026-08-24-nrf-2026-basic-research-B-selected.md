@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 date: "Aug 21, 2026"
 slug: NRF-2026-basic-research-B-selected
 title: "조영민 박사, 한국연구재단 기본연구B(포용형) 신규과제 선정"

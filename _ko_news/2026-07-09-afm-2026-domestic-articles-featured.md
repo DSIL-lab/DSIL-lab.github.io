@@ -1,5 +1,5 @@
 ---
-order: 29
+order: 30
 date: "Jul 9, 2026"
 slug: AFM-2026-domestic articles scrap
 title: "[보도] KAIST, 2차원 반도체 선별·트랜지스터 제작 자동화 기술 개발"

@@ -1,5 +1,5 @@
 ---
-order: 27
+order: 28
 date: "May 20, 2026"
 slug: afm-2026-paper-acceptance
 title: "구현호, 논문 Advanced Functional Materials 게재"

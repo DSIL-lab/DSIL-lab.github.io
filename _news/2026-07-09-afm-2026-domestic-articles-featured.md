@@ -1,5 +1,5 @@
 ---
-order: 29
+order: 30
 date: "Jul 9, 2026"
 slug: AFM-2026-domestic articles scrap
 title: "[Media Coverage] KAIST Develops Automated Sorting Technology for 2D Semiconductors"

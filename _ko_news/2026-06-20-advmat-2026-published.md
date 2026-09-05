@@ -1,5 +1,5 @@
 ---
-order: 28
+order: 29
 date: "May 20, 2026"
 slug: advmat-2026-paper-published
 title: "정학순 박사, 논문 Advanced Materials 게재"

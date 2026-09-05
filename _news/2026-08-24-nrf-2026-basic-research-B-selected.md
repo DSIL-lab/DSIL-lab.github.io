@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 date: "Aug 21, 2026"
 slug: NRF-2026-basic-research-B-selected
 title: "Dr. Youngmin Jo Selected for the NRF Basic Research Program B (Inclusive Type)"

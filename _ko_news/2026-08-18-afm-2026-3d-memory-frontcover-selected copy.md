@@ -1,5 +1,5 @@
 ---
-order: 32
+order: 33
 date: "Aug 18, 2026"
 slug: AFM-2026-front-cover
 title: "[전면 표지] 산소 터널 ITO 수직 채널 트랜지스터 연구, Advanced Functional Materials 표지 선정"

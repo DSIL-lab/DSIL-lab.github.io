@@ -1,5 +1,5 @@
 ---
-order: 31
+order: 32
 date: "Aug 20, 2026"
 slug: AFM-2026-3d-memory-domestic-articles-scrap
 title: "[보도] KAIST, '산소 터널' 기술로 3차원 AI 메모리 난제 해결"

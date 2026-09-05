@@ -1,5 +1,5 @@
 ---
-order: 28
+order: 29
 date: "June 20, 2026"
 slug: advmat-2026-paper-published
 title: "Dr. Haksoon Jung Published in Advanced Materials 2026"

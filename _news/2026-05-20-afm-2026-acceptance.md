@@ -1,5 +1,5 @@
 ---
-order: 27
+order: 28
 date: "May 20, 2026"
 slug: AFM-2026-paper-acceptance
 title: "Hyeonho Gu Published in Advanced Functional Materials"

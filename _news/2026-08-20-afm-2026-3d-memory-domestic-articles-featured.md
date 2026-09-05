@@ -1,5 +1,5 @@
 ---
-order: 31
+order: 32
 date: "Aug 20, 2026"
 slug: AFM-2026-3d-memory-domestic-articles-scrap
 title: "[Media] KAIST Solves 3D Memory Challenges to Boost AI Semiconductor Efficiency"

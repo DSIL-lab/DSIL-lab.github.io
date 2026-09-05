@@ -1,5 +1,5 @@
 ---
-order: 32
+order: 33
 date: "Aug 18, 2026"
 slug: AFM-2026-front-cover
 title: "[Front Cover] Oxygen-Tunnel ITO Vertical-Channel Transistors Featured in Advanced Functional Materials"
