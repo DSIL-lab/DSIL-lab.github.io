@@ -18,7 +18,7 @@ current_affiliation: KAIST Ph.D. student
 # regular alumni only
 # ---------------------------------------------------------------------
 
-profile: /assets/img/members/2026-spring/김나현.jpg
+profile: /assets/img/members/2026-summer/김나현.jpg
 
 # BIO: include period, research area, and key contributions in the lab.
 bio: |-
