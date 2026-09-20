@@ -2,7 +2,7 @@
 order: 32
 date: "Aug 20, 2026"
 slug: AFM-2026-3d-memory-domestic-articles-scrap
-title: "[Media] KAIST Solves 3D Memory Challenges to Boost AI Semiconductor Efficiency"
+title: "[Media Coverage] KAIST Solves 3D Memory Challenges to Boost AI Semiconductor Efficiency"
 image: ""
 summary: |-
     - Our research on 3D oxide vertical channel transistors (VCTs) and 'Oxygen Tunnel' technology for AI semiconductors has been featured in domestic media outlets. 
