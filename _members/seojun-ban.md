@@ -2,7 +2,7 @@
 order: 25
 id: seojun-ban
 name: SeoJun Ban
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:

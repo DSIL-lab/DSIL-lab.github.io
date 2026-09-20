@@ -2,7 +2,7 @@
 order: 22
 id: eunchae-choi
 name: Eunchae Choi
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:
