@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 0
+order: 7
 slug: io-circuits
 title: I/O Circuit Design for Multi-Chip Systems
 team: Design and Benchmark (DB) or Component Packaging (CP)
