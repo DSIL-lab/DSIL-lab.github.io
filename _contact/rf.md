@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 0
+order: 6
 slug: rf
 title: RF Packaging and Heterogeneous Integration
 team: Components and Packaging (CP), Radio-Frequency
