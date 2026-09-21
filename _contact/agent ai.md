@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 2
+order: 8
 slug: agent ai for semiconductor system
 title: Agent AI for Semiconductor System
 team: 개별연구 학생 (Undergraduate Internship)

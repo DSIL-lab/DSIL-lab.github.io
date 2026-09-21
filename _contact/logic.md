@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 3
+order: 2
 slug: high-performance-logic-devices
 title: High Performance Logic Devices
 team: Technology Development (TD), Logic
