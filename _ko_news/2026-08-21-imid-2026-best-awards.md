@@ -7,7 +7,7 @@ image: "/assets/img/news/2026-09-이용우-IMID-최우수포스터상.png"
 summary: |-
     
 
-    제목 : Electrochemically programmable organic mixed ionic-electronic conductors for GHz impedance tunable radio-frequency electronics
+    - 제목 : Electrochemically programmable organic mixed ionic-electronic conductors for GHz impedance tunable radio-frequency electronics
 
         이용우 박사가 부산 BEXCO에서 열린 국제정보디스플레이학술대회에서 <strong>최우수포스터상</strong>을 수상하였습니다.
         
@@ -15,6 +15,6 @@ summary: |-
     
 ---
 
-제목 : Electrochemically programmable organic mixed ionic-electronic conductors for GHz impedance tunable radio-frequency electronics
+    - 제목 : Electrochemically programmable organic mixed ionic-electronic conductors for GHz impedance tunable radio-frequency electronics
 
-    이용우 박사가 부산 BEXCO에서 열린 국제정보디스플레이학술대회에서 최우수포스터상을 수상하였습니다.
+        이용우 박사가 부산 BEXCO에서 열린 국제정보디스플레이학술대회에서 최우수포스터상을 수상하였습니다.
