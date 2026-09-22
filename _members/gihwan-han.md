@@ -15,10 +15,11 @@ education:
   - BS / Department of Electronic Engineering, <strong>Kyunghee University</strong> (Mar 2020 – Feb 2026)
 
 research:
-- area: Power Delivery Network Design and Optimization for Power Integrity
+- area: System-Technology Co-Optimization
 
   topics:
-    - "Signal-power integrity co-analysis for high-speed interfaces"
+    - "Thermal & Power Integrity co-analysis and design for HBM-GPU Architecture"
+    
 
 email: ghhan01@kaist.ac.kr
 
