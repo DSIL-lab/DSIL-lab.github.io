@@ -1,5 +1,5 @@
 ---
-order: 36
+order: 37
 date: "Sep 3, 2026"
 slug: NCOMMS-2026-kappa-in2se3-domestic-articles-scrap
 title: "[Media Coverage] Turning a Memory Material into a Logic Device — Nature Communications Paper in the News"
