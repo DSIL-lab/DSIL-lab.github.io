@@ -6,7 +6,7 @@ group: students     # pi / students / alumni
 role: CP Team
 
 photo_by_term:
-  "2026-summer": /assets/img/members/2026-summer/이종현.jpg
+  "2026-summer": /assets/img/members/2026-summer/이종현.png
 terms:
   - "2026-summer"
 
