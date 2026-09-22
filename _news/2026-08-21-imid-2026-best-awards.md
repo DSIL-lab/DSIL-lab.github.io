@@ -17,4 +17,4 @@ summary: |-
 
 - Title: Electrochemically programmable organic mixed ionic-electronic conductors for GHz impedance tunable radio-frequency electronics
 
-        Dr. Yongwoo Lee received the <strong>Best Poster Award</strong> at the International Meeting on Information Display (IMID), held at BEXCO in Busan.
+  Dr. Yongwoo Lee received the <strong>Best Poster Award</strong> at the International Meeting on Information Display (IMID), held at BEXCO in Busan.
