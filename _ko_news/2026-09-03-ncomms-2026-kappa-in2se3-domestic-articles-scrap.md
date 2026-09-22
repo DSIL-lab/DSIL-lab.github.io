@@ -1,5 +1,5 @@
 ---
-order: 36
+order: 37
 date: "Sep 3, 2026"
 slug: NCOMMS-2026-kappa-in2se3-domestic-articles-scrap
 title: "[보도] '기억'하던 반도체 물질을 '논리' 소자로, Nature Communications 게재 성과 언론 보도"
