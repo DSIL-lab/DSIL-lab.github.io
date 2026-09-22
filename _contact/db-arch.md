@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 5
+order: 4
 slug: system-level-benchmarking
 title: System-Level Benchmarking of Advanced Devices and Packaging Technologies
 team: Design and Benchmark (DB), STCO

@@ -1,7 +1,7 @@
 ---
 layout: article
 role: position
-order: 6
+order: 5
 slug: advanced-packaging
 title: Advanced Packaging Technologies
 team: Components and Packaging (CP), Packaging

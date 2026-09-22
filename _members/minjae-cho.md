@@ -2,7 +2,7 @@
 order: 23
 id: minjae-cho
 name: Minjae Cho
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:

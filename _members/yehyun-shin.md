@@ -2,7 +2,7 @@
 order: 7
 id: yehyun-shin
 name: Yehyun Shin
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:

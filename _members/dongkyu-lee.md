@@ -2,7 +2,7 @@
 order: 24
 id: dongkyu-lee
 name: Dongkyu Lee
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:

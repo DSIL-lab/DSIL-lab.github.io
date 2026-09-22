@@ -2,7 +2,7 @@
 order: 10
 id: sumin-hong
 name: Sumin Hong
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: TD Team
 
 photo_by_term:

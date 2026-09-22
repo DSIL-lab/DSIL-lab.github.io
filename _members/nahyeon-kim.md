@@ -2,7 +2,7 @@
 order: 6
 id: nahyeon-kim
 name: Nahyeon Kim
-group: students     # pi / students / alumni
+group: alumni     # pi / students / alumni
 role: CP Team
 
 photo_by_term:
