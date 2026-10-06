@@ -15,9 +15,9 @@ education:
   - BS / Department of Electronic Engineering, Sookmyung Women's University (Mar 2022 – present)
 
 research:
-- area:  Analog/mixed-signal I/O circuit design
-
-  topics: High-Speed Interface PHY Circuit Design
+   - area:  Analog/mixed-signal I/O circuit design
+     topics: 
+     - High-Speed Interface PHY Circuit Design
 
   
 
