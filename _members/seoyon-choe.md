@@ -3,7 +3,7 @@ order: 17
 id: seoyon-choe
 name: Seoyon Choe
 group: students     # pi / students / alumni
-role: DB Team
+role: Information Security Manager, DB Team
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/최서연.jpg
