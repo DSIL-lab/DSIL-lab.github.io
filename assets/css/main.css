@@ -1286,14 +1286,10 @@ body.research-detail-view .research-mobile-nav {
 
 .facility {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: var(--space-4);
   align-items: center;
   margin: 2.5rem 0;
-}
-
-.facility--reverse {
-  grid-template-columns: 2fr 3fr;
 }
 
 .facility + .facility {
@@ -1304,16 +1300,9 @@ body.research-detail-view .research-mobile-nav {
 .facility--reverse .facility-image { order: 2; }
 .facility--reverse .facility-text  { order: 1; }
 
-/* The figure acts as a card: image fills the top, with a reserved strip at the
-   bottom for the label. The label sits inside the figure's rectangle but never
-   overlaps the illustration itself. */
 .facility-image {
-  position: relative;
   margin: 0;
   background: var(--bg);
-  border-radius: var(--radius);
-  padding-bottom: 56px;
-  overflow: hidden;
 }
 
 .page-facilities .facility-image img {
@@ -1321,48 +1310,104 @@ body.research-detail-view .research-mobile-nav {
   width: 100%;
   height: auto;
   margin: 0;
-  border-radius: var(--radius) var(--radius) 0 0;
-}
-
-.facility-label {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: var(--space-2);
-  padding: 0 var(--space-3);
-  color: var(--text);
-  line-height: 1.2;
-}
-.facility-label--left  { text-align: left; }
-.facility-label--right { text-align: right; }
-
-.facility-label strong {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-.facility-label span {
-  display: block;
-  font-size: 0.95rem;
-  margin-top: 2px;
+  border-radius: var(--radius);
 }
 
 .facility-text {
   padding: 0 var(--space-2);
+  background: var(--bg);
 }
 
-.facility-text h2 {
-  color: var(--text);
-  font-size: 1.15rem;
-  margin: 1rem 0 0.4rem;
+.facility-kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 var(--space-3);
 }
-.facility-text h2:first-child { margin-top: 0; }
-.facility-text ul {
-  margin: 0 0 0.8rem 1.2rem;
+.facility-kicker::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--kicker-dot, var(--muted));
+  flex-shrink: 0;
+}
+.facility-kicker--amber { --kicker-dot: #c9994a; }
+.facility-kicker--sky   { --kicker-dot: #9ec8e3; }
+
+.facility-title {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-3);
+  color: var(--text);
+}
+
+.facility-subtitle {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0 0 var(--space-4);
+}
+
+.facility-desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 var(--space-4);
+}
+
+.facility-rule {
+  border: 0;
+  border-top: 1px solid var(--border-soft);
+  margin: 0;
+}
+
+.facility-items {
+  margin: 0;
   padding: 0;
 }
-.facility-text li { margin: 0.15rem 0; }
+
+.facility-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.facility-item dt {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.facility-item dd {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.facility-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: var(--space-4) 0 0;
+  padding: 0;
+}
+
+.facility-tags li {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  color: var(--text);
+  background: var(--bg);
+}
 
 @media (max-width: 760px) {
   .facility {
@@ -1373,7 +1418,11 @@ body.research-detail-view .research-mobile-nav {
   .facility--reverse .facility-image { order: 1; }
   .facility--reverse .facility-text  { order: 2; }
 
-  .facility-image { padding-bottom: 56px; }
+  .facility-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: var(--space-2) 0;
+  }
 }
 
 /* --------------------------------------------------- */
