@@ -1,5 +1,5 @@
 ---
-order: 21
+order: 38
 date: "Nov 06, 2026"
 slug: ismp-2026-young-scientist-award
 title: "김경선 (석사과정 2년차), ISMP 2026 Young Scientist Award 수상"
