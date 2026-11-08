@@ -1,15 +1,15 @@
 import os
 
-lab_members_korean = ["권지민", "이용우", "김성주", "정학순", "조영민", "이상현", "구현호", "음성민", "양희수", "김경선", "김형준", "김나현", "신예현", "박민호", "홍수민", "최유림", "이현진", "백승훈", "위동진", "박민지"]
+lab_members_korean = ["권지민", "이용우", "김성주", "정학순", "조영민", "이상현", "구현호", "음성민", "양희수", "김경선", "김형준", "김나현", "신예현", "박민호", "홍수민", "최유림", "이현진", "백승훈", "위동진", "박민지", "최서연", "이종현", "이경빈", "한기환", "윤진수", "전우민", "장시원", "추한조", "최우준", "조동올", "인유진", "최은채", "반서준", "조민재", "이동규", "이승민"]
 
-lab_members_english = ["Jimin Kwon", "Haksoon Jung", "Seongju Kim", "Yongwoo Lee", "Sanghyun Lee", "Hyeonho Gu", "Sungmin Eum", "Heesoo Yang", "Kyungsun Kim", "Hyeongjun Kim", "Nahyeon Kim", "Yehyun Shin", "Minho Park", "Sumin Hong", "Yurim Choi", "Hyunjin Lee", "Seunghun Baek", "Dongjin Wi", "Minji Park"]
+lab_members_english = ["Jimin Kwon", "Haksoon Jung", "Seongju Kim", "Yongwoo Lee", "Sanghyun Lee", "Hyeonho Gu", "Sungmin Eum", "Heesoo Yang", "Kyungsun Kim", "Hyeongjun Kim", "Nahyeon Kim", "Yehyun Shin", "Minho Park", "Sumin Hong", "Yurim Choi", "Hyeonjin Lee", "Seunghun Baek", "Dongjin Wi", "Minji Park", "Youngmin Jo", "Seoyon Choe", "Jonghyeon Lee", "Kyungbin Lee", "Gihwan Han", "Jinsoo Yun", "Woomin Jeon", "Siwon Jang", "Hanjo Choo", "Woojun Choi", "Dongol Cho", "Yujin In", "Eunchae Choi", "Seojun Ban", "Minjae Cho", "Dongkyu Lee", "Seungmin Lee"]
 
 abbrev_to_full = {
     "J. Kwon": "Jimin Kwon",
     "H. Jung": "Haksoon Jung",
     "S. Kim": "Seongju Kim",
     "Y. Lee": "Yongwoo Lee",
-    "H. Lee": "Hyunjin Lee",
+    "H. Lee": "Hyeonjin Lee",
     "M. Park": "Minho Park",
     "G. H. Lee": "G. H. Lee",
     "I. Kim": "I. Kim",
