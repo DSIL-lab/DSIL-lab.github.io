@@ -1,0 +1,130 @@
+# =====================================================================
+# gitleaks config for the lab's Jekyll site
+#
+# - Keeps the gitleaks default rules (API keys, tokens, passwords) and adds
+#   8 rules for Korean personal information (PII).
+# - Written for gitleaks v8. Regexes use Go (RE2) syntax: no lookahead,
+#   no backreferences.
+# - Place this file at the repository root; gitleaks picks it up automatically.
+# - This file is ASCII only. Korean text needed for matching is written as
+#   Unicode escapes (\x{....} in regexes, \u.... in plain strings).
+#
+# Usage
+#   gitleaks dir . --redact -v                      # scan current files
+#   gitleaks git . --redact -v                      # scan full commit history
+#   gitleaks git --pre-commit --staged --redact     # scan before each commit
+#
+# Always pass --redact. Without it, any PII found is printed in the log,
+# and GitHub Actions logs of a public repository are visible to everyone.
+#
+# To look inside Excel/Word files (xlsx/docx are zip archives), try
+# --max-archive-depth=2. Whether their contents are actually detected
+# still needs to be verified on the lab repository.
+# =====================================================================
+
+[extend]
+useDefault = true
+
+# ---------------------------------------------------------------------
+# 1. Resident registration number (RRN)
+# ---------------------------------------------------------------------
+[[rules]]
+id = "resident-registration-number"
+description = "Resident registration number"
+regex = '''(?:^|[^0-9])([0-9]{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12][0-9]|3[01])\s?-?\s?[1-8][0-9]{6})(?:[^0-9]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+# ---------------------------------------------------------------------
+# 2. Passport number
+# ---------------------------------------------------------------------
+[[rules]]
+id = "kr-passport-number"
+description = "Korean passport number"
+regex = '''(?:^|[^A-Za-z0-9])([MSRODG][0-9]{8}|[MSRODG][0-9]{3}[A-Z][0-9]{4})(?:[^A-Za-z0-9]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+# ---------------------------------------------------------------------
+# 3. Driver's license number
+# ---------------------------------------------------------------------
+[[rules]]
+id = "kr-driver-license-number"
+description = "Korean driver's license number"
+regex = '''(?:^|[^0-9])((?:1[1-9]|2[0-68])-[0-9]{2}-[0-9]{6}-[0-9]{2}|(?:\x{C11C}\x{C6B8}|\x{BD80}\x{C0B0}|\x{ACBD}\x{AE30}|\x{AC15}\x{C6D0}|\x{CDA9}\x{BD81}|\x{CDA9}\x{B0A8}|\x{C804}\x{BD81}|\x{C804}\x{B0A8}|\x{ACBD}\x{BD81}|\x{ACBD}\x{B0A8}|\x{C81C}\x{C8FC}|\x{B300}\x{AD6C}|\x{C778}\x{CC9C}|\x{AD11}\x{C8FC}|\x{B300}\x{C804}|\x{C6B8}\x{C0B0})\s?[0-9]{2}-?[0-9]{6}-?[0-9]{2})(?:[^0-9]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+# ---------------------------------------------------------------------
+# 4. Mobile phone number
+#    010/011/016/017/018/019; separator "-", ".", space, or none.
+#    Also matches +82 notation.
+# ---------------------------------------------------------------------
+[[rules]]
+id = "kr-mobile-phone-number"
+description = "Korean mobile phone number"
+regex = '''(?:^|[^0-9])((?:\+82[-. ]?|0)1[016789][-. ]?[0-9]{3,4}[-. ]?[0-9]{4})(?:[^0-9]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+    # Add numbers that are intentionally public here.
+    # Keep exceptions narrow: one number per entry, not whole paths.
+    [rules.allowlist]
+    description = "Placeholder numbers and intentionally public numbers"
+    regexTarget = "secret"
+    regexes = [
+        '''^(?:\+82[-. ]?|0)1[016789][-. ]?0000[-. ]?0000$''',    # 010-0000-0000 / +82-10-0000-0000
+        '''^(?:\+82[-. ]?|0)1[016789][-. ]?1234[-. ]?5678$''',    # 010-1234-5678 (form placeholder)
+    ]
+
+# ---------------------------------------------------------------------
+# 5. Credit card number
+#    16 digits (4-4-4-4) starting with 3-6, and 15-digit Amex (4-6-5).
+#    ISBN-13 (978...) starts with 9 and is excluded.
+# ---------------------------------------------------------------------
+[[rules]]
+id = "kr-credit-card-number"
+description = "Credit card number"
+regex = '''(?:^|[^0-9])([3-6][0-9]{3}[- ]?[0-9]{4}[- ]?[0-9]{4}[- ]?[0-9]{4}|3[47][0-9]{2}[- ]?[0-9]{6}[- ]?[0-9]{5})(?:[^0-9]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+
+# ---------------------------------------------------------------------
+# 6. Bank account number  (expect false positives)
+#    Formats differ by bank, so only common hyphenated formats are listed:
+#    3-2-6, 3-3-6, 6-2-6, 4-3-6, 3-6-5, 3-4-4-2, 3-6-2-3, 4-2-7
+#    Account numbers written without hyphens cannot be told apart from
+#    other numbers and are not matched.
+#    Does not overlap with mobile numbers (3-4-4), dates (4-2-2),
+#    business registration numbers (3-2-5) or patent numbers (2-4-7).
+# ---------------------------------------------------------------------
+[[rules]]
+id = "kr-bank-account-number"
+description = "Korean bank account number"
+regex = '''(?:^|[^0-9-])([0-9]{3}-[0-9]{2}-[0-9]{6}|[0-9]{3}-[0-9]{3}-[0-9]{6}|[0-9]{6}-[0-9]{2}-[0-9]{6}|[0-9]{4}-[0-9]{3}-[0-9]{6}|[0-9]{3}-[0-9]{6}-[0-9]{5}|[0-9]{3}-[0-9]{4}-[0-9]{4}-[0-9]{2}|[0-9]{3}-[0-9]{6}-[0-9]{2}-[0-9]{3}|[0-9]{4}-[0-9]{2}-[0-9]{7})(?:[^0-9-]|$)'''
+secretGroup = 1
+tags = ["pii", "kr"]
+
+# =====================================================================
+# Global path exceptions
+#   Build output, dependencies and binary media are excluded.
+#   Text files in _drafts, _posts, _data and assets are deliberately
+#   NOT excluded. xlsx/docx/hwpx are also kept (for --max-archive-depth).
+#   Broad exceptions effectively disable the rules; add only what you need.
+# =====================================================================
+[allowlist]
+description = "Build output, dependencies, binary media"
+paths = [
+    '''(^|/)_site/''',
+    '''(^|/)\.jekyll-cache/''',
+    '''(^|/)\.sass-cache/''',
+    '''(^|/)vendor/''',
+    '''(^|/)node_modules/''',
+    '''(^|/)Gemfile\.lock$''',
+    '''(^|/)package-lock\.json$''',
+    '''(^|/)\.gitleaks\.toml$''',
+    '''(^|/)\.gitleaksignore$''',
+    '''(?i)\.(png|jpe?g|gif|webp|ico|svg|bmp|tiff?|heic|woff2?|ttf|otf|eot|mp4|mov|webm|mp3|wav)$''',
+    '''(?i)\.min\.(js|css)$''',
+]
