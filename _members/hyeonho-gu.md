@@ -8,9 +8,11 @@ role: TD team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/구현호.jpg
   "2026-summer": /assets/img/members/2026-summer/구현호.jpg
+  "2026-fall": /assets/img/members/2026-fall/구현호.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 (2024)"
@@ -25,7 +27,7 @@ research:
       - "Channel-all-around VC OS FET"
       - "M3D eDRAM array fabrication"
 
-email: hyeonho97@unist.ac.kr
+email: hhgu@kaist.ac.kr
 
 # Optional
 # links:

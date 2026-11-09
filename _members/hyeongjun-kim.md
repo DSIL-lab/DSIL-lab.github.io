@@ -8,9 +8,11 @@ role: CP Team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/김형준.jpg
   "2026-summer": /assets/img/members/2026-summer/김형준.jpg
+  "2026-fall": /assets/img/members/2026-fall/김형준.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 (2025)"

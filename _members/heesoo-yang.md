@@ -8,9 +8,11 @@ role: IT system manager, DB Team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/양희수.jpg
   "2026-summer": /assets/img/members/2026-summer/양희수.jpg
+  "2026-fall": /assets/img/members/2026-fall/양희수.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 (2025)"
@@ -27,7 +29,7 @@ research:
       - "Agentic AI for design automation"
 
 # Optional
-email: kristron@unist.ac.kr
+email: hsyang02@kaist.ac.kr
 
 links:
   # - Google Scholar: "https://scholar.google.com/citations?user=XXXX"

@@ -7,8 +7,10 @@ role: DB Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/조동올.jpg
+  "2026-fall": /assets/img/members/2026-fall/조동올.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 career:
   - Software Engineer / BAUM (Jul 2023 - Aug 2026)

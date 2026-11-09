@@ -8,9 +8,11 @@ role: TD Team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/이현진.jpg
   "2026-summer": /assets/img/members/2026-summer/이현진.jpg
+  "2026-fall": /assets/img/members/2026-fall/이현진.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 projects:       # Optional, underlined when displayed
   - "NRF 석사과정생장려금 (2024)"
@@ -25,7 +27,7 @@ research:
       - "Gate-all-around VC OS FET"
       - "Reliability analysis VC OS FET for DRAM"
 
-email: hjlee0706@unist.ac.kr
+email: hjlee76@kaist.ac.kr
 
 # Optional
 # links:

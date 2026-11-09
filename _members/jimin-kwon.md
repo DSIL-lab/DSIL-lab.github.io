@@ -8,9 +8,11 @@ role: Principal Investigator (PI)
 photo_by_term:
   "2026-spring": /assets/img/members/2025-summer/jimin.jpg
   "2026-summer": /assets/img/members/2026-summer/교수님.jpg
+  "2026-fall": /assets/img/members/2026-fall/교수님.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 career:
   - "Assistant Professor / School of Electrical Engineering & Department of AI Systems, <strong>KAIST</strong> (Apr 2026 – present)"

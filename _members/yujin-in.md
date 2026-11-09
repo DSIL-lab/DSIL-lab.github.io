@@ -7,8 +7,10 @@ role: DB Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/인유진.jpg
+  "2026-fall": /assets/img/members/2026-fall/인유진.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 
 education:
@@ -21,7 +23,7 @@ research:
 
   
 
-email: inyj03@sookmyung.ac.kr
+email: yjin03@kaist.ac.kr
 
 # Optional
 # links:

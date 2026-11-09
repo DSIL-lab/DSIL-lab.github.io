@@ -8,9 +8,11 @@ role: CP Team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/음성민.png
   "2026-summer": /assets/img/members/2026-summer/음성민.png
+  "2026-fall": /assets/img/members/2026-fall/음성민.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - MS-PhD / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2024 – present)
@@ -23,7 +25,7 @@ research:
       - "CNT-based MMIC/RFPA design"
       - "3D CNFET benchmark circuit design and fabrication"
 
-email: esm98@unist.ac.kr
+email: smeum98@kaist.ac.kr
 
 # Optional
 # links:

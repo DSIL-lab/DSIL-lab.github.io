@@ -7,8 +7,10 @@ role: DB Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/이경빈.jpg
+  "2026-fall": /assets/img/members/2026-fall/이경빈.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - MS / Graduate School of Semiconductor Technology, <strong>KAIST</strong> (Aug 2026 – present)

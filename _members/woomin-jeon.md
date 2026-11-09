@@ -7,8 +7,10 @@ role: CP Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/전우민.jpg
+  "2026-fall": /assets/img/members/2026-fall/전우민.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 career:     # Optional, for postdocs and alumni
   - "R&D Engineer / Package Solution R&D Center, <strong>LG Innotek</strong> (Feb 2025 - Jul 2026)"

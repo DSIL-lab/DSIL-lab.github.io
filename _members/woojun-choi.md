@@ -7,14 +7,22 @@ role: TD Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/최우준.jpg
+  "2026-fall": /assets/img/members/2026-fall/최우준.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - BS / The School of Electrical Engineering, <strong>KAIST</strong> (Feb 2022 – present)
 
 research:
-- area: Advanced Logic Devices
+- area: 2D Logic Device
+
+- area: Advanced Logic Devices 
+  topics:
+    - "System for Semiconductor Devices and RF Matching Networks"
+    
+
 
 
 

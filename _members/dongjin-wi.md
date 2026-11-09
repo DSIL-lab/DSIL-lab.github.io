@@ -8,9 +8,11 @@ role: TD Team
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/위동진.jpg
   "2026-summer": /assets/img/members/2026-summer/위동진.jpg
+  "2026-fall": /assets/img/members/2026-fall/위동진.jpg
 terms:
   - "2026-spring"
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - MS / Graduate School of Semiconductor Materials and Devices Engineering, <strong>UNIST</strong> (Mar 2026 – present)

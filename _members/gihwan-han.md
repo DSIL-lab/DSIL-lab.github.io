@@ -7,8 +7,10 @@ role: CP Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/한기환.jpg
+  "2026-fall": /assets/img/members/2026-fall/한기환.png
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - MS / The School of Electrical Engineering, <strong>KAIST</strong> (Aug 2026 – present)

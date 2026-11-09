@@ -7,8 +7,10 @@ role: TD Team
 
 photo_by_term:
   "2026-summer": /assets/img/members/2026-summer/추한조.jpg
+  "2026-fall": /assets/img/members/2026-fall/추한조.jpg
 terms:
   - "2026-summer"
+  - "2026-fall"
 
 education:
   - BS / Department of Physics (major) and Next Generation Semiconductor Engineering (second major), <strong>Korea University</strong> (Mar 2024 – present)
@@ -19,7 +21,7 @@ research:
 
 
 
-email: choo1596@korea.ac.kr
+email: hjchoo00@kaist.ac.kr
 
 # Optional
 # links:
