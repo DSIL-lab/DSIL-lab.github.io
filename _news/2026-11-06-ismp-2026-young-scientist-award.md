@@ -1,5 +1,5 @@
 ---
-order: 40
+order: 41
 date: "Nov 06, 2026"
 slug: ismp-2026-young-scientist-award
 title: "Kyungsun Kim Won Young Scientist Award at ISMP 2026"

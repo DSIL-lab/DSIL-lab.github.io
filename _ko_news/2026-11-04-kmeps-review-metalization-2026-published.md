@@ -1,5 +1,5 @@
 ---
-order: 39
+order: 40
 date: "Nov 04, 2026"
 slug: kmeps-2026-metallization-review-paper
 title: "김형준 (석박통합 2년차), 마이크로전자 및 패키징학회지 리뷰 논문 게재"

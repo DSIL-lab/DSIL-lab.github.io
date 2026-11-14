@@ -1,5 +1,5 @@
 ---
-order: 38
+order: 39
 date: "Nov 04, 2026"
 slug: kmeps-2026-active-interposer-bridge-paper
 title: "최유림 (석사과정 2년차), 마이크로전자 및 패키징학회지 논문 게재"

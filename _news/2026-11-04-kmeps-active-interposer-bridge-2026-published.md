@@ -1,5 +1,5 @@
 ---
-order: 38
+order: 39
 date: "Nov 04, 2026"
 slug: kmeps-2026-active-interposer-bridge-paper
 title: "Yurim Choi's Paper Published in Journal of the Microelectronics and Packaging Society"
