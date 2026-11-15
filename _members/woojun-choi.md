@@ -17,10 +17,7 @@ education:
 
 research:
 - area: 2D Logic Device
-
-- area: Advanced Logic Devices 
-  topics:
-    - "System for Semiconductor Devices and RF Matching Networks"
+- area: AI-Based Automated Measurement System for Semiconductor Devices and RF Matching Networks
     
 
 
