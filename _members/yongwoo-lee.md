@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 id: yongwoo-lee
 name: Yongwoo Lee
 group: students     # pi / students / alumni

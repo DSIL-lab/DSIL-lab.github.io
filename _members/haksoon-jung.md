@@ -1,9 +1,9 @@
 ---
-order: 2
+order: 1
 id: haksoon-jung
 name: Haksoon Jung
 group: students     # pi / students / alumni
-role: CP team
+role: Research Professor
 
 photo_by_term:
   "2026-spring": /assets/img/members/2026-spring/정학순.jpg
@@ -15,7 +15,9 @@ terms:
   - "2026-fall"
 
 career:     # Optional, for postdocs and alumni
-  - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - present)"
+  
+  - "Research Professor / School of Electrical Engineering, <strong>KAIST</strong> (Aug 2026 - present)"
+  - "Postdoc / School of Electrical Engineering, <strong>KAIST</strong> (Apr 2026 - Aug 2026)"
   - "Postdoc / Department of Electrical Engineering, <strong>UNIST</strong> (Feb 2025 - Mar 2026)"
 
 ko-projects:    # Optional, underlined when displayed
