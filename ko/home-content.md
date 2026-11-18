@@ -5,4 +5,4 @@
 ## Contact
 현재는 석박사통합과정(박사과정 진학 희망자) 또는 박사과정 지원자를 선발하고 있습니다. 관심 있는 분들은 CV, 성적표, 연구 활동 자료를 제 메일로 보내주시기 바랍니다 (jmkwon@kaist.ac.kr, 참조: mhpark@unist.ac.kr).
 
-<p class="home-content-meta">April 2, 2026<br>updated by Jimin Kwon</p>
+<p class="home-content-meta">November 18, 2026<br>updated by Jimin Kwon</p>

@@ -26,4 +26,4 @@ permalink: /ko/contact-content-source/
 
 ※ 우리 연구실은 <u><strong>KAIST 전기및전자공학부</strong></u> 및 <u><strong>KAIST AI시스템학과</strong></u> 소속이며, 저는 <u><strong>KAIST 반도체공학대학원</strong></u> 참여교수와 <u><strong>KAIST 신소재공학과</strong></u> 겸임교수를 함께 맡고 있습니다. 지원 시 참고 바랍니다.
 
-<p class="home-content-meta">August 25, 2026<br>updated by Jimin Kwon</p>
+<p class="home-content-meta">November 18, 2026<br>updated by Jimin Kwon</p>
